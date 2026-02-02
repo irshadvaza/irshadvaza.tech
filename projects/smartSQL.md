@@ -69,18 +69,17 @@ plugins:
 
 ## Architecture & Workflow
 
-```mermaid
-flowchart LR
-    A[User Input: Natural Language Query] --> B[SmartSQL AI LLM]
-    B --> C[Generated SQL Query]
-    C --> D[SQL Database Execution]
-    D --> E[Result Set]
-    E --> F[Streamlit Output: Table / Chart]
+The SmartSQL project follows a **step-by-step workflow** from user input to database output. The diagram below shows the end-to-end flow:
 
+![SmartSQL Architecture Diagram](images/smartSQL_arch.png)
 
-## Implementation Steps
+**Workflow Description:**
 
-The implementation of **SmartSQL** involves setting up the environment, connecting to the database, generating SQL via AI, executing queries, and displaying results in Streamlit. Follow these steps:
+1. **User Input:** The user enters a natural language query in the Streamlit interface.  
+2. **SmartSQL AI LLM:** The query is sent to the AI model (Azure OpenAI / LLM) to generate SQL.  
+3. **Generated SQL Query:** The AI produces a syntactically correct SQL statement.  
+4. **SQL Database Execution:** The SQL query is executed on the connected SQL Server or Azure SQL Database.  
+5. **Result Set:** Query results are fetched from the database.  
+6. **Streamlit Output:** Results are displayed in tabular or chart format for the user.
 
-### Step 1: Setup Project Environment
-1. Create a Python virtual environment:
+> **Tip:** You can later replace the image with an **actual diagram exported from Mermaid Live Editor** or any drawing tool like PowerPoint, Lucidchart, or Draw.io.
