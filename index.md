@@ -3,10 +3,7 @@ layout: default
 title: Irshad Vaza | AI & Data Architect
 ---
 
-
-<link rel="stylesheet" href="/irshadvaza.tech/assets/style.css">
-
-
+<!-- Navbar -->
 <div class="navbar">
   <a href="index.md">Home</a>
   <a href="projects.md">Projects</a>
@@ -15,6 +12,7 @@ title: Irshad Vaza | AI & Data Architect
   <a href="contact.md">Contact</a>
 </div>
 
+<!-- Hero Section -->
 <div class="hero">
   <h1>Irshad Vaza</h1>
   <p>AI & Data Architect | Cloud Analytics Leader | Intelligent Automation Specialist</p>
@@ -24,6 +22,7 @@ title: Irshad Vaza | AI & Data Architect
   </p>
 </div>
 
+<!-- What I Do -->
 <div class="card">
   <h2>What I Do</h2>
   <ul>
@@ -35,6 +34,7 @@ title: Irshad Vaza | AI & Data Architect
   </ul>
 </div>
 
+<!-- Featured Projects -->
 <div class="card">
   <h2>Featured Projects</h2>
   <p>
@@ -48,6 +48,7 @@ title: Irshad Vaza | AI & Data Architect
   </p>
 </div>
 
+<!-- Professional Profiles -->
 <div class="card">
   <h2>Professional Profiles</h2>
   <p>
