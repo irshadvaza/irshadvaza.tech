@@ -1,3 +1,8 @@
+
+[Home](index.md) | [Projects](projects.md) | [Blogs](blogs.md) | [About](about.md) | [Contact](contact.md)
+
+---
+
 # Irshad Vaza
 ### AI | Data & Cloud Architect | Smart Automation Specialist
 
