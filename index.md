@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/assets/style.css">
+
 <div class="navbar">
   <a href="index.md">Home</a>
   <a href="projects.md">Projects</a>
