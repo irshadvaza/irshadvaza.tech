@@ -73,6 +73,8 @@ The SmartSQL project follows a **step-by-step workflow** from user input to data
 
 ![SmartSQL Architecture Diagram](images/smartsql.gif)
 
+
+
 **Workflow Description:**
 
 1. **User Input:** The user enters a natural language query in the Streamlit interface.  
