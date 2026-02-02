@@ -1,3 +1,8 @@
+[Home](index.md) | [Projects](projects.md) | [Blogs](blogs.md) | [About](about.md) | [Contact](contact.md)
+
+---
+
+
 # Contact Me
 
 If you are looking for expertise in:
