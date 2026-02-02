@@ -1,3 +1,8 @@
+[Home](index.md) | [Projects](projects.md) | [Blogs](blogs.md) | [About](about.md) | [Contact](contact.md)
+
+---
+
+
 # About Me
 
 I am an **AI, Data & Cloud Architect** with over **16+ years of experience** in designing enterprise-scale analytics platforms, intelligent automation systems, and secure data ecosystems.
