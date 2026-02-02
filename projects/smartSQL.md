@@ -71,7 +71,7 @@ plugins:
 
 The SmartSQL project follows a **step-by-step workflow** from user input to database output. The diagram below shows the end-to-end flow:
 
-![SmartSQL Architecture Diagram](images/smartsql.gif)
+![SmartSQL Architecture Diagram](/images/smartsql.gif)
 
 
 
