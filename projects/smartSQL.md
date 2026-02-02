@@ -63,6 +63,9 @@ SmartSQL addresses this problem by leveraging **AI/NLP models** to automatically
 - Optional: Pre-defined query pairs for LLM fine-tuning  
 
 ---
+# _config.yml
+plugins:
+  - jekyll-mermaid
 
 ## Architecture & Workflow
 
