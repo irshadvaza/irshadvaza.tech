@@ -1,10 +1,28 @@
----
-title: Contact Irshad Vaza
+# Contact Me
+
+If you are looking for expertise in:
+- AI Solutions Architecture
+- Data Platform Modernization
+- Cloud Analytics Strategy
+- Intelligent Automation Systems
+
+Let’s connect.
+
 ---
 
-You can reach me at:
+## Contact Details
 
-- Email: irshad@irshadvaza.tech
-- LinkedIn: [linkedin.com/in/irshadvaza](https://www.linkedin.com/in/irshadvaza)
-- GitHub: [github.com/irshadvaza](https://github.com/irshadvaza)
-- Kaggle: [kaggle.com/code/irshadvaza](https://www.kaggle.com/code/irshadvaza)
+Email: aiandsmartdata@gmail.com  
+GitHub: https://github.com/irshadvaza  
+Kaggle: https://www.kaggle.com/code/irshadvaza  
+LinkedIn: (Add your profile link)
+
+---
+
+## Professional Statement
+
+I am open to:
+- AI & Data Leadership Roles
+- Consulting & Advisory Engagements
+- Technical Speaking & Training
+- Enterprise Architecture Projects
