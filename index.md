@@ -1,3 +1,9 @@
+---
+layout: default
+title: Irshad Vaza | AI & Data Architect
+---
+
+
 <link rel="stylesheet" href="/irshadvaza.tech/assets/style.css">
 
 
