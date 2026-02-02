@@ -1,4 +1,8 @@
 body {
+  background-color: #ff00ff !important;
+}
+
+body {
   font-family: "Segoe UI", Arial, sans-serif;
   background-color: #f7f9fc;
   color: #1f2933;
