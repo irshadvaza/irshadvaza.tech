@@ -75,3 +75,9 @@ flowchart LR
     E --> F[Streamlit Output: Table / Chart]
 
 
+## Implementation Steps
+
+The implementation of **SmartSQL** involves setting up the environment, connecting to the database, generating SQL via AI, executing queries, and displaying results in Streamlit. Follow these steps:
+
+### Step 1: Setup Project Environment
+1. Create a Python virtual environment:
