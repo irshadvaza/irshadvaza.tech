@@ -31,13 +31,16 @@ That process is **Data Science**.
 
 ---
 
-## 2. What Data Science is NOT (Important for Beginners)
+## 2. What Data Science is NOT 
 
 Many beginners feel scared because of wrong assumptions. Let’s clear them.
 
 ❌ Data Science is NOT only Machine Learning
+
 ❌ Data Science is NOT only Python coding
+
 ❌ Data Science is NOT advanced math all the time
+
 ❌ Data Science is NOT magic or AI robots
 
 ✅ Data Science IS:
