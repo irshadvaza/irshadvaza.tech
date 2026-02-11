@@ -110,6 +110,12 @@ Quantity
 
 students = 25
 days = 7
+check data type by using type function
+x = 10
+type(x)
+
+y="Irshad"
+type(y)
 3️⃣ Float (Decimal Numbers) 📐
 Used for:
 
