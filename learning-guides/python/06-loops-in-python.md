@@ -187,3 +187,153 @@ Animations & games 🎮
 
 Loops = Python robot that saves your time 🤖
 
+
+-------------------------------------------------------------------------For Practice----------------------------------------------------
+## 🏫 Extra Nested Loop Examples (Exam-Friendly) 📚
+
+Nested loops are often asked in exams in **pattern printing**, **table generation**, or **simple repeated operations**.
+
+---
+
+### 🔹 Example 1: Print a Rectangle of Stars
+
+**Problem:** Print a rectangle with 3 rows and 5 columns.
+
+```python
+rows = 3
+cols = 5
+
+for i in range(rows):
+    for j in range(cols):
+        print("*", end=" ")
+    print()  # move to next line
+Output:
+
+* * * * * 
+* * * * * 
+* * * * * 
+Explanation:
+
+Outer loop → rows
+
+Inner loop → columns
+
+end=" " prevents new line after each star
+
+print() moves to the next row
+
+🔹 Example 2: Print a Right-Angled Triangle (Number Pattern)
+Problem: Print numbers like this:
+
+1
+1 2
+1 2 3
+1 2 3 4
+n = 4
+
+for i in range(1, n + 1):
+    for j in range(1, i + 1):
+        print(j, end=" ")
+    print()
+Output:
+
+1
+1 2
+1 2 3
+1 2 3 4
+Explanation:
+
+Outer loop → row number
+
+Inner loop → numbers from 1 to current row number
+
+🔹 Example 3: Print a Multiplication Table (Nested Loop)
+Problem: Print multiplication table for numbers 1 to 3
+
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(i, "x", j, "=", i * j)
+    print("------")
+Output:
+
+1 x 1 = 1
+1 x 2 = 2
+1 x 3 = 3
+------
+2 x 1 = 2
+2 x 2 = 4
+2 x 3 = 6
+------
+3 x 1 = 3
+3 x 2 = 6
+3 x 3 = 9
+------
+Explanation:
+
+Outer loop → row (1, 2, 3)
+
+Inner loop → column multiplier (1, 2, 3)
+
+print("------") separates tables
+
+🔹 Example 4: Print a Simple Pattern (Exam Classic)
+Pattern:
+
+A A A
+B B B
+C C C
+rows = 3
+letter = "A"
+
+for i in range(rows):
+    for j in range(3):
+        print(letter, end=" ")
+    print()
+    letter = chr(ord(letter) + 1)
+Output:
+
+A A A
+B B B
+C C C
+Explanation:
+
+chr(ord(letter) + 1) → converts letter to next alphabet
+
+Outer loop → controls row
+
+Inner loop → prints letters in a row
+
+🔹 Example 5: Exam Quick Question – Sum Table
+Problem: Print sum of two numbers 1 to 3
+
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(i, "+", j, "=", i + j)
+    print("------")
+Output:
+
+1 + 1 = 2
+1 + 2 = 3
+1 + 3 = 4
+------
+2 + 1 = 3
+2 + 2 = 4
+2 + 3 = 5
+------
+3 + 1 = 4
+3 + 2 = 5
+3 + 3 = 6
+------
+💡 Exam Tip: Questions like these are very common in nested loop / pattern printing exercises.
+
+✅ Summary of Nested Loop Tips for Exams
+Always identify outer and inner loops
+
+Use end=" " to print in same line
+
+Increment letters using chr(ord(letter) + 1)
+
+Use loops for patterns, tables, or repeated calculations
+
+Practice these examples; they cover 80% of typical exam questions 👌
+
