@@ -237,3 +237,80 @@ print(a / b)
 print(a % b)
 print(a > b)
 
+-----------------------------------------------------------------------
+🧪 PRACTICE WORKSHEET (Try Yourself)
+✅ Exercise 1: Calculator
+x = 15
+y = 4
+
+# Print addition
+# Print subtraction
+# Print multiplication
+# Print division
+
+✅ Exercise 2: Even or Odd
+number = 10
+
+# Check if number is even using %
+
+✅ Exercise 3: Eligibility Check
+age = 16
+
+# Print True if age >= 18
+
+🚀 MINI PROJECT: Billing Calculator 🧾
+🎯 Problem Statement
+
+Create a simple billing system:
+
+User buys items
+
+Calculate total
+
+Apply discount if applicable
+
+🧠 Logic
+
+Item price
+
+Quantity
+
+Total amount
+
+Discount if bill ≥ 500
+
+✅ Solution Code
+item_price = 120
+quantity = 5
+
+total_amount = item_price * quantity
+print("Total Amount:", total_amount)
+
+if total_amount >= 500:
+    discount = total_amount * 0.10
+    final_amount = total_amount - discount
+    print("Discount Applied:", discount)
+else:
+    final_amount = total_amount
+
+print("Final Amount to Pay:", final_amount)
+
+🖨 Output Example
+Total Amount: 600
+Discount Applied: 60.0
+Final Amount to Pay: 540.0
+
+💡 Real-World Use of Operators
+
+Operators are used in:
+
+🛒 Shopping apps
+
+🏦 Banking systems
+
+📊 Data analysis
+
+🤖 AI & Machine Learning
+
+📈 Business calculations
+
