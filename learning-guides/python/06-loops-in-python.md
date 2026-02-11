@@ -337,3 +337,163 @@ Use loops for patterns, tables, or repeated calculations
 
 Practice these examples; they cover 80% of typical exam questions 👌
 
+
+## 🏫 More Nested Loop + Conditional Examples (Exam-Oriented) 📚
+
+These examples mix **loops and conditions** — very common in exams.
+
+---
+
+### 🔹 Example 6: Right-Angled Triangle with Even Numbers Only
+
+**Problem:** Print numbers 1 to 5 in triangle shape, but **only even numbers**.
+
+2
+2 4
+2 4 6
+2 4 6 8
+2 4 6 8 10
+
+
+```python
+rows = 5
+
+for i in range(1, rows + 1):
+    for j in range(1, i + 1):
+        if j % 2 == 0:
+            print(j, end=" ")
+    print()
+Output:
+
+2
+2 4
+2 4 6
+2 4 6 8
+2 4 6 8 10
+Explanation:
+
+Outer loop → number of rows
+
+Inner loop → numbers in the row
+
+if j % 2 == 0 → print only even numbers
+
+🔹 Example 7: Using elif in Nested Loops
+Problem: Print 1 to 3 numbers in rows, but add a label:
+
+1 → "Low"
+
+2 → "Medium"
+
+3 → "High"
+
+for i in range(1, 4):
+    for j in range(1, i + 1):
+        if j == 1:
+            print("Low", end=" ")
+        elif j == 2:
+            print("Medium", end=" ")
+        else:
+            print("High", end=" ")
+    print()
+Output:
+
+Low
+Low Medium
+Low Medium High
+💡 Exam Tip: if + elif + else inside loops is a classic pattern question.
+
+🔹 Example 8: While Loop with Condition
+Problem: Count down from 5, but skip 3.
+
+count = 5
+
+while count > 0:
+    if count == 3:
+        count -= 1
+        continue
+    print(count)
+    count -= 1
+Output:
+
+5
+4
+2
+1
+Explanation:
+
+while count > 0 → repeats while condition is True
+
+if count == 3: continue → skips printing 3
+
+count -= 1 reduces value each iteration
+
+🔹 Example 9: Star Pyramid with If Condition
+Problem: Print pyramid, but only odd rows of stars
+
+*
+***
+*****
+rows = 5
+
+for i in range(1, rows + 1):
+    if i % 2 != 0:
+        print("*" * i)
+Output:
+
+*
+***
+*****
+💡 Exam Tip: Combine for + if to control what prints.
+
+🔹 Example 10: Number Pyramid with While Loop
+Problem: Print numbers in increasing pyramid using while:
+
+1
+1 2
+1 2 3
+rows = 3
+i = 1
+
+while i <= rows:
+    j = 1
+    while j <= i:
+        print(j, end=" ")
+        j += 1
+    print()
+    i += 1
+Output:
+
+1
+1 2
+1 2 3
+Explanation:
+
+Outer while → controls rows
+
+Inner while → prints numbers in row
+
+print() → moves to next line
+
+✅ Summary of Loops + Conditional Tips
+if, elif, else inside loops → filter or label outputs
+
+while → useful for condition-based repetition
+
+Use break or continue to control flow
+
+Patterns and pyramids → popular exam questions
+
+Always trace loops manually → easier in exams
+
+💡 Quick Exam Practice Ideas
+Print numbers 1–10, skip multiples of 3
+
+Star pyramid with only even rows
+
+Nested numbers, label multiples of 2 as "Even", others as "Odd"
+
+Countdown from 10 using while, print "Boom!" at 1
+
+Pro Tip: Try them on paper first, then run in Python.
+
