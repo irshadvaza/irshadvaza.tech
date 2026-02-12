@@ -108,6 +108,7 @@ Common tools:
 
 Example:
 
+
 ```python
 import numpy as np
 
@@ -118,6 +119,9 @@ print(np.mean(data))
 Output:
 
 30.0
+
+
+
 
 2️⃣ Inferential Statistics
 
