@@ -102,181 +102,159 @@ Output:
 
 ---
 
+
+
+
+---
+
 ## 2️⃣ Inferential Statistics
-
-
-2️⃣ Inferential Statistics
 
 Inferential statistics makes predictions or decisions about a population based on a sample.
 
 It answers questions like:
 
-Can we predict future sales?
+- Can we predict future sales?
+- Is this medicine effective?
+- Is customer satisfaction improving?
 
-Is this medicine effective?
+### Common Tools:
 
-Is customer satisfaction improving?
+- Hypothesis Testing  
+- Confidence Intervals  
+- Regression Analysis  
+- Probability Distributions  
 
-Common tools:
+### Example Concept
 
-Hypothesis testing
+If we survey 100 people and 60 prefer Product A,  
+we estimate that around **60% of the full population** may prefer it.
 
-Confidence intervals
+---
 
-Regression analysis
+# 👥 Population vs Sample
 
-Probability distributions
+This is one of the most important concepts in statistics.
 
-Example concept:
-
-If we survey 100 people and 60 prefer Product A,
-we estimate that around 60% of the full population may prefer it.
-
-👥 Population vs Sample
-
-This is one of the most important concepts.
-
-🔹 Population
+## 🔹 Population
 
 The entire group you want to study.
 
-Example:
+**Example:**  
 All employees in a company.
 
-🔹 Sample
+---
+
+## 🔹 Sample
 
 A smaller group selected from the population.
 
-Example:
+**Example:**  
 100 employees surveyed out of 10,000.
 
-Why sample?
+### Why Use a Sample?
 
-Because:
-
-Collecting full population data is expensive
-
-It takes time
-
-Sometimes impossible
+- Collecting full population data is expensive  
+- It takes time  
+- Sometimes it is impossible  
 
 Statistics helps us estimate population behavior using samples.
 
-📊 Types of Data in Statistics
+---
+
+# 📊 Types of Data in Statistics
 
 Data can be classified into:
 
-🔹 Quantitative Data (Numerical)
+## 🔹 Quantitative Data (Numerical)
 
-Discrete (countable numbers)
+- **Discrete** → Countable numbers  
+- **Continuous** → Measured values  
 
-Continuous (measured values)
+## 🔹 Categorical Data (Qualitative)
 
-🔹 Categorical Data (Qualitative)
+- **Nominal** → No order  
+- **Ordinal** → Has order  
 
-Nominal (no order)
+*(These will be covered in detail in the next chapter.)*
 
-Ordinal (has order)
+---
 
-(These will be covered in detail in the next chapter.)
-
-📈 Key Statistical Concepts You Will Learn
+# 📈 Key Statistical Concepts You Will Learn
 
 In upcoming chapters, we will explore:
 
-Measures of Central Tendency
-
-Measures of Dispersion
-
-Probability Basics
-
-Distributions (Normal Distribution)
-
-Hypothesis Testing
-
-Correlation & Regression
+- Measures of Central Tendency  
+- Measures of Dispersion  
+- Probability Basics  
+- Distributions (Normal Distribution)  
+- Hypothesis Testing  
+- Correlation & Regression  
 
 Each concept builds toward Machine Learning and AI.
 
-🔬 Statistics in Data Science
+---
+
+# 🔬 Statistics in Data Science
 
 In Data Science, statistics is used for:
 
-Feature engineering
-
-Data cleaning
-
-Outlier detection
-
-Model evaluation
-
-A/B testing
-
-Risk analysis
+- Feature engineering  
+- Data cleaning  
+- Outlier detection  
+- Model evaluation  
+- A/B testing  
+- Risk analysis  
 
 Machine Learning is built on statistical foundations.
 
 Without statistics:
 
-You cannot validate models
+- You cannot validate models  
+- You cannot interpret results  
+- You cannot measure uncertainty  
 
-You cannot interpret results
+---
 
-You cannot measure uncertainty
-
-💡 Practical Example: Business Decision
+# 💡 Practical Example: Business Decision
 
 Suppose sales dropped last month.
 
 Statistics helps answer:
 
-Is this normal fluctuation?
-
-Is it statistically significant?
-
-Should management worry?
+- Is this normal fluctuation?  
+- Is it statistically significant?  
+- Should management worry?  
 
 Using statistical testing, we can make data-driven decisions instead of emotional ones.
 
-🏗 How Statistics Connects to AI
+---
+
+# 🏗 How Statistics Connects to AI
 
 AI models rely on:
 
-Probability theory
-
-Distributions
-
-Optimization
-
-Error minimization
-
-Variance & bias concepts
+- Probability theory  
+- Distributions  
+- Optimization  
+- Error minimization  
+- Variance & Bias concepts  
 
 Every modern AI system has statistical logic underneath.
 
-🎯 Learning Roadmap
+---
+
+# 🎯 Learning Roadmap
 
 Here’s how your statistical journey will progress:
 
-Introduction to Statistics
-
-Types of Data
-
-Measures of Central Tendency
-
-Measures of Dispersion
-
-Probability Theory
-
-Random Variables
-
-Distributions
-
-Hypothesis Testing
-
-Regression & Correlation
+1. Introduction to Statistics  
+2. Types of Data  
+3. Measures of Central Tendency  
+4. Measures of Dispersion  
+5. Probability Theory  
+6. Random Variables  
+7. Distributions  
+8. Hypothesis Testing  
+9. Regression & Correlation  
 
 Step by step, you move from understanding numbers → to building intelligent systems.
-
-
-dgdsgfd
