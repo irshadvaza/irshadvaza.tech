@@ -98,23 +98,8 @@ Output:
 30.0
 2️⃣ Inferential Statistics
 
-This will 100% render correctly.
-
----
-
-If you want, I can also give you:
-
-- Markdown formatting best practices guide  
-- GitHub Pages safe formatting template  
-- Clean structure template for all chapters  
-
-Just tell me 👍
 
 
 
 
-safdaf
-
-
-
-
+dgdsgfd
