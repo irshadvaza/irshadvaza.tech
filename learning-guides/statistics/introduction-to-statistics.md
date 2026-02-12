@@ -88,15 +88,21 @@ Common tools:
 Example:
 Example:
 
-```python
+~~~python
 import numpy as np
 
 data = [10, 20, 30, 40, 50]
 print(np.mean(data))
-Output:
+~~~
 
+Output:
+~~~
 30.0
-2️⃣ Inferential Statistics
+~~~
+
+---
+
+## 2️⃣ Inferential Statistics
 
 
 
