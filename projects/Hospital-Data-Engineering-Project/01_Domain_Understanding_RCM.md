@@ -144,6 +144,7 @@ Collection efficiency
 
 Cash flow trends
 
+
 🔄 End-to-End RCM Flow Diagram
 flowchart LR
     A[Patient Appointment] --> B[Registration & Insurance Verification]
@@ -158,5 +159,6 @@ flowchart LR
     G --> K[Payment Posting]
     J --> K
     K --> L[AR Reporting & KPI Monitoring]
+
 
 3️⃣ Accounts Receivable (AR)
