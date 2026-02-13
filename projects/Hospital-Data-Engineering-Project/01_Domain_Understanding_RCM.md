@@ -1,151 +1,165 @@
-# 1️⃣ Introduction to Revenue Cycle Management (RCM)
-
-## 📌 What is RCM?
-
-**Revenue Cycle Management (RCM)** is the complete financial process hospitals use to manage patient revenue —  
-from the moment a patient schedules an appointment until the provider receives full payment.
-
-**Provider** = Hospital or Doctor  
-**Revenue Cycle** = Patient Visit → Billing → Payment Collection  
-
-In simple terms:
-
-> RCM ensures the hospital gets paid correctly and on time for the services provided.
-
-Even if a hospital delivers excellent clinical care, without strong RCM it can struggle financially.
+# 🏥 Hospital Domain – Healthcare Revenue Cycle Management (RCM)
 
 ---
 
-# 2️⃣ End-to-End RCM Process (Step-by-Step)
+# 1️⃣ Introduction to Revenue Cycle Management (RCM)
 
-## 1️⃣ Patient Appointment & Registration
+**Revenue Cycle Management (RCM)** is the complete financial process hospitals use to manage revenue —  
+from the moment a patient schedules an appointment until the provider (hospital or doctor) receives full payment.
 
-The revenue cycle begins before treatment.
+> RCM ensures hospitals get paid correctly and on time, while maintaining quality patient care.
+
+**Key objectives of RCM:**
+- Ensure timely cash collection  
+- Reduce denials and delays  
+- Minimize bad debt  
+- Optimize operational efficiency  
+
+---
+
+# 2️⃣ Step-by-Step RCM Process
+
+## 2.1 Patient Appointment & Registration
+
+The revenue cycle begins **before treatment**.
 
 **Activities:**
 - Appointment scheduling  
 - Patient demographic collection  
-- Insurance verification  
-- Eligibility validation  
-- Co-pay & deductible check  
+- Insurance verification and eligibility  
+- Co-pay or deductible calculation  
 
-This stage reduces future payment delays.
-
----
-
-## 2️⃣ Insurance Verification & Financial Responsibility
-
-Hospital checks:
-- Coverage validity  
-- Policy limits  
-- Co-payment requirement  
-- Remaining deductible  
-
-**Example:**
+**Example:**  
 - Treatment cost = $1,000  
 - Insurance covers 80%  
-- Patient co-pay = 20%  
+- Patient co-pay = 20% → $200  
 
-Result:
-- Insurance pays $800  
-- Patient pays $200  
-
-If deductible not met → patient may pay more upfront.
+This ensures proper payment tracking from day one.
 
 ---
 
-## 3️⃣ Services Provided (Clinical Stage)
+## 2.2 Services Provided
 
-Examples of services:
+After registration, the hospital provides medical services:
+
 - Doctor consultation  
 - Lab tests  
 - Radiology  
 - Surgery  
-- Medication  
+- Medications  
 
 All services are recorded in:
-- EHR (Electronic Health Record)
-- Hospital Information System (HIS)
+- **EHR (Electronic Health Record)**  
+- **HIS (Hospital Information System)**  
 
-Each service is coded using:
-- ICD (Diagnosis codes)  
-- CPT (Procedure codes)  
-
-Correct coding ensures accurate billing.
+Correct coding (ICD / CPT) ensures accurate billing.
 
 ---
 
-## 4️⃣ Medical Coding & Billing
+## 2.3 Medical Coding & Billing
 
-After treatment:
-- Services converted to billable codes  
-- Invoice generated  
-- Claim created  
+**Steps:**
+1. Convert services to billable codes  
+2. Generate invoice  
+3. Submit claim to insurance (or bill patient for self-pay)  
 
-Two cases:
-- Insurance claim submission  
-- Self-pay billing  
+Accurate coding reduces denials and speeds up payment.
 
 ---
 
-## 5️⃣ Claim Review by Insurance
+## 2.4 Claim Review by Insurance
 
-Insurance evaluates:
-- Coverage eligibility  
-- Correct coding  
-- Authorization  
+Insurance evaluates claims:
 
-Possible outcomes:
-
-| Status | Meaning |
-|--------|----------|
-| Approved | Full payment |
-| Partially Approved | Reduced payment |
-| Denied | Rejected |
+| Status             | Meaning |
+|------------------|---------|
+| Approved          | Full payment |
+| Partially Approved | Partial payment |
+| Denied            | Claim rejected |
 
 ---
 
-## 6️⃣ Payment Posting & Follow-up
+## 2.5 Payment Posting & Follow-up
 
-- Payment received  
-- Balance updated  
-- Follow-up initiated if needed  
+- Insurance payment received → posted to system  
+- Patient balance collected → posted  
+- Follow-up on pending payments or denied claims  
 
 ---
 
-## 7️⃣ Reporting & Performance Monitoring
+## 2.6 Reporting & Performance Monitoring
 
-Hospital monitors:
-- Accounts Receivable (AR) aging  
-- Claim denial rate  
+Key monitoring includes:
+- AR aging  
+- Denial rate  
 - Collection efficiency  
 - Cash flow trends  
 
+---
 
+## 2.7 End-to-End RCM Flow Diagram
+
+```
++--------------------+
+| Patient Appointment |
++---------+----------+
+          |
+          v
++---------------------------+
+| Registration & Insurance  |
++-----------+---------------+
+            |
+            v
++------------------+
+| Services Provided |
++---------+--------+
+          |
+          v
++----------------+
+| Medical Coding  |
++--------+-------+
+         |
+         v
++----------------+
+| Claim Generation|
++--------+-------+
+         |
+         v
++------------------+
+| Insurance Review |
++---+-----+--------+
+    |     |
+    v     v
+Approved Partially Approved / Denied
+    |     |
+    v     v
+Payment  Patient Balance / Rework Claim
+    |     |
+    v     v
++----------------+
+| Payment Posting |
++--------+-------+
+         |
+         v
++-----------------------------+
+| AR Reporting & KPI Tracking |
++-----------------------------+
+```
+
+---
 
 # 3️⃣ Accounts Receivable (AR)
 
-## 📌 What is AR?
+**Accounts Receivable (AR)** = Money owed to hospital for services already provided.
 
-**Accounts Receivable (AR)** is the money owed to the hospital that has not yet been received.
-
-In simple words:
-
-> Revenue earned but not yet collected.
-
----
-
-## 🔎 Example of AR
-
-- Treatment cost = $2,000  
+**Example:**  
+- Treatment = $2,000  
 - Insurance paid = $1,500  
-- Patient balance = $500  
-
-That $500 is **Accounts Receivable** until collected.
+- Patient owes = $500 → AR until collected
 
 ---
 
-## 🎯 Objective of AR Team
+## 3.1 Objective of AR Team
 
 - Bring cash into the hospital  
 - Reduce collection period  
@@ -154,9 +168,7 @@ That $500 is **Accounts Receivable** until collected.
 
 ---
 
-## 📉 AR Aging Concept
-
-AR is categorized by how long money has been pending.
+## 3.2 AR Aging Concept
 
 | Days Outstanding | Collection Probability |
 |------------------|-----------------------|
@@ -169,165 +181,186 @@ AR is categorized by how long money has been pending.
 
 ---
 
-## 📊 Key AR KPIs
-
-### 1️⃣ Days in AR
-
-Formula:
+## 3.3 AR Flow Diagram
 
 ```
-Total AR / Average Daily Revenue
++-----------------+
+| Service Delivered|
++--------+--------+
+         |
+         v
++-----------------+
+| Invoice Generated|
++--------+--------+
+         |
+         v
++-------------------+
+| Claim Sent to     |
+| Insurance Company |
++--------+----------+
+         |
+         v
++----------------------+
+| Insurance Decision   |
++----+-------+---------+
+     |       |
+  Approved Partial/Denied
+     |       |
+     v       v
+Insurance  Patient Balance
+ Payment        |
+     |         v
+     +----> Payment Posting
+                |
+                v
+        +----------------+
+        | AR Aging Track |
+        +----------------+
 ```
 
-**Example:**
+---
+
+## 3.4 AR KPIs
+
+### Days in AR
+```
+Days in AR = Total AR / Average Daily Revenue
+```
+**Example:**  
 - Total AR = $900,000  
-- Average Daily Revenue = $30,000  
+- Avg Daily Revenue = $30,000 → Days in AR = 30 days  
+**Benchmark:** 30–40 days
 
-Days in AR = 30 days  
-
-✅ Benchmark: 30–40 days is considered healthy.
-
----
-
-### 2️⃣ AR > 90 Days Percentage
-
-Formula:
-
+### AR > 90 Days %
 ```
-(AR > 90 days / Total AR) * 100
+AR > 90 Days % = (AR > 90 days / Total AR) * 100
 ```
+Lower is better.
 
-Lower percentage indicates better cash health.
-
----
-
-### 3️⃣ Denial Rate
-
-Formula:
-
+### Denial Rate
 ```
 Denied Claims / Total Claims
 ```
-
 Target: <5%
 
----
-
-### 4️⃣ Net Collection Rate
-
-Formula:
-
+### Net Collection Rate
 ```
 Actual Collected / Total Eligible Amount
 ```
-
 Target: >95%
 
 ---
 
 # 4️⃣ Accounts Payable (AP)
 
-## 📌 What is AP?
+**Accounts Payable (AP)** = Money the hospital owes to others.
 
-**Accounts Payable (AP)** is money the hospital needs to pay to others.
-
-In simple words:
-
-> Expenses the hospital must pay.
-
----
-
-## 🔎 Examples of AP
-
-Hospital needs to pay:
-
-- Medical suppliers  
-- Pharmaceutical vendors  
+**Examples:**  
+- Supplier invoices  
 - Staff salaries  
 - Utility bills  
 
-**Example:**
-- Supplier invoice = $50,000  
-- Payment due in 30 days  
-
-This amount is **Accounts Payable** until paid.
-
 ---
 
-## 🔄 AR vs AP Comparison
+## 4.1 AP Flow Diagram
 
-| Accounts Receivable | Accounts Payable |
-|---------------------|-----------------|
-| Money hospital receives | Money hospital pays |
-| Asset | Liability |
-| Goal: Collect faster | Goal: Optimize payments |
+```
++------------------+
+| Hospital Purchases|
++--------+---------+
+         |
+         v
++-----------------+
+| Supplier Invoice |
++--------+--------+
+         |
+         v
++------------------+
+| Invoice Verification |
++--------+----------+
+         |
+         v
++-----------------+
+| Payment Approval |
++--------+--------+
+         |
+         v
++-----------------+
+| Payment Made    |
++--------+--------+
+         |
+         v
++-----------------+
+| AP Reporting    |
++-----------------+
+```
 
 ---
 
 # 5️⃣ Why Patient Payments Are Risky
 
-Patient payments can be unpredictable due to:
+1. **High Deductibles:** Patients delay until deductible is met  
+2. **Low Insurance Coverage:** Higher out-of-pocket → higher risk  
+3. **Private Clinics:** Partial advance + weak collection policies  
+4. **Dental / Cosmetic Treatments:** Often fully self-pay → high default risk  
 
 ---
 
-## 1️⃣ High Deductibles
+# 6️⃣ Data Engineering Perspective (RCM Analytics)
 
-If:
-- Deductible = $3,000  
-- Paid so far = $1,000  
-
-Patient must pay remaining $2,000 before insurance contributes.  
-Many patients delay payment.
-
----
-
-## 2️⃣ Low Insurance Coverage
-
-If insurance covers only 60% → patient responsible for 40%  
-Higher out-of-pocket cost increases risk of non-payment.
-
----
-
-## 3️⃣ Private Clinics
-
-- Partial advance payments  
-- Weak collection policies  
-→ Higher AR accumulation  
-
----
-
-## 4️⃣ Dental & Cosmetic Treatments
-
-- Often not covered fully by insurance  
-- Patients pay 100% out-of-pocket  
-→ Higher default risk
-
----
-
-# 6️⃣ Why RCM Matters for Data Engineering
-
-As Data Engineers, we analyze and monitor:
-
-- AR Aging  
-- Claim Denial Trends  
-- Insurance Performance  
-- Cash Flow Forecasting  
-- Payment Risk Prediction  
-- KPI Dashboards (Power BI / Fabric)
-
-Building this correctly ensures **data-driven RCM optimization**.
+```
++-------------------------+
+| Hospital Source Systems |
+| (HIS / EHR / Billing)  |
++------------+------------+
+             |
+             v
++-------------------------+
+| Azure Data Factory (ADF)|
++------------+------------+
+             |
+             v
++-------------------------+
+| Azure Data Lake         |
+| Bronze Layer            |
++------------+------------+
+             |
+             v
++-------------------------+
+| Azure Databricks        |
+| Transformations         |
++------------+------------+
+             |
+             v
++-------------------------+
+| Silver Layer            |
++------------+------------+
+             |
+             v
++-------------------------+
+| Gold Layer / RCM KPIs   |
++------------+------------+
+             |
+             v
++-------------------------+
+| Power BI / Fabric       |
+| Dashboards              |
++-------------------------+
+```
 
 ---
 
-# 7️⃣ Next Steps
+# 📌 Summary
 
-After text explanation is done, the **next step will be diagrams**:
+**Revenue Cycle Management** is the financial backbone of a hospital:
 
-- End-to-End RCM Flow  
-- AR & AP Process Flows  
-- AR Aging Visualization  
-- Data Engineering Perspective (ADF + Databricks)
+- Ensures stable cash flow  
+- Supports financial sustainability  
+- Enables high-quality patient care  
 
-> These diagrams will be GitHub-safe Mermaid or ASCII diagrams for proper rendering.
+**Core pillars:**  
+- **Accounts Receivable:** Money to collect  
+- **Accounts Payable:** Money to pay  
 
+> Healthy AR and optimized AP = Financially healthy hospital
 
