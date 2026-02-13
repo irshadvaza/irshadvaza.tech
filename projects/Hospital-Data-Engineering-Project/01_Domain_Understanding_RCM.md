@@ -148,6 +148,17 @@ Payment  Patient Balance / Rework Claim
 
 ---
 
+flowchart TD
+    A[Service Delivered] --> B[Invoice Generated]
+    B --> C[Claim Sent to Insurance Company]
+    C --> D[Insurance Decision]
+    D -->|Approved| E[Insurance Payment]
+    D -->|Partial/Denied| F[Patient Balance]
+    F --> G[Payment Posting]
+    G --> H[AR Aging Track]
+
+
+
 # 3️⃣ Accounts Receivable (AR)
 
 **Accounts Receivable (AR)** = Money owed to hospital for services already provided.
