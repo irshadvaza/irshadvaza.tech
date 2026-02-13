@@ -121,4 +121,213 @@ Hospital monitors:
 - Collection efficiency  
 - Cash flow trends  
 
-This completes the first part of RCM text explanation.
+
+
+# 3️⃣ Accounts Receivable (AR)
+
+## 📌 What is AR?
+
+**Accounts Receivable (AR)** is the money owed to the hospital that has not yet been received.
+
+In simple words:
+
+> Revenue earned but not yet collected.
+
+---
+
+## 🔎 Example of AR
+
+- Treatment cost = $2,000  
+- Insurance paid = $1,500  
+- Patient balance = $500  
+
+That $500 is **Accounts Receivable** until collected.
+
+---
+
+## 🎯 Objective of AR Team
+
+- Bring cash into the hospital  
+- Reduce collection period  
+- Minimize bad debt  
+- Follow up on denied claims  
+
+---
+
+## 📉 AR Aging Concept
+
+AR is categorized by how long money has been pending.
+
+| Days Outstanding | Collection Probability |
+|------------------|-----------------------|
+| 0–30 Days | 93% |
+| 31–60 Days | 85% |
+| 61–90 Days | 73% |
+| >90 Days | High risk of bad debt |
+
+> The older the receivable, the lower the probability of collection.
+
+---
+
+## 📊 Key AR KPIs
+
+### 1️⃣ Days in AR
+
+Formula:
+
+```
+Total AR / Average Daily Revenue
+```
+
+**Example:**
+- Total AR = $900,000  
+- Average Daily Revenue = $30,000  
+
+Days in AR = 30 days  
+
+✅ Benchmark: 30–40 days is considered healthy.
+
+---
+
+### 2️⃣ AR > 90 Days Percentage
+
+Formula:
+
+```
+(AR > 90 days / Total AR) * 100
+```
+
+Lower percentage indicates better cash health.
+
+---
+
+### 3️⃣ Denial Rate
+
+Formula:
+
+```
+Denied Claims / Total Claims
+```
+
+Target: <5%
+
+---
+
+### 4️⃣ Net Collection Rate
+
+Formula:
+
+```
+Actual Collected / Total Eligible Amount
+```
+
+Target: >95%
+
+---
+
+# 4️⃣ Accounts Payable (AP)
+
+## 📌 What is AP?
+
+**Accounts Payable (AP)** is money the hospital needs to pay to others.
+
+In simple words:
+
+> Expenses the hospital must pay.
+
+---
+
+## 🔎 Examples of AP
+
+Hospital needs to pay:
+
+- Medical suppliers  
+- Pharmaceutical vendors  
+- Staff salaries  
+- Utility bills  
+
+**Example:**
+- Supplier invoice = $50,000  
+- Payment due in 30 days  
+
+This amount is **Accounts Payable** until paid.
+
+---
+
+## 🔄 AR vs AP Comparison
+
+| Accounts Receivable | Accounts Payable |
+|---------------------|-----------------|
+| Money hospital receives | Money hospital pays |
+| Asset | Liability |
+| Goal: Collect faster | Goal: Optimize payments |
+
+---
+
+# 5️⃣ Why Patient Payments Are Risky
+
+Patient payments can be unpredictable due to:
+
+---
+
+## 1️⃣ High Deductibles
+
+If:
+- Deductible = $3,000  
+- Paid so far = $1,000  
+
+Patient must pay remaining $2,000 before insurance contributes.  
+Many patients delay payment.
+
+---
+
+## 2️⃣ Low Insurance Coverage
+
+If insurance covers only 60% → patient responsible for 40%  
+Higher out-of-pocket cost increases risk of non-payment.
+
+---
+
+## 3️⃣ Private Clinics
+
+- Partial advance payments  
+- Weak collection policies  
+→ Higher AR accumulation  
+
+---
+
+## 4️⃣ Dental & Cosmetic Treatments
+
+- Often not covered fully by insurance  
+- Patients pay 100% out-of-pocket  
+→ Higher default risk
+
+---
+
+# 6️⃣ Why RCM Matters for Data Engineering
+
+As Data Engineers, we analyze and monitor:
+
+- AR Aging  
+- Claim Denial Trends  
+- Insurance Performance  
+- Cash Flow Forecasting  
+- Payment Risk Prediction  
+- KPI Dashboards (Power BI / Fabric)
+
+Building this correctly ensures **data-driven RCM optimization**.
+
+---
+
+# 7️⃣ Next Steps
+
+After text explanation is done, the **next step will be diagrams**:
+
+- End-to-End RCM Flow  
+- AR & AP Process Flows  
+- AR Aging Visualization  
+- Data Engineering Perspective (ADF + Databricks)
+
+> These diagrams will be GitHub-safe Mermaid or ASCII diagrams for proper rendering.
+
+
