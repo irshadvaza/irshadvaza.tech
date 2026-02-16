@@ -108,15 +108,15 @@ Quantitative data represents **numbers that can be measured or calculated**.
 # 📊 Visual Summary
 
 
-ata
+Data
 │
 ├── Qualitative (Categorical)
-│ ├── Nominal (No order)
-│ └── Ordinal (With order)
+│   ├── Nominal (No order)
+│   └── Ordinal (With order)
 │
 └── Quantitative (Numerical)
-├── Discrete (Countable)
-└── Continuous (Measurable)
+    ├── Discrete (Countable)
+    └── Continuous (Measurable)
 
 
 ---
