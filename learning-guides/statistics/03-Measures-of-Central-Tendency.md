@@ -30,3 +30,17 @@ Marks of 5 students: `[70, 85, 90, 60, 95]`
 
 
 Mean = (70 + 85 + 90 + 60 + 95) / 5 = 80
+
+
+
+### 🔹 Python Example
+```python
+import numpy as np
+
+# Data
+data = [70, 85, 90, 60, 95]
+
+# Mean
+mean = np.mean(data)
+print("Mean:", mean)
+
