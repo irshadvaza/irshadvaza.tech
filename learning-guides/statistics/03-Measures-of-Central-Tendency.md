@@ -44,3 +44,4 @@ data = [70, 85, 90, 60, 95]
 mean = np.mean(data)
 print("Mean:", mean)
 
+**Output**
