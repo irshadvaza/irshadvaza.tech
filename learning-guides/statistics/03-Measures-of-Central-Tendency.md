@@ -22,3 +22,11 @@ Instead of analyzing all numbers, we can use **mean, median, or mode** to unders
 The **mean** is the sum of all values divided by the total number of values.
 
 **Formula:**  
+Mean = (Sum of all observations) / (Number of observations)
+
+
+### 🔹 Example (Manual Calculation)
+Marks of 5 students: `[70, 85, 90, 60, 95]`  
+
+
+Mean = (70 + 85 + 90 + 60 + 95) / 5 = 80
