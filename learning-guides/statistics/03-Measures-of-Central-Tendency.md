@@ -49,7 +49,9 @@ print("Mean:", mean)'''
 
 Mean: 80.0
 
-'''
+
+
+
 
 2️⃣ Median
 📌 Definition
