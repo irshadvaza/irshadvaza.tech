@@ -34,7 +34,7 @@ Mean = (70 + 85 + 90 + 60 + 95) / 5 = 80
 
 
 ### 🔹 Python Example
-```python
+python
 import numpy as np
 
 # Data
