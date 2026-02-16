@@ -107,3 +107,98 @@ Quantitative data represents **numbers that can be measured or calculated**.
 
 # 📊 Visual Summary
 
+
+ata
+│
+├── Qualitative (Categorical)
+│ ├── Nominal (No order)
+│ └── Ordinal (With order)
+│
+└── Quantitative (Numerical)
+├── Discrete (Countable)
+└── Continuous (Measurable)
+
+
+---
+
+# 🏥 Real-Life Example (Hospital Dataset)
+
+| Patient ID | Gender | Severity Level | Age | Blood Pressure |
+|------------|--------|---------------|-----|---------------|
+| 101        | Male   | High          | 45  | 120.5         |
+
+Classification:
+
+- Gender → Nominal  
+- Severity Level → Ordinal  
+- Age → Discrete (if whole years)  
+- Blood Pressure → Continuous  
+
+> Now we know:
+>
+> - For Age & Blood Pressure → calculate mean & standard deviation  
+> - For Gender → frequency count  
+> - For Severity → ranking analysis  
+
+---
+
+# ⚠️ Common Beginner Mistakes
+
+❌ Taking average of categorical data  
+❌ Treating ordinal data like continuous data  
+❌ Confusing discrete & continuous  
+❌ Applying wrong statistical tests  
+
+---
+
+# 🧠 Why This Chapter Matters in Data Science
+
+Understanding data types helps in:
+
+- Choosing correct visualization:  
+  - Bar chart → Categorical  
+  - Histogram → Numerical  
+- Selecting correct statistical tests  
+- Feature engineering & preprocessing  
+- Model selection  
+
+> Machine learning starts with proper data understanding.
+
+---
+
+# 🏁 Final Comparison Table
+
+| Main Type      | Subtype     | Example                | Can Calculate Mean? |
+|---------------|------------|------------------------|--------------------|
+| Qualitative   | Nominal    | Gender                 | ❌ |
+| Qualitative   | Ordinal    | Rating (1–5)           | ❌ |
+| Quantitative  | Discrete   | Number of students     | ✅ |
+| Quantitative  | Continuous | Height, Weight         | ✅ |
+
+---
+
+# 🔥 Easy Memory Trick
+
+- **Nominal → Name**  
+- **Ordinal → Order**  
+- **Discrete → Digits (Counting)**  
+- **Continuous → Continuum (Range)**  
+
+---
+
+# 📌 What’s Next?
+
+Next, we move to:
+
+# 📘 Chapter 3 – Measures of Central Tendency
+
+Where we will learn:
+
+- Mean  
+- Median  
+- Mode  
+- When to use each one  
+- Practical examples  
+
+> This chapter forms the base of everything in statistics and data science. 🚀
+
