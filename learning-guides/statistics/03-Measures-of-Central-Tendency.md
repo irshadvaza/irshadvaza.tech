@@ -47,5 +47,5 @@ print("Mean:", mean)'''
 
 
 
-**Output**
+Mean: 80.0
 
