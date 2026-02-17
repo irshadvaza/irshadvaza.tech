@@ -13,7 +13,9 @@ What values can occur
 
 How likely each value is
 
+
 📌 2️⃣ Two Types of Probability Distributions
+
 Probability Distribution
 │
 ├── Discrete Probability Distribution
@@ -37,6 +39,7 @@ Number of defects
 If you roll a fair dice:
 
 Value (X)	Probability P(X)
+
 1	1/6
 2	1/6
 3	1/6
@@ -79,25 +82,7 @@ Possible values:
 0, 1, 2, 3
 
 🧮 Binomial Formula
-𝑃
-(
-𝑋
-=
-𝑘
-)
-=
-(
-𝑛
-𝑘
-)
-𝑝
-𝑘
-(
-1
-−
-𝑝
-)
-𝑛
+𝑃(𝑋=𝑘)=(𝑛𝑘)𝑝𝑘(1−𝑝)𝑛
 −
 𝑘
 P(X=k)=(
