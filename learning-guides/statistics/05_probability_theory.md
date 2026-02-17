@@ -71,6 +71,7 @@ total_outcomes = 2
 
 probability = favorable_outcomes / total_outcomes
 print("Probability of Heads:", probability)
+```
 
 
 Output:
