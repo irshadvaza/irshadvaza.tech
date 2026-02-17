@@ -75,6 +75,7 @@ print("Probability of Heads:", probability)
 
 
 Output:
+
 Probability of Heads: 0.5
 
 2️⃣ Sample Space & Events
@@ -102,15 +103,17 @@ P(Even) = 3 / 6 = 0.5
 
 🔹 Python Example
 # Dice example
-
+```
 sample_space = [1, 2, 3, 4, 5, 6]
 even_numbers = [2, 4, 6]
 
 probability_even = len(even_numbers) / len(sample_space)
 print("Probability of Even Number:", probability_even)
+```
 
 
 Output:
+
 Probability of Even Number: 0.5
 
 3️⃣ Types of Probability
@@ -170,12 +173,14 @@ What is the probability that a student plays cricket given that the student is a
 P(Cricket | Boy) = 0.30 / 0.60 = 0.5
 
 🔹 Python Example
+
+```
 P_boy = 0.60
 P_boy_and_cricket = 0.30
 
 conditional_probability = P_boy_and_cricket / P_boy
 print("P(Cricket | Boy):", conditional_probability)
-
+```
 
 Output:
 P(Cricket | Boy): 0.5
@@ -196,13 +201,16 @@ Example:
 P(Heads twice) = 1/2 × 1/2 = 1/4
 
 🔹 Python Example
+```
 P_head = 0.5
 
 P_two_heads = P_head * P_head
 print("Probability of Two Heads:", P_two_heads)
+```
 
 
 Output:
+
 Probability of Two Heads: 0.25
 
 6️⃣ Complement Rule
@@ -218,13 +226,15 @@ If probability of rain = 0.3
 P(No Rain) = 1 - 0.3 = 0.7
 
 🔹 Python Example
+```
 P_rain = 0.3
 P_no_rain = 1 - P_rain
 
 print("Probability of No Rain:", P_no_rain)
-
+```
 
 Output:
+
 Probability of No Rain: 0.7
 
 📊 Summary Table
