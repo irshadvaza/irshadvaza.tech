@@ -67,21 +67,25 @@ Then X is a Discrete Random Variable.
 
 For a fair dice:
 
-X	Probability P(X)
-1	1/6
-2	1/6
-3	1/6
-4	1/6
-5	1/6
-6	1/6
+| X | Probability P(X) |
+| - | ---------------- |
+| 1 | 1/6              |
+| 2 | 1/6              |
+| 3 | 1/6              |
+| 4 | 1/6              |
+| 5 | 1/6              |
+| 6 | 1/6              |
+
+
 🐍 Python Example – Discrete Random Variable
+'''
 import numpy as np
 
 # Simulate rolling a dice 10 times
 dice_rolls = np.random.randint(1, 7, 10)
 
 print("Dice Rolls:", dice_rolls)
-
+'''
 
 Output (example):
 
