@@ -23,20 +23,30 @@ Data Integration
 Instead of using 5–6 different tools and managing infrastructure separately, Fabric gives you:
 
 ✅ One platform
+
 ✅ One storage layer (OneLake)
+
 ✅ One security model
+
 ✅ One UI experience
+
 
 🏛 2️⃣ Why Microsoft Created Fabric?
 
 Before Fabric, companies used:
 
 Purpose	Tool
+
 ETL	Azure Data Factory
+
 Big Data	Azure Synapse
+
 BI	Power BI
+
 Data Lake	Azure Data Lake
+
 Streaming	Stream Analytics
+
 ML	Azure ML
 
 This created problems:
@@ -56,6 +66,7 @@ Microsoft solved this by launching:
 🎉 Microsoft Fabric (Announced May 2023 at Microsoft Build)
 
 🕰 3️⃣ Brief History of Microsoft Fabric
+
 🔹 2015 – Azure Data Lake
 
 Microsoft introduced large-scale distributed storage.
@@ -101,12 +112,15 @@ A single logical data lake for the entire organization.
 Think of it like:
 
 Google Drive → Files
+
 OneLake → Data
 
 Example:
 
 If Sales team stores data
+
 Finance team stores data
+
 HR team stores data
 
 All go into:
@@ -149,6 +163,7 @@ Manual scaling
 
 Fabric auto-manages compute.
 
+
 🏗 5️⃣ Fabric Architecture Overview
 
 Fabric consists of:
@@ -170,9 +185,11 @@ Fabric consists of:
 Everything connects to OneLake.
 
 🧩 6️⃣ Major Components of Microsoft Fabric
+
 1️⃣ Data Factory (Integration Layer)
 
 Equivalent of:
+
 Azure Data Factory
 
 Used for:
@@ -200,9 +217,11 @@ Transformations
 Notebook development (Python, Scala, SQL)
 
 Example:
-
+'''
 df = spark.read.csv("Files/sales.csv", header=True)
 df.groupBy("region").sum("revenue").show()
+'''
+
 
 3️⃣ Data Warehouse (SQL Engine)
 
@@ -219,6 +238,7 @@ Views
 Performance optimization
 
 Perfect for:
+
 BI reporting teams.
 
 4️⃣ Data Science
@@ -246,6 +266,7 @@ Logs
 Event-driven analytics
 
 Example:
+
 Monitor 10,000 sensors in real time.
 
 6️⃣ Power BI
@@ -255,19 +276,24 @@ Power BI is now fully integrated inside Fabric.
 Key innovation:
 
 Direct Lake Mode
+
 (Reports read directly from OneLake without data import)
 
 🔄 7️⃣ How Fabric Changes Traditional Architecture
+
 ❌ Traditional
+
 Source → ADF → Data Lake → Synapse → Power BI
 
 ✅ Fabric
+
 Source → Fabric → OneLake → Report
 
 
 Simplified. Faster. Cheaper.
 
 🧪 8️⃣ Simple Real-World Example
+
 Scenario: Retail Company
 
 They have:
@@ -389,6 +415,7 @@ Direct Lake	Ultra-fast reporting
 SaaS	No infra management
 Open format	No vendor lock
 Unified security	Central governance
+
 🧠 Final Thoughts
 
 Microsoft Fabric is not just a tool.
