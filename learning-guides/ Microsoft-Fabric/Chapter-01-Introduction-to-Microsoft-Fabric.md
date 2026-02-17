@@ -409,12 +409,19 @@ Infrastructure complexity
 Cross-tool integration pain
 
 📌 13️⃣ Key Advantages Summary
+
 Feature	Benefit
-OneLake	Single data source
+
+**OneLake	Single data source
+
 Direct Lake	Ultra-fast reporting
+
 SaaS	No infra management
+
 Open format	No vendor lock
+
 Unified security	Central governance
+**
 
 🧠 Final Thoughts
 
