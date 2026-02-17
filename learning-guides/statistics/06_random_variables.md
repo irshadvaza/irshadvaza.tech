@@ -79,15 +79,6 @@ For a fair dice:
 
 🐍 Python Example – Discrete Random Variable
 
-import numpy as np
-
-# Simulate rolling a dice 10 times
-dice_rolls = np.random.randint(1, 7, 10)
-
-print("Dice Rolls:", dice_rolls)
-
-
-
 '''
 import numpy as np
 
