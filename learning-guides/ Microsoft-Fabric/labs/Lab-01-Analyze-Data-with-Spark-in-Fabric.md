@@ -160,3 +160,120 @@ Files/
      ├── 2020.csv
      └
 
+
+# 📓 Part 4 – Create Notebook and Load Data with Spark
+
+In this section, you will:
+
+- Create a Notebook
+- Add Markdown documentation
+- Load CSV files using PySpark
+- Create a Spark DataFrame
+
+---
+
+## 🆕 Step 1 – Create a Notebook
+
+1. Inside your workspace, click **+ New**
+2. Select **Notebook**
+3. Rename the notebook to:
+
+   ```
+   Sales_Data_Exploration
+   ```
+
+Now you are inside the Fabric Notebook editor.
+
+---
+
+## 📝 Step 2 – Add Notebook Title (Markdown Cell)
+
+1. Select the first cell
+2. Change the cell type to **Markdown**
+3. Paste the following:
+
+```markdown
+# Sales Order Data Exploration
+
+This notebook analyzes sales data using Apache Spark in Microsoft Fabric.
+```
+
+4. Click **Run** to render the Markdown.
+
+---
+
+## 🔥 Step 3 – Load CSV Data into Spark DataFrame
+
+Now create a new code cell and paste:
+
+```python
+df = spark.read.format("csv") \
+    .option("header", "false") \
+    .load("Files/orders/2019.csv")
+
+display(df)
+```
+
+Click **Run**.
+
+You will see raw data loaded into a Spark DataFrame.
+
+---
+
+## 📌 What Happened?
+
+- Spark accessed the Lakehouse storage
+- It read the CSV file
+- It created a distributed DataFrame
+- `display()` shows interactive results
+
+---
+
+## 🚀 Step 4 – Load All Years at Once
+
+Instead of loading one file, we can load all years:
+
+```python
+df = spark.read.format("csv") \
+    .option("header", "false") \
+    .load("Files/orders/*.csv")
+
+display(df)
+```
+
+The `*` means:
+Load all CSV files inside the folder.
+
+---
+
+## 📊 Step 5 – Check Record Count
+
+```python
+print("Total Records:", df.count())
+```
+
+This confirms all data is loaded.
+
+---
+
+## 🧠 Why Spark DataFrame?
+
+A Spark DataFrame:
+
+- Is distributed across multiple nodes
+- Handles large-scale data
+- Supports SQL-like operations
+- Is optimized for performance
+
+---
+
+## 🧠 What You Learned in This Part
+
+- How to create a Notebook
+- Difference between Markdown and Code cells
+- How to load CSV files into Spark
+- How to create a Spark DataFrame
+- How to load multiple files using wildcard
+
+---
+
