@@ -1,33 +1,92 @@
-# 🧪 Lab 01 – Analyze Data with Apache Spark in Fabric
+# 🏗 Part 1 – Create a Fabric Workspace
+
+A workspace is a container where all your Fabric items (Lakehouse, Notebook, Pipelines, etc.) will live.
+
+### Step 1 – Open Fabric Portal
+
+Go to:
+
+https://app.fabric.microsoft.com
+
+Sign in with your account.
 
 ---
 
-## 🎯 Lab Objective
+### Step 2 – Create New Workspace
 
-In this lab, you will:
+1. From the left menu, click **Workspaces**
+2. Click **+ New Workspace**
+3. Enter a name:
 
-- Create a Fabric workspace
-- Create a Lakehouse
-- Upload data files
-- Create a Notebook
-- Use PySpark to analyze data
-- Transform and save data
-- Create Delta tables
-- Run SQL queries
-- Visualize results
+   ```
+   SparkLabWorkspace
+   ```
+
+4. Expand **Advanced settings**
+5. Select a License mode:
+   - Trial
+   - Premium
+   - Fabric Capacity (if available)
+
+6. Click **Create**
+
+✅ Your workspace is now ready.
 
 ---
 
-## ⏱ Estimated Time
+# 🏞 Part 2 – Create a Lakehouse
 
-45 Minutes
+A Lakehouse combines the power of a data lake and a data warehouse.
+
+All data in Fabric is stored in:
+
+Microsoft OneLake (Unified storage layer)
 
 ---
 
-## 📌 Prerequisites
+### Step 1 – Create Lakehouse
 
-- Access to Microsoft Fabric
-- Fabric-enabled workspace capacity (Trial or Premium)
-- Internet connection
+1. Inside your new workspace, click **+ New**
+2. Select **Lakehouse**
+3. Enter name:
+
+   ```
+   SalesLakehouse
+   ```
+
+4. Make sure:
+
+   ```
+   Lakehouse schemas (Public Preview) = Disabled
+   ```
+
+5. Click **Create**
+
+Fabric will automatically provision storage.
+
+---
+
+### ✅ Verify Lakehouse Structure
+
+After creation, you should see:
+
+```
+SalesLakehouse
+ ├── Tables
+ └── Files
+```
+
+- **Tables** → Managed Delta tables
+- **Files** → Raw data storage
+
+---
+
+## 🧠 What You Learned in This Part
+
+- What a Workspace is
+- How to create a Workspace
+- What a Lakehouse is
+- How to create a Lakehouse
+- Understanding Tables vs Files section
 
 ---
