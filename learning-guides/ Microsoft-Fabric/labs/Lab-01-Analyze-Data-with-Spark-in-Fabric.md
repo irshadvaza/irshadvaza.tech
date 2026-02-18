@@ -1,4 +1,3 @@
-
 🧪 Lab 01 – Analyze Data with Apache Spark in Fabric
 🎯 Lab Objective
 
