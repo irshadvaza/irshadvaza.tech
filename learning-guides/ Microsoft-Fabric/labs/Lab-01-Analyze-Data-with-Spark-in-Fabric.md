@@ -1001,3 +1001,127 @@ plt.show()
 
 ---
 
+# 💾 Part 10 – Save & Share Analytics in Microsoft Fabric
+
+In this part, you will learn how to:
+
+- Save transformed data and tables
+- Share Delta/Parquet files with others
+- Create dashboards in Fabric
+- Publish insights for your team
+
+---
+
+## 🏗 Step 1 – Save DataFrame as Delta Table
+
+Delta tables provide versioning and ACID compliance, making sharing safe.
+
+```python
+# Save transformed data as Delta table
+transformed_df.write.format("delta") \
+    .mode("overwrite") \
+    .saveAsTable("salesorders_delta")
+
+print("Delta table saved successfully!")
+```
+
+✅ Now your table is ready for reporting or downstream use.
+
+---
+
+## 📦 Step 2 – Save Partitioned Data as Parquet
+
+```python
+orders_df.write.partitionBy("Year","Month") \
+    .mode("overwrite") \
+    .parquet("Files/partitioned_data")
+
+print("Partitioned parquet data saved!")
+```
+
+- Partitioning improves performance
+- Parquet is widely supported across tools
+
+---
+
+## 🔄 Step 3 – Share Data in Fabric
+
+### Option 1 – Share Delta Table
+- Other Fabric users can query `salesorders_delta`
+- Use Spark SQL or DataFrames in their notebooks
+
+```sql
+%%sql
+SELECT * FROM salesorders_delta WHERE Year = 2021
+```
+
+### Option 2 – Share Parquet Files
+- Users can read partitioned Parquet files directly:
+
+```python
+shared_df = spark.read.format("parquet") \
+    .load("Files/partitioned_data/Year=2021/Month=*")
+
+display(shared_df)
+```
+
+✅ Files are ready for collaborative analytics.
+
+---
+
+## 📊 Step 4 – Create Fabric Dashboard
+
+1. In your Fabric workspace, click **Create → Dashboard**.
+2. Select **+ Add tile → Notebook** or **Power BI tile**.
+3. Connect your Delta table or Spark DataFrame.
+4. Customize charts, filters, and KPIs.
+5. Save dashboard in workspace for sharing.
+
+---
+
+## 🔍 Step 5 – Share Dashboard
+
+- Dashboards in Fabric can be shared with:
+  - Individual users
+  - Groups
+  - Entire organization (depending on permissions)
+- Users see live data from Delta/Parquet
+- Filters and interactivity remain functional
+
+---
+
+## 🧠 Why This Matters
+
+- **Reusability:** Tables, Parquet, and dashboards can be reused
+- **Collaboration:** Teams can access the same clean data
+- **Performance:** Partitioned & Delta data ensures fast queries
+- **Business Insights:** Dashboards visualize key metrics instantly
+
+---
+
+## 🧠 What You Learned in This Part
+
+- How to save transformed data as Delta table
+- How to save partitioned Parquet files
+- How to share data in Microsoft Fabric
+- How to create and publish dashboards
+- Best practices for collaboration and performance
+
+---
+
+# 🏆 Pro Tip
+
+- Always save production-ready tables as **Delta**
+- Use partitions for large datasets
+- Publish dashboards with filters for self-service analytics
+- Keep naming consistent for datasets, tables, and dashboards
+
+---
+
+✅ Congratulations! You have now completed **Lab 1 – Analyze Data with Apache Spark in Microsoft Fabric** from **workspace creation to dashboards**.
+
+You are ready to start **advanced labs** and real-world projects in Fabric.
+
+---
+
+
