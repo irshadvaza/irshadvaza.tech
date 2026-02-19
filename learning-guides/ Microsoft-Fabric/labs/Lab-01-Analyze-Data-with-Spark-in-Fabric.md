@@ -1056,6 +1056,85 @@ partitioned_data/
 
 ---
 
+## 📖 Understanding the Code – Saving Partitioned Data
+
+```python
+orders_df.write.partitionBy("Year", "Month") \
+    .mode("overwrite") \
+    .parquet("Files/partitioned_data")
+
+print("Partitioned data saved!")
+```
+
+### 🎯 What This Code Does
+
+This code saves the DataFrame as **Parquet files**,  
+and organizes the data by **Year and Month** for better performance.
+
+---
+
+## 🔹 Step-by-Step Explanation
+
+### 1️⃣ `orders_df.write`
+
+This tells Spark:
+
+> “I want to save this DataFrame to storage.”
+
+---
+
+### 2️⃣ `.partitionBy("Year", "Month")`
+
+This organizes the data into folders based on:
+
+- Year
+- Month
+
+Instead of saving everything in one big file, Spark creates a folder structure like this:
+
+```
+partitioned_data/
+ ├── Year=2019/
+ │    ├── Month=1/
+ │    ├── Month=2/
+ ├── Year=2020/
+ ├── Year=2021/
+```
+
+✅ This improves performance when filtering by year or month.
+
+---
+
+### 3️⃣ `.mode("overwrite")`
+
+This tells Spark:
+
+- If the folder already exists → replace it
+- If not → create it
+
+Other modes include:
+- `"append"` → Add data
+- `"ignore"` → Skip if exists
+- `"error"` → Throw error if exists
+
+---
+
+### 4️⃣ `.parquet("Files/partitioned_data")`
+
+This saves the data in **Parquet format** at:
+
+```
+Files/partitioned_data
+```
+
+Parquet is:
+
+- Faster than CSV
+- Compressed
+- Column-based
+- Optimized
+
+
 ## 🔍 Step 4 – Read Partitioned Data
 
 ```python
