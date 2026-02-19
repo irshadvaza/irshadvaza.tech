@@ -1213,6 +1213,141 @@ spark.sql("DESCRIBE EXTENDED salesorders").show(truncate=False)
 
 ---
 
+## 📖 Understanding the Code – Creating a Delta Table
+
+```python
+# Create a managed Delta table 
+transformed_df.write.format("delta") \
+    .saveAsTable("salesorders")
+
+# Verify table
+spark.sql("DESCRIBE EXTENDED salesorders").show(truncate=False)
+```
+
+---
+
+# 🎯 What This Code Does
+
+This code:
+
+1. Saves the DataFrame as a **Delta table**
+2. Registers it in the **Lakehouse metastore**
+3. Allows you to query it using SQL like a database table
+
+---
+
+## 🔹 Step-by-Step Explanation
+
+### 1️⃣ `transformed_df.write`
+
+This tells Spark:
+
+> “I want to save this DataFrame.”
+
+---
+
+### 2️⃣ `.format("delta")`
+
+This specifies the storage format as **Delta Lake**.
+
+Delta format:
+
+- Is built on top of Parquet
+- Adds advanced database-like features
+- Is recommended for production workloads
+
+---
+
+### 3️⃣ `.saveAsTable("salesorders")`
+
+This creates a **managed table** named `salesorders`.
+
+What does this mean?
+
+- The data is stored in the Lakehouse
+- The table is registered in Spark’s metastore
+- You can query it using SQL:
+
+```sql
+SELECT * FROM salesorders
+```
+
+Spark now treats it like a relational database table.
+
+---
+
+### 4️⃣ `DESCRIBE EXTENDED salesorders`
+
+This command:
+
+- Shows table structure
+- Displays storage format
+- Shows table location
+- Confirms that it was created successfully
+
+---
+
+# 🆚 Delta vs Parquet – What’s the Difference?
+
+| Feature | Parquet | Delta |
+|----------|----------|----------|
+| Storage Format | Column-based | Built on Parquet |
+| ACID Transactions | ❌ No | ✅ Yes |
+| Update / Delete Support | ❌ Not supported | ✅ Supported |
+| Version History | ❌ No | ✅ Yes (Time Travel) |
+| Schema Enforcement | Basic | Strong |
+| Best For | Raw storage | Production & Analytics |
+
+---
+
+## 🔹 Key Difference in Simple Words
+
+### 📦 Parquet
+- Just a file format
+- Fast and compressed
+- Good for storing data
+
+### 🏗 Delta
+- Parquet + transaction log
+- Supports:
+  - UPDATE
+  - DELETE
+  - MERGE
+  - Rollback to previous versions
+- Works like a database table
+
+---
+
+# 🧠 Why Delta is Recommended in Fabric
+
+Delta provides:
+
+- Data reliability (no partial writes)
+- Better performance
+- Schema control
+- SQL compatibility
+- Version tracking (Time Travel)
+
+That’s why in Fabric Lakehouse:
+
+> ✅ Delta tables are preferred for production use.
+
+---
+
+## 📌 Simple Summary
+
+This code:
+
+- Saves the DataFrame as a Delta table
+- Registers it as `salesorders`
+- Makes it queryable using SQL
+- Provides database-level features
+
+Delta = Parquet + Database capabilities 🚀
+
+---
+
+
 ## 🔄 Step 2 – Load Table into DataFrame
 
 ```python
