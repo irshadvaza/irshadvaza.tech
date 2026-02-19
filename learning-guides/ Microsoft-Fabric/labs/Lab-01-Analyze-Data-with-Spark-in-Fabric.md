@@ -813,6 +813,105 @@ Now data is more structured.
 
 ---
 
+
+## 📖 Understanding the Code – Splitting Customer Name
+
+```python
+transformed_df = transformed_df.withColumn(
+                    "FirstName",
+                    split(col("CustomerName"), " ").getItem(0)
+                 ).withColumn(
+                    "LastName",
+                    split(col("CustomerName"), " ").getItem(1)
+                 )
+
+display(transformed_df.limit(5))
+```
+
+### 🎯 What This Code Does
+
+This code splits the **CustomerName** column into:
+
+- FirstName  
+- LastName  
+
+---
+
+## 🔹 Step-by-Step Explanation
+
+### 1️⃣ `withColumn("FirstName", ...)`
+
+- Creates a new column called **FirstName**
+- It takes the `CustomerName`
+- Splits it using a space `" "`  
+- Takes the first word → `.getItem(0)`
+
+Example:
+
+```
+CustomerName = "John Smith"
+```
+
+After split:
+
+```
+["John", "Smith"]
+```
+
+`.getItem(0)` → **John**
+
+---
+
+### 2️⃣ `withColumn("LastName", ...)`
+
+- Creates another column called **LastName**
+- Splits the name again
+- Takes the second word → `.getItem(1)`
+
+`.getItem(1)` → **Smith**
+
+---
+
+## 🔹 Why Use This?
+
+Instead of storing:
+
+```
+John Smith
+```
+
+We now have:
+
+| FirstName | LastName |
+|-----------|----------|
+| John      | Smith    |
+
+This makes it easier to:
+
+- Filter by first name
+- Sort by last name
+- Perform better analysis
+
+---
+
+## 🔹 `display(transformed_df.limit(5))`
+
+- Shows only the first 5 rows
+- Helps verify that the transformation worked correctly
+
+---
+
+## 📌 Simple Summary
+
+This code:
+
+- Splits full customer names
+- Creates separate FirstName and LastName columns
+- Displays sample results for verification
+
+---
+
+
 ## 💰 Step 4 – Create Total Sales Column
 
 We calculate total sales per row:
