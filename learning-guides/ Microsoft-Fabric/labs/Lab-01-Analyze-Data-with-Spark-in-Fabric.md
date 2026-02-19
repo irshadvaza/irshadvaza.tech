@@ -218,6 +218,134 @@ display(df)
 
 Click **Run**.
 
+## 📖 Understanding the Code – Reading a CSV File in Spark
+
+```python
+df = spark.read.format("csv") \
+    .option("header", "false") \
+    .load("Files/orders/2019.csv")
+
+display(df)
+```
+
+Let’s break this code into simple steps so you clearly understand what is happening.
+
+---
+
+## 🔹 1️⃣ `spark.read`
+
+`spark` is your active Spark session in Fabric.
+
+- It is automatically available in Fabric notebooks.
+- It allows you to read data from files such as CSV, Parquet, Delta, JSON, etc.
+
+Think of it as:
+
+> “Spark, please read some data for me.”
+
+---
+
+## 🔹 2️⃣ `.format("csv")`
+
+This tells Spark the **type of file** you are reading.
+
+In this case:
+- The file type is **CSV** (Comma Separated Values).
+
+If the file were different, we could use:
+- `"parquet"`
+- `"json"`
+- `"delta"`
+
+---
+
+## 🔹 3️⃣ `.option("header", "false")`
+
+This tells Spark whether the first row contains column names.
+
+- `"true"` → First row is column names
+- `"false"` → First row is actual data
+
+Here we use `"false"` because:
+
+- The file does **not** have proper headers
+- We will define our own schema later
+
+If we used `"true"` incorrectly:
+- Spark would treat the first data row as column names
+- This would cause wrong column mapping
+
+---
+
+## 🔹 4️⃣ `.load("Files/orders/2019.csv")`
+
+This tells Spark **where the file is located**.
+
+Path explanation:
+
+- `Files/` → Lakehouse Files section
+- `orders/` → Folder name
+- `2019.csv` → File name
+
+So Spark reads:
+> The CSV file named `2019.csv` inside the `orders` folder.
+
+---
+
+## 🔹 5️⃣ `df =`
+
+The result is stored in a variable called `df`.
+
+- `df` stands for **DataFrame**
+- A DataFrame is like a table (rows and columns)
+- It allows filtering, grouping, transformation, and analysis
+
+---
+
+## 🔹 6️⃣ `display(df)`
+
+This shows the DataFrame output inside the notebook.
+
+Without `display(df)`:
+- The data would be loaded
+- But you wouldn’t see it
+
+`display()` is used in Fabric to render tables in a clean grid format.
+
+---
+
+# 🧠 What Happens Internally?
+
+When you run this code:
+
+1. Spark connects to the Lakehouse storage
+2. Reads the CSV file
+3. Creates a distributed DataFrame
+4. Displays the first rows in your notebook
+
+---
+
+# 📌 Summary
+
+This code:
+
+- Reads a CSV file from the Lakehouse
+- Treats the first row as data (not header)
+- Stores the data in a Spark DataFrame
+- Displays it in the notebook
+
+---
+
+# 💡 Beginner Tip
+
+If column names appear as `_c0`, `_c1`, `_c2`, etc.,  
+that means Spark did not detect headers — which is expected when `"header"` is set to `"false"`.
+
+Later, we define a schema to give meaningful column names.
+
+---
+
+
 You will see raw data loaded into a Spark DataFrame.
 
 ---
