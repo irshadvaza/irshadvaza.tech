@@ -444,6 +444,178 @@ This defines the structure of our dataset.
 
 ---
 
+## 📖 Understanding the Code – Defining a Schema in PySpark
+
+```python
+from pyspark.sql.types import *
+
+orderSchema = StructType([
+    StructField("SalesOrderNumber", StringType(), True),
+    StructField("SalesOrderLineNumber", IntegerType(), True),
+    StructField("OrderDate", DateType(), True),
+    StructField("CustomerName", StringType(), True),
+    StructField("Email", StringType(), True),
+    StructField("Item", StringType(), True),
+    StructField("Quantity", IntegerType(), True),
+    StructField("UnitPrice", FloatType(), True),
+    StructField("Tax", FloatType(), True)
+])
+```
+
+This code defines the **structure (schema)** of our DataFrame.
+
+Instead of letting Spark guess the column names and data types,  
+we clearly tell Spark what each column represents.
+
+---
+
+# 🔹 Why Do We Need a Schema?
+
+If we load a CSV file without a schema:
+
+- Spark assigns column names like `_c0`, `_c1`, `_c2`
+- All columns are treated as text (String)
+- Date and numeric calculations may not work correctly
+
+By defining a schema:
+
+- Columns get meaningful names
+- Data types are correct
+- Calculations become accurate
+- Performance improves
+
+---
+
+# 🔹 1️⃣ `from pyspark.sql.types import *`
+
+This line imports Spark SQL data types.
+
+It allows us to use:
+
+- `StringType()`
+- `IntegerType()`
+- `FloatType()`
+- `DateType()`
+- `StructType()`
+- `StructField()`
+
+Without this import, Spark wouldn’t recognize these types.
+
+---
+
+# 🔹 2️⃣ `StructType([...])`
+
+`StructType` defines the **complete structure** of the DataFrame.
+
+Think of it as:
+
+> "This is the blueprint of my table."
+
+Inside it, we define each column one by one.
+
+---
+
+# 🔹 3️⃣ `StructField()`
+
+Each column is defined using:
+
+```
+StructField("ColumnName", DataType(), Nullable)
+```
+
+It has **3 parts**:
+
+1. Column Name  
+2. Data Type  
+3. Nullable (True/False)
+
+---
+
+# 🔹 4️⃣ Understanding Each Column
+
+### ✅ `"SalesOrderNumber", StringType(), True`
+
+- Column name: `SalesOrderNumber`
+- Data type: Text (String)
+- `True` → This column can contain NULL values
+
+---
+
+### ✅ `"SalesOrderLineNumber", IntegerType(), True`
+
+- Whole numbers only
+- Used for order line numbering
+
+---
+
+### ✅ `"OrderDate", DateType(), True`
+
+- Stored as a Date (not text)
+- Allows year(), month(), and other date functions
+
+---
+
+### ✅ `"CustomerName", StringType(), True`
+
+- Text column
+
+---
+
+### ✅ `"Email", StringType(), True`
+
+- Stored as text
+
+---
+
+### ✅ `"Item", StringType(), True`
+
+- Product name
+
+---
+
+### ✅ `"Quantity", IntegerType(), True`
+
+- Whole number
+- Enables calculations like SUM()
+
+---
+
+### ✅ `"UnitPrice", FloatType(), True`
+
+- Decimal number
+- Used for price calculations
+
+---
+
+### ✅ `"Tax", FloatType(), True`
+
+- Decimal number
+- Used in revenue calculations
+
+---
+
+# 🔹 5️⃣ What Does `True` Mean?
+
+The last parameter (`True`) means:
+
+> This column is allowed to contain NULL (empty) values.
+
+If we use `False`:
+- Spark will throw an error if a NULL value appears.
+
+---
+
+# 🧠 What Happens After This?
+
+When we use:
+
+```python
+df = spark.read.format("csv").schema(orderSchema).load("Files/orders/*.csv")
+```
+
+Spark
+
+
 ## 🔄 Step 2 – Load Data Using Defined Schema
 
 ```python
