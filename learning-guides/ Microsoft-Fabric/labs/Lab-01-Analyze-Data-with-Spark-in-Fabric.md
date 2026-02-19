@@ -12,6 +12,8 @@ Sign in with your account.
 
 ---
 
+![SmartSQL Architecture Diagram](images/Fabrics/Fab13Mainhomepage.png)
+
 ### Step 2 – Create New Workspace
 
 1. From the left menu, click **Workspaces**
