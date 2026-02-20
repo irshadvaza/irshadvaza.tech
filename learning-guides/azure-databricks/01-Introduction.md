@@ -1,7 +1,5 @@
 📘 Chapter 1 – Introduction to Azure Databricks
-
 A Super Easy and Powerful Explanation
-
 🚀 1️⃣ What is Databricks? (In Very Simple Words)
 
 Databricks is a cloud-based data engineering and analytics platform that helps organizations:
@@ -26,7 +24,7 @@ AWS
 
 Google Cloud
 
-In this guide, we focus mainly on Azure Databricks.
+📌 In this guide, we focus mainly on Azure Databricks.
 
 🏢 2️⃣ Why Do We Need Databricks?
 ❌ Problem with Traditional Systems
@@ -73,7 +71,7 @@ Collaborative notebooks
 
 Single platform → Faster development → Lower cost → Better collaboration
 
-🧠 3️⃣ Origin of Databricks (Very Important for Interviews)
+🧠 3️⃣ Origin of Databricks (Important for Interviews)
 👨‍🔬 Who Created Databricks?
 
 Databricks was created by the original creators of Apache Spark from:
@@ -88,7 +86,7 @@ Apache Spark started as a research project
 
 Databricks company founded in 2013
 
-Mission:
+🎯 Mission:
 
 “Make Apache Spark easy, scalable, and powerful in the cloud.”
 
@@ -130,7 +128,7 @@ Manage jobs
 
 Store code
 
-Think of it as your project office.
+👉 Think of it as your project office.
 
 2️⃣ Clusters
 
@@ -196,7 +194,7 @@ Time travel
 
 Schema enforcement
 
-We will cover this in detail later.
+📌 We will cover this in detail later.
 
 🔄 6️⃣ Where Does Databricks Fit in Azure Architecture?
 
@@ -248,7 +246,7 @@ Smart city projects
 
 Because it provides:
 
-Security (Azure AD integration)
+Azure AD integration
 
 Scalability
 
