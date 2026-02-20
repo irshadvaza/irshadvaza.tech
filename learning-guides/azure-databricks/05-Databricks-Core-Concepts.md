@@ -76,6 +76,8 @@ A notebook is an **interactive document** where you write and run code step by s
 
 ```sql
 SELECT COUNT(*) FROM sales;
+'''
+
 
 You write → run → see output immediately.
 
