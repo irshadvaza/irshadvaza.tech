@@ -1,85 +1,81 @@
-📘 Chapter 5 – Databricks Core Concepts – Workspace & Data (Beginner Introduction)
-PART 1️⃣: Workspace Components
+# 📘 Chapter 5 – Databricks Core Concepts – Workspace & Data
 
-(Where we work in Databricks)
+> Beginner Introduction
 
-1️⃣ What is a Databricks Workspace?
+---
 
-🧠 Simple Meaning:
+## PART 1️⃣: Workspace Components  
+*(Where we work in Databricks)*
+
+---
+
+### 1️⃣ What is a Databricks Workspace?
+
+**🧠 Simple Meaning:**  
 Workspace is the main working area in Databricks where users create, organize, and run their work.
 
 Think of it like:
 
-Google Drive for data work
+- Google Drive for data work  
+- Office workspace for teams  
 
-Office workspace for teams
+**🔹 What You Do in Workspace:**
 
-🔹 What You Do in Workspace:
+- Write code  
+- Create notebooks  
+- Organize folders  
+- Run jobs  
+- Collaborate with team  
 
-Write code
+**📌 Workspace does NOT store actual data**; it stores:
 
-Create notebooks
+- Code  
+- Notebooks  
+- Metadata  
 
-Organize folders
+---
 
-Run jobs
+### 2️⃣ Folder (Very Easy Concept)
 
-Collaborate with team
+**📁 What is a Folder?**  
+A folder organizes notebooks and files inside the workspace.
 
-📌 Workspace does not store actual data, it stores:
+**📌 Why Folders?**
 
-Code
+- Keep projects organized  
+- Separate teams  
+- Easy collaboration  
 
-Notebooks
-
-Metadata
-
-2️⃣ Folder (Very Easy Concept)
-
-📁 What is a Folder?
-A folder is used to organize notebooks and files inside the workspace.
-
-📌 Why Folders?
-
-Keep projects organized
-
-Separate teams
-
-Easy collaboration
-
-🧾 Example Folder Structure:
+**🧾 Example Folder Structure:**
 
 /Workspace
-   /Sales_Project
-       /Ingestion
-       /Transformation
-       /Reporting
+/Sales_Project
+/Ingestion
+/Transformation
+/Reporting
 
 
-📌 Just like folders on your laptop.
+> Just like folders on your laptop.
 
-3️⃣ Notebook (Most Important Concept)
+---
 
-📓 What is a Notebook?
-A notebook is an interactive document where you write and run code step by step.
+### 3️⃣ Notebook (Most Important Concept)
 
-🔹 What Can a Notebook Contain?
+**📓 What is a Notebook?**  
+A notebook is an **interactive document** where you write and run code step by step.
 
-SQL
+**🔹 What Can a Notebook Contain?**
 
-Python
+- SQL  
+- Python  
+- Scala  
+- Text (documentation)  
+- Charts  
 
-Scala
+**📌 Example:**
 
-Text (documentation)
-
-Charts
-
-📌 Example:
-
+```sql
 SELECT COUNT(*) FROM sales;
-
-
 You write → run → see output immediately.
 
 🔹 Why Notebooks Are Powerful:
@@ -92,10 +88,9 @@ Easy sharing
 
 Great for training & books
 
-📌 That’s why Databricks is very popular in education.
+That’s why Databricks is popular in education.
 
 4️⃣ Library (Reusable Code & Packages)
-
 📦 What is a Library?
 A library is a collection of reusable code or packages used inside Databricks.
 
@@ -112,9 +107,7 @@ ML libraries
 📌 Example:
 
 import pandas as pd
-
-
-📌 Databricks manages installation for clusters.
+Databricks manages installation for clusters.
 
 🔹 Why Libraries Matter:
 
@@ -125,7 +118,6 @@ Use ready-made solutions
 Standardize development
 
 5️⃣ MLflow (Very Simple Introduction)
-
 🤖 What is MLflow?
 MLflow is a tool to track, manage, and deploy machine learning models.
 
@@ -142,7 +134,7 @@ Models
 📌 Simple Example:
 You train 3 ML models → MLflow remembers which one performed best.
 
-📌 No Excel sheets, no confusion.
+No Excel sheets, no confusion.
 
 🔹 Why MLflow is Important:
 
@@ -153,11 +145,9 @@ Helps teams collaborate on ML
 Production-ready ML
 
 PART 2️⃣: Data Concepts in Databricks
-
 (Where data lives & how we see it)
 
 6️⃣ DBFS (Databricks File System)
-
 🧊 What is DBFS?
 DBFS is a file system interface that allows Databricks to access cloud storage easily.
 
@@ -167,17 +157,12 @@ DBFS is NOT real storage — it is a bridge to cloud storage.
 📌 Think Like This:
 
 DBFS → Azure Data Lake / Blob Storage
-
-
 📌 Example Path:
 
 dbfs:/mnt/sales/raw_data.csv
-
-
-📌 Looks like a file system, but data is in cloud.
+Looks like a file system, but data is actually in the cloud.
 
 7️⃣ Database (Logical Container)
-
 🗄 What is a Database in Databricks?
 A database is a logical container that organizes tables.
 
@@ -192,16 +177,10 @@ Easy querying
 📌 Example:
 
 CREATE DATABASE sales_db;
-
-
 🔹 Important:
-
-Database does not store data
-
-It stores metadata (table definitions)
+Database does not store data, it stores metadata (table definitions).
 
 8️⃣ Table (Where Structured Data Appears)
-
 📊 What is a Table?
 A table is a structured view of data that you can query using SQL.
 
@@ -215,8 +194,6 @@ External table
 📌 Example:
 
 SELECT * FROM sales_db.sales_table;
-
-
 📌 Under the hood:
 
 Data is stored in cloud storage
@@ -233,7 +210,6 @@ Data Layer
  ├── DBFS
  ├── Database
  └── Tables
-
 🔟 Super Simple Real-Life Analogy
 Databricks	Real Life
 Workspace	Office building
@@ -244,7 +220,6 @@ DBFS	Store room
 Database	Filing cabinet
 Table	Excel sheet
 1️⃣1️⃣ One-Line Summary for Beginners
-
 Workspace → Where you work
 
 Notebook → Where you write code
@@ -260,3 +235,4 @@ DBFS → File access layer
 Database → Logical grouping
 
 Table → Structured data
+
