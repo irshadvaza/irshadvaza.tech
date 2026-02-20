@@ -76,3 +76,34 @@ A notebook is an **interactive document** where you write and run code step by s
 
 ```sql
 SELECT COUNT(*) FROM sales;
+
+You write → run → see output immediately.
+
+🔹 Why Notebooks Are Powerful:
+
+Easy learning
+
+Easy debugging
+
+Easy sharing
+
+Great for training & books
+
+That’s why Databricks is very popular in education.
+
+4️⃣ Library (Reusable Code & Packages)
+
+📦 What is a Library?
+A library is a collection of reusable code or packages used inside Databricks.
+
+🔹 Types of Libraries:
+
+Python libraries (pandas, numpy)
+
+JAR files
+
+Wheel files
+
+ML libraries
+
+📌 Example:
