@@ -1,26 +1,28 @@
-📘 Chapter 4 – Apache Spark Architecture
+# 📘 Chapter 4 – Apache Spark Architecture
 
-Understanding How Spark Executes Your Code
+> Understanding How Spark Executes Your Code
 
-🚀 1️⃣ Introduction
+---
+
+## 🚀 1️⃣ Introduction
 
 In the previous chapter, we learned:
 
-What Apache Spark is
-
-Why it is fast
-
-Where it is used
+- What Apache Spark is  
+- Why it is fast  
+- Where it is used  
 
 Now the most important question:
 
-What happens internally when you run Spark code?
+> What happens internally when you run Spark code?
 
-This chapter explains how Spark works behind the scenes — step by step.
+This chapter explains how Spark works **behind the scenes — step by step**.  
 
-This is one of the most important topics for interviews.
+> This is one of the most important topics for **interviews**.
 
-🧠 2️⃣ High-Level Spark Architecture (One-Line View)
+---
+
+## 🧠 2️⃣ High-Level Spark Architecture (One-Line View)
 
 When you run Spark code:
 
@@ -29,53 +31,48 @@ User Code → Driver → Cluster Manager → Executors → Storage
 
 Or visually:
 
-          Driver Program
-                |
-     -------------------------
-     |           |           |
- Executor     Executor     Executor
- (Worker)     (Worker)     (Worker)
+      Driver Program
+            |
+ -------------------------
+ |           |           |
+Executor Executor Executor
+(Worker) (Worker) (Worker)
 
 
-Spark follows a Master–Worker architecture.
+Spark follows a **Master–Worker architecture**:
 
-Driver = Master
+- **Driver = Master**  
+- **Executors = Workers**
 
-Executors = Workers
+---
 
-🧩 3️⃣ Core Components of Spark Architecture
+## 🧩 3️⃣ Core Components of Spark Architecture
 
-Spark architecture has 5 main components:
+Spark architecture has **5 main components**:
 
-Driver Program
-
-Cluster Manager
-
-Worker Nodes
-
-Executors
-
-Tasks
+1. Driver Program  
+2. Cluster Manager  
+3. Worker Nodes  
+4. Executors  
+5. Tasks  
 
 Let’s understand each one clearly.
 
-🧠 4️⃣ Driver Program (The Brain of Spark)
+---
 
-The Driver is the main controller of a Spark application.
+## 🧠 4️⃣ Driver Program (The Brain of Spark)
+
+The **Driver** is the main controller of a Spark application.
 
 It is responsible for:
 
-Converting user code into execution plan
+- Converting user code into an execution plan  
+- Creating **DAG (Directed Acyclic Graph)**  
+- Dividing jobs into stages  
+- Sending tasks to executors  
+- Collecting results  
 
-Creating DAG (Directed Acyclic Graph)
-
-Dividing jobs into stages
-
-Sending tasks to executors
-
-Collecting results
-
-📌 Example
+### 📌 Example
 
 You write:
 
@@ -84,269 +81,213 @@ df.groupBy("country").count()
 
 The Driver:
 
-Analyzes the query
+- Analyzes the query  
+- Creates execution plan  
+- Breaks it into stages  
+- Sends tasks to executors  
 
-Creates execution plan
+> The driver **does NOT process large data**; it only controls execution.
 
-Breaks it into stages
+---
 
-Sends tasks to executors
+## 🖥 5️⃣ Cluster Manager (Resource Controller)
 
-The driver does NOT process large data.
-It only controls execution.
-
-🖥 5️⃣ Cluster Manager (Resource Controller)
-
-The Cluster Manager manages resources in the cluster.
+The **Cluster Manager** manages resources in the cluster.
 
 It decides:
 
-How many executors to allocate
+- How many executors to allocate  
+- How much memory to assign  
+- Where to run the executors  
 
-How much memory to assign
+### Common Cluster Managers
 
-Where to run the executors
+| Cluster Manager | Used In |
+|-----------------|---------|
+| Standalone | Spark built-in |
+| YARN | Hadoop ecosystem |
+| Kubernetes | Container-based systems |
+| Databricks Runtime | Managed environment |
 
-Common Cluster Managers
-Cluster Manager	Used In
-Standalone	Spark built-in
-YARN	Hadoop ecosystem
-Kubernetes	Container-based systems
-Databricks Runtime	Managed environment
-🏭 6️⃣ Worker Nodes
+---
 
-Worker nodes are machines in the cluster.
+## 🏭 6️⃣ Worker Nodes
+
+Worker nodes are **machines in the cluster**.
 
 Each worker node:
 
-Hosts one or more executors
+- Hosts **one or more executors**  
+- Performs **actual data processing**  
+- Communicates with the **driver**  
 
-Performs actual data processing
+Think of workers as **physical or virtual machines**.
 
-Communicates with driver
+---
 
-Think of workers as physical/virtual machines.
+## ⚙ 7️⃣ Executors (The Muscle 💪)
 
-⚙ 7️⃣ Executors (The Muscle 💪)
+Executors are processes that run on **worker nodes**.  
 
-Executors are processes that run on worker nodes.
+Responsibilities:
 
-They are responsible for:
-
-Executing tasks
-
-Performing transformations
-
-Reading & writing data
-
-Storing intermediate data in memory
+- Executing tasks  
+- Performing transformations  
+- Reading & writing data  
+- Storing intermediate data in memory  
 
 Each executor has:
 
-CPU cores
+- CPU cores  
+- Memory  
+- Task slots  
 
-Memory
+> Executors are created when a Spark application starts and die when it ends.
 
-Task slots
+---
 
-Important Point
+## 🧵 8️⃣ What is a Task?
 
-Executors are created when a Spark application starts
-Executors die when application ends
-
-🧵 8️⃣ What is a Task?
-
-A task is the smallest unit of work in Spark.
+A **task** is the **smallest unit of work** in Spark.
 
 Example:
 
-If a dataset has 4 partitions → Spark creates 4 tasks.
+- Dataset has **4 partitions** → Spark creates **4 tasks**  
+- Each task processes **one partition**
 
-Each task processes one partition.
+---
 
-🔄 9️⃣ Complete Execution Flow (Step-by-Step)
+## 🔄 9️⃣ Complete Execution Flow (Step-by-Step)
 
-Let’s understand what happens when you run a Spark job.
-
-Step 1️⃣: User Submits Code
+### Step 1️⃣: User Submits Code
 
 Example:
 
 df.filter("amount > 1000").groupBy("region").sum()
 
-Step 2️⃣: Driver Creates Logical Plan
 
-Spark analyzes the query.
+### Step 2️⃣: Driver Creates Logical Plan
 
-It creates:
+- Spark analyzes the query  
+- Creates:  
+  - Logical plan  
+  - Optimized plan  
 
-Logical plan
+> Done by **Catalyst Optimizer**
 
-Optimized plan
+### Step 3️⃣: DAG Creation
 
-This is done by Catalyst Optimizer.
+- Creates **Directed Acyclic Graph (DAG)**  
+- DAG represents **sequence of transformations**
 
-Step 3️⃣: DAG Creation
+### Step 4️⃣: Job → Stage → Task Breakdown
 
-Spark creates a:
+- **Job:** Triggered by an action (count, collect, write)  
+- **Stage:** Group of transformations **without shuffle**  
+- **Task:** Smallest unit of execution (per partition)  
 
-Directed Acyclic Graph (DAG)
+### Step 5️⃣: Cluster Manager Allocates Resources
 
-DAG represents the sequence of transformations.
+- Provides executors, CPU, memory
 
-Step 4️⃣: Job → Stage → Task Breakdown
+### Step 6️⃣: Tasks Sent to Executors
 
-Spark divides execution into:
+- Driver sends tasks  
+- Executors process data and return results
 
-Job
+### Step 7️⃣: Final Output Written
 
-Stages
+- Data written to **ADLS / S3 / Delta Lake / Database**
 
-Tasks
+---
 
-🔹 Job
-
-Triggered by an action (count, collect, write)
-
-🔹 Stage
-
-Group of transformations without shuffle
-
-🔹 Task
-
-Smallest unit of execution (per partition)
-
-Step 5️⃣: Cluster Manager Allocates Resources
-
-Cluster Manager provides:
-
-Executors
-
-CPU
-
-Memory
-
-Step 6️⃣: Tasks Sent to Executors
-
-Driver sends tasks.
-
-Executors:
-
-Process data
-
-Return results
-
-Step 7️⃣: Final Output Written
-
-Data is written to:
-
-ADLS
-
-S3
-
-Delta Lake
-
-Database
-
-📊 1️⃣0️⃣ Job, Stage, and Task (Very Important)
-
-Understanding this is critical.
+## 📊 1️⃣0️⃣ Job, Stage, and Task (Very Important)
 
 Application
-   ↓
+↓
 Job
-   ↓
+↓
 Stage
-   ↓
+↓
 Task
 
-Example Scenario
 
-You run:
+**Example Scenario:**
 
 df.groupBy("country").count().show()
 
 
-Spark creates:
+- Spark creates:  
+  - 1 Job  
+  - 2 Stages (because of shuffle)  
+  - Multiple Tasks (based on partitions)
 
-1 Job
+---
 
-2 Stages (because of shuffle)
+## 🔀 1️⃣1️⃣ What is Shuffle?
 
-Multiple Tasks (based on partitions)
+Shuffle occurs when **data moves across partitions**.
 
-🔀 1️⃣1️⃣ What is Shuffle?
+Examples:
 
-Shuffle occurs when data moves across partitions.
+- groupBy  
+- join  
+- distinct  
+- orderBy  
 
-Example:
+> Shuffle is expensive: network data transfer + disk I/O.  
+> Minimizing shuffle improves performance.
 
-groupBy
+---
 
-join
-
-distinct
-
-orderBy
-
-Shuffle is expensive because:
-
-Data moves across network
-
-Disk I/O increases
-
-Minimizing shuffle improves performance.
-
-🧱 1️⃣2️⃣ Spark Architecture in Databricks
+## 🧱 1️⃣2️⃣ Spark Architecture in Databricks
 
 In Databricks:
 
 Notebook → Driver Node → Worker Nodes → Delta Lake (ADLS)
 
 
-Driver runs in driver node
+- Driver runs in **driver node**  
+- Executors run in **worker nodes**  
+- Data stored in **ADLS**  
 
-Executors run in worker nodes
+> Compute and storage are separated.
 
-Data stored in ADLS
+---
 
-Important:
+## 🔐 1️⃣3️⃣ Fault Tolerance in Spark
 
-Compute and Storage are separated
+Spark is **fault tolerant** because of **RDD Lineage**.
 
-🔐 1️⃣3️⃣ Fault Tolerance in Spark
+- If a partition is lost → Spark recomputes it using the lineage graph  
+- No manual recovery required
 
-Spark is fault tolerant because of:
+---
 
-RDD Lineage
-
-If a partition is lost:
-
-Spark recomputes it using lineage graph
-
-No manual recovery required
-
-⚡ 1️⃣4️⃣ Parallelism in Spark
+## ⚡ 1️⃣4️⃣ Parallelism in Spark
 
 Parallelism depends on:
 
-Number of partitions
+- Number of **partitions**  
+- Number of **executor cores**  
 
-Number of executor cores
+> More partitions → more tasks → more parallel execution  
+> But too many partitions → overhead  
+> Balance is important.
 
-More partitions → More tasks → More parallel execution
+---
 
-But too many partitions → Overhead
+## 🧠 1️⃣5️⃣ Important Spark Concepts Summary
 
-Balance is important.
+| Concept | Meaning |
+|---------|---------|
+| Driver | Controls execution |
+| Executor | Executes tasks |
+| Cluster Manager | Allocates resources |
+| DAG | Execution plan |
+| Job | Triggered by action |
+| Stage | Group of tasks |
+| Task | Smallest unit of work |
+| Shuffle | Data movement across partitions |
+✅ Chapter 4 is fully structured, GitHub-ready Markdown:
 
-🧠 1️⃣5️⃣ Important Spark Concepts Summary
-Concept	Meaning
-Driver	Controls execution
-Executor	Executes tasks
-Cluster Manager	Allocates resources
-DAG	Execution plan
-Job	Triggered by action
-Stage	Group of tasks
-Task	Smallest unit of work
-Shuffle	Data movement across partitions
