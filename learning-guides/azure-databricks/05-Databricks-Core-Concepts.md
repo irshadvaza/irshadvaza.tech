@@ -121,3 +121,27 @@ Avoid writing code again
 Use ready-made solutions
 
 Standardize development
+
+
+### 5️⃣ MLflow (Very Simple Introduction)
+
+**🤖 What is MLflow?**  
+MLflow is a tool to **track, manage, and deploy machine learning models**.
+
+**🔹 What MLflow Tracks:**
+
+- Experiments  
+- Parameters  
+- Metrics  
+- Models  
+
+**📌 Simple Example:**  
+You train 3 ML models → MLflow remembers which one performed best.  
+
+> No Excel sheets, no confusion.
+
+**🔹 Why MLflow is Important:**
+
+- Built into Databricks  
+- Helps teams collaborate on ML  
+- Production-ready ML
