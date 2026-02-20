@@ -24,3 +24,42 @@ It runs on top of **Apache Spark** and is available on:
 - Google Cloud
 
 📌 In this guide, we focus mainly on **Azure Databricks**.
+
+---
+
+## 🏢 2️⃣ Why Do We Need Databricks?
+
+### ❌ Problem with Traditional Systems
+
+Earlier, companies used **separate systems** for different purposes:
+
+- SQL Server / Oracle → Structured data  
+- Hadoop clusters → Big data  
+- Separate ML tools → Machine learning  
+- Separate BI tools → Reporting  
+
+This caused:
+
+- Too many tools  
+- Slow data processing  
+- High infrastructure cost  
+- Complex integration  
+- Data silos  
+
+Managing everything became difficult and expensive.
+
+---
+
+### ✅ How Databricks Solves This Problem
+
+Databricks provides:
+
+- ✅ One unified platform  
+- ✅ Distributed big data processing  
+- ✅ Fast analytics engine (Apache Spark)  
+- ✅ Built-in AI & ML support  
+- ✅ Collaborative notebooks  
+
+📌 **Result:**
+
+
