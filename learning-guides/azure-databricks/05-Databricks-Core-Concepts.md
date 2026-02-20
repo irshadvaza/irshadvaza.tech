@@ -145,3 +145,54 @@ You train 3 ML models → MLflow remembers which one performed best.
 - Built into Databricks  
 - Helps teams collaborate on ML  
 - Production-ready ML
+
+  ## PART 2️⃣: Data Concepts in Databricks  
+*(Where data lives & how we see it)*
+
+---
+
+### 6️⃣ DBFS (Databricks File System)
+
+**🧊 What is DBFS?**  
+DBFS is a **file system interface** that allows Databricks to access cloud storage easily.
+
+**🔹 Important Point:**  
+DBFS is **NOT real storage** — it is a bridge to cloud storage.
+
+**📌 Think Like This:**
+
+DBFS → Azure Data Lake / Blob Storage
+
+
+**📌 Example Path:**
+
+dbfs:/mnt/sales/raw_data.csv
+
+
+> Looks like a file system, but data is actually in the cloud.
+
+---
+
+### 7️⃣ Database (Logical Container)
+
+**🗄 What is a Database in Databricks?**  
+A database is a **logical container** that organizes tables.
+
+**🔹 Why Do We Need Database?**
+
+- Organize data  
+- Apply security  
+- Easy querying  
+
+**📌 Example:**
+
+```sql
+CREATE DATABASE sales_db;
+
+```
+
+🔹 Important:
+Database does not store data, it stores metadata (table definitions).
+
+8️⃣ Table (Where Structured Data Appears)
+📊
