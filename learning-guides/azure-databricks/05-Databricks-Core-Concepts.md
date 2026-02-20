@@ -195,4 +195,72 @@ CREATE DATABASE sales_db;
 Database does not store data, it stores metadata (table definitions).
 
 8️⃣ Table (Where Structured Data Appears)
-📊
+📊 What is a Table?
+A table is a structured view of data that you can query using SQL.
+
+🔹 Types of Tables:
+
+Managed table
+
+External table
+(We’ll explain later in detail)
+
+📌 Example:
+
+SELECT * FROM sales_db.sales_table;
+
+
+📌 Under the hood:
+
+Data is stored in cloud storage
+
+Metadata is stored in Databricks
+
+
+---
+
+```markdown id="ch5-part5"
+### 9️⃣ How Everything Connects (Simple View)
+
+
+
+Workspace
+├── Folders
+│ └── Notebooks
+│ └── Libraries
+|
+Data Layer
+├── DBFS
+├── Database
+└── Tables
+
+
+---
+
+### 🔟 Super Simple Real-Life Analogy
+
+| Databricks | Real Life       |
+|------------|----------------|
+| Workspace  | Office building |
+| Folder     | Rooms           |
+| Notebook   | Files           |
+| Library    | Tools           |
+| DBFS       | Store room      |
+| Database   | Filing cabinet  |
+| Table      | Excel sheet     |
+
+---
+
+### 1️⃣1️⃣ One-Line Summary for Beginners
+
+- **Workspace →** Where you work  
+- **Notebook →** Where you write code  
+- **Folder →** Organize work  
+- **Library →** Reusable code  
+- **MLflow →** Track ML models  
+- **DBFS →** File access layer  
+- **Database →** Logical grouping  
+- **Table →** Structured data
+
+
+
