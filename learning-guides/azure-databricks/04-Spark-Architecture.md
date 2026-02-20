@@ -289,5 +289,4 @@ Parallelism depends on:
 | Stage | Group of tasks |
 | Task | Smallest unit of work |
 | Shuffle | Data movement across partitions |
-✅ Chapter 4 is fully structured, GitHub-ready Markdown:
 
