@@ -52,3 +52,27 @@ A folder organizes notebooks and files inside the workspace.
 /Ingestion
 /Transformation
 /Reporting
+
+
+
+> Just like folders on your laptop.
+
+---
+
+### 3️⃣ Notebook (Most Important Concept)
+
+**📓 What is a Notebook?**  
+A notebook is an **interactive document** where you write and run code step by step.
+
+**🔹 What Can a Notebook Contain?**
+
+- SQL  
+- Python  
+- Scala  
+- Text (documentation)  
+- Charts  
+
+**📌 Example:**
+
+```sql
+SELECT COUNT(*) FROM sales;
