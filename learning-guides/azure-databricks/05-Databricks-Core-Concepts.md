@@ -32,3 +32,23 @@ Think of it like:
 - Code  
 - Notebooks  
 - Metadata
+
+  ### 2️⃣ Folder (Very Easy Concept)
+
+**📁 What is a Folder?**  
+A folder organizes notebooks and files inside the workspace.
+
+**📌 Why Folders?**
+
+- Keep projects organized  
+- Separate teams  
+- Easy collaboration  
+
+**🧾 Example Folder Structure:**
+
+
+/Workspace
+/Sales_Project
+/Ingestion
+/Transformation
+/Reporting
