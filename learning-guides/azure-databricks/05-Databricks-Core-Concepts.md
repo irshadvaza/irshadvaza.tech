@@ -109,3 +109,15 @@ Wheel files
 ML libraries
 
 📌 Example:
+
+import pandas as pd
+
+Databricks manages installation for clusters.
+
+🔹 Why Libraries Matter:
+
+Avoid writing code again
+
+Use ready-made solutions
+
+Standardize development
