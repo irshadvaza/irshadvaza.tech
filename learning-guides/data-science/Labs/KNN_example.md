@@ -180,3 +180,104 @@ plt.show()
 Creates a bar chart showing number of samples in each class.
 
 Helps visually confirm class imbalance.
+
+
+# 📦 Step 3 – Data Cleaning & Preprocessing
+
+---
+
+## 1️⃣ Check Missing Values
+
+```python
+df.isnull().sum()
+🔎 Explanation:
+
+isnull().sum() checks for missing values in each column.
+---
+
+Missing values can cause errors in ML models.
+
+In this dataset, there are no null values, but some medical features have zero values, which are unrealistic.
+
+2️⃣ Identify Zero Values in Medical Fields
+
+---
+zero_cols = ['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI']
+(df[zero_cols] == 0).sum()
+---
+
+🔎 Explanation:
+
+Some features like Glucose, BloodPressure, SkinThickness, Insulin, BMI should never be zero.
+
+This code counts how many zero values exist in each of these columns.
+
+3️⃣ Replace Zero Values with Median
+---
+for col in zero_cols:
+    df[col] = df[col].replace(0, df[col].median())
+---
+
+🔎 Explanation:
+
+Replaces all zeros in the selected columns with the median of that column.
+
+Median is used instead of mean because it is less affected by outliers.
+
+This cleans the dataset so all features have realistic values.
+
+4️⃣ Check for Duplicates
+---
+df.duplicated().sum()
+---
+🔎 Explanation:
+
+Checks if there are duplicate rows in the dataset.
+
+Duplicate rows can bias the model.
+
+5️⃣ Remove Duplicates
+---
+df = df.drop_duplicates()
+---
+
+🔎 Explanation:
+
+Removes duplicate rows from the dataset.
+
+Ensures each record is unique for better model training.
+
+6️⃣ Define Features and Target
+---
+X = df.drop('Outcome', axis=1)
+
+y = df['Outcome']
+---
+
+🔎 Explanation:
+
+X → All features (input variables)
+
+y → Target variable (Outcome: 0 or 1)
+
+Prepares data for training/testing split.
+
+7️⃣ Train-Test Split
+
+---
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y,
+    test_size=0.2,
+    random_state=42,
+    stratify=y
+)
+
+---
+
+🔎 Explanation:
+
+Splits data into 80% training and 20% testing.
+
+stratify=y → Ensures same class ratio in train and test sets.
+
+random_state=42 → Ensures reproducibility.
