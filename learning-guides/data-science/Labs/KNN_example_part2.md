@@ -142,3 +142,57 @@ New Point:        ?
 Neighbors: 1 1 0 1 0
 Majority = 1 → Predict Diabetic ✅
 ```
+
+```
+🔹 Detailed GridSearchCV Hyperparameters
+
+1️⃣ n_neighbors
+
+'n_neighbors': [3,5,7,9,11]
+
+
+Try different K values:
+• 3 neighbors
+• 5 neighbors
+• 7 neighbors
+• 9 neighbors
+• 11 neighbors
+
+Why?
+Because we don’t know which K gives the best performance.
+
+Small K:
+• More sensitive
+• May overfit
+
+Large K:
+• More stable
+• May underfit
+
+So we test multiple values to find the optimal K.
+
+2️⃣ weights
+
+'weights': ['uniform', 'distance']
+
+
+uniform: All neighbors have equal importance.
+
+Example: If K=5, each neighbor has same vote.
+
+distance: Closer neighbors have more importance.
+
+Example: The nearest patient influences prediction more.
+
+Usually performs better than uniform weighting.
+
+3️⃣ metric
+
+'metric': ['euclidean', 'manhattan']
+
+
+Defines how distance is calculated between points.
+
+Euclidean: straight-line distance
+
+Manhattan: grid-based distance
