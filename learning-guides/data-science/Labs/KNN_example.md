@@ -291,7 +291,7 @@ random_state=42 → Ensures reproducibility.
 
 
 
-#Handling Imbalanced Data
+## Handling Imbalanced Data
 
 The dataset has:
 
@@ -357,7 +357,7 @@ Balances classes efficiently
 
 2️⃣ Random Oversampling
 
-What is Random Oversampling?
+## What is Random Oversampling?
 
 Randomly duplicates minority samples until classes are balanced.
 
@@ -365,27 +365,33 @@ Does not create new data, only copies existing rows.
 
 Example:
 
+```
 Before:
 Non-diabetic: 500
 Diabetic    : 200
+```
 
+```
 After Random Oversampling:
 Non-diabetic: 500
 Diabetic    : 500
-
+```
 
 Visual Idea:
 
+```
 Before: 0 0 0 0 1 1
 After:  0 0 0 0 1 1 1 1 1  <- duplicates added
-
+```
 
 Python Code:
 
+```
 from imblearn.over_sampling import RandomOverSampler
 
 ros = RandomOverSampler(random_state=42)
 X_res, y_res = ros.fit_resample(X_train, y_train)
+```
 
 print("After Oversampling:", y_res.value_counts())
 
@@ -400,7 +406,7 @@ Risk: Overfitting due to duplicated data
 
 3️⃣ Random Undersampling
 
-What is Random Undersampling?
+## What is Random Undersampling?
 
 Randomly removes samples from majority class to balance dataset.
 
@@ -408,30 +414,35 @@ Reduces the size of the majority class instead of increasing minority.
 
 Example:
 
+```
 Before:
 Non-diabetic: 500
 Diabetic    : 200
+```
 
+```
 After Random Undersampling:
 Non-diabetic: 200
 Diabetic    : 200
-
+```
 
 Visual Idea:
 
+```
 Before: 0 0 0 0 0 1 1
 After:  0 0 1 1 <- some majority 0s removed
-
+```
 
 Python Code:
 
+```
 from imblearn.under_sampling import RandomUnderSampler
 
 rus = RandomUnderSampler(random_state=42)
 X_res, y_res = rus.fit_resample(X_train, y_train)
 
 print("After Undersampling:", y_res.value_counts())
-
+```
 
 ✅ Key Points:
 
@@ -446,6 +457,7 @@ Method	How it Works	New Data?	Pros	Cons
 SMOTE	Generates synthetic minority samples	✅ Yes	Balances dataset without duplication	Slight noise possible
 Random Oversampling	Duplicates minority samples	❌ No	Simple, keeps all majority	Overfitting risk
 Random Undersampling	Removes majority samples	❌ No	Fast, reduces dataset size	Data loss, less info
+
 5️⃣ Tips / Recommendations
 
 SMOTE → Use for small/medium datasets, especially medical datasets.
@@ -456,10 +468,11 @@ Random Undersampling → Use for very large datasets or memory issues.
 
 ✅ Visual Summary (Quick Diagram)
 
+```
 Dataset: 0=majority, 1=minority
 
 Original:        0 0 0 0 1 1
 SMOTE:           0 0 0 0 1 1 1 1
 Random Oversample:0 0 0 0 1 1 1 1
 Random Undersample:0 0 1 1
-
+```
