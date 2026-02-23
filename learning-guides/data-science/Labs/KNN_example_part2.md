@@ -1,11 +1,13 @@
 K-Nearest Neighbors (KNN)
-📘 What is KNN? (Very Simple Explanation)
+📘 What is KNN?
 
 KNN = K-Nearest Neighbors
 
 One of the simplest machine learning algorithms.
 
 Works based on distance between data points.
+
+Predicts the class of a new point by looking at its K closest neighbors.
 
 🧠 Simple Real-Life Example
 
@@ -21,11 +23,11 @@ If:
 
 1 says it is not safe
 
-You decide → It is safe.
+You decide → It is safe ✅
 
-This is exactly how KNN works: it looks at nearby points and predicts based on majority vote.
+This is exactly how KNN works: it looks at nearby points and predicts based on the majority vote.
 
-🎯 In Our Diabetes Problem
+🎯 KNN in Our Diabetes Problem
 
 We want to predict:
 
@@ -39,7 +41,7 @@ Measure distance to all other patients.
 
 Select K closest patients.
 
-Check majority class among neighbors.
+Check the majority class among neighbors.
 
 Predict based on majority vote.
 
@@ -55,7 +57,7 @@ If K = 3, look at 3 closest patients:
 
 1 non-diabetic
 
-Prediction = Diabetic
+Prediction = Diabetic ✅
 
 📏 How Distance is Measured?
 
@@ -81,7 +83,7 @@ Solution: Use StandardScaler to normalize all features.
 ✔ Easy to implement
 ✔ No training time (lazy learner)
 
-⚠ Disadvantages
+⚠ Disadvantages of KNN
 
 ❌ Slow for large datasets
 ❌ Sensitive to feature scaling
