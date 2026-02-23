@@ -58,3 +58,49 @@ After completing this lab, you should understand:
 - How SMOTE helps balance data
 - How GridSearch finds best hyperparameters
 - How to evaluate classification models properly
+
+
+
+# 📦 Step 2 – Import Required Libraries
+
+We first import all required Python libraries.
+
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+
+
+📥 Step 2.1 – Download and Load Dataset
+
+We download the dataset using KaggleHub.
+
+import kagglehub
+
+path = kagglehub.dataset_download("uciml/pima-indians-diabetes-database")
+
+df = pd.read_csv(path + "/diabetes.csv")
+
+🔎 Explanation
+
+dataset_download() downloads dataset.
+
+pd.read_csv() loads the CSV file into a pandas DataFrame.
+
+df now contains our dataset.
+
+📊 Step 2.2 – Explore the Dataset
+Shape of Dataset
+df.shape
+
+
+Shows:
+
+Number of rows
+
+Number of columns
+
