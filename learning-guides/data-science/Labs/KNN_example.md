@@ -288,3 +288,172 @@ Splits data into 80% training and 20% testing.
 stratify=y → Ensures same class ratio in train and test sets.
 
 random_state=42 → Ensures reproducibility.
+
+
+
+Handling Imbalanced Data
+
+The dataset has:
+
+More non-diabetic patients
+
+Fewer diabetic patients
+
+This is called an Imbalanced Dataset.
+
+Imbalanced datasets can bias the model toward the majority class.
+We can handle this using SMOTE, Random Oversampling, or Random Undersampling.
+
+1️⃣ SMOTE (Synthetic Minority Over-sampling Technique)
+
+What is SMOTE?
+
+Creates new artificial minority class samples.
+
+Synthetic points are generated between real minority samples.
+
+Balances dataset without duplicating data.
+
+Example:
+
+Before SMOTE:
+Non-diabetic: 500
+Diabetic    : 268
+
+After SMOTE:
+Non-diabetic: 500
+Diabetic    : 500
+
+
+Visual Idea:
+
+Before: 0 0 0 0 1 1 1
+After:  0 0 0 0 1 1 1 1 1 1  <- synthetic 1s added
+
+
+Python Code:
+
+from imblearn.over_sampling import SMOTE
+
+smote = SMOTE(random_state=42)
+X_res, y_res = smote.fit_resample(X_train, y_train)
+
+print("After SMOTE:", y_res.value_counts())
+
+
+✅ Key Points:
+
+Creates new synthetic samples
+
+Works well for small datasets
+
+Balances classes efficiently
+
+2️⃣ Random Oversampling
+
+What is Random Oversampling?
+
+Randomly duplicates minority samples until classes are balanced.
+
+Does not create new data, only copies existing rows.
+
+Example:
+
+Before:
+Non-diabetic: 500
+Diabetic    : 200
+
+After Random Oversampling:
+Non-diabetic: 500
+Diabetic    : 500
+
+
+Visual Idea:
+
+Before: 0 0 0 0 1 1
+After:  0 0 0 0 1 1 1 1 1  <- duplicates added
+
+
+Python Code:
+
+from imblearn.over_sampling import RandomOverSampler
+
+ros = RandomOverSampler(random_state=42)
+X_res, y_res = ros.fit_resample(X_train, y_train)
+
+print("After Oversampling:", y_res.value_counts())
+
+
+✅ Key Points:
+
+Simple to implement
+
+Maintains all majority data
+
+Risk: Overfitting due to duplicated data
+
+3️⃣ Random Undersampling
+
+What is Random Undersampling?
+
+Randomly removes samples from majority class to balance dataset.
+
+Reduces the size of the majority class instead of increasing minority.
+
+Example:
+
+Before:
+Non-diabetic: 500
+Diabetic    : 200
+
+After Random Undersampling:
+Non-diabetic: 200
+Diabetic    : 200
+
+
+Visual Idea:
+
+Before: 0 0 0 0 0 1 1
+After:  0 0 1 1 <- some majority 0s removed
+
+
+Python Code:
+
+from imblearn.under_sampling import RandomUnderSampler
+
+rus = RandomUnderSampler(random_state=42)
+X_res, y_res = rus.fit_resample(X_train, y_train)
+
+print("After Undersampling:", y_res.value_counts())
+
+
+✅ Key Points:
+
+Fast and memory-efficient
+
+May discard useful majority data
+
+Good for very large datasets
+
+4️⃣ Comparison Table
+Method	How it Works	New Data?	Pros	Cons
+SMOTE	Generates synthetic minority samples	✅ Yes	Balances dataset without duplication	Slight noise possible
+Random Oversampling	Duplicates minority samples	❌ No	Simple, keeps all majority	Overfitting risk
+Random Undersampling	Removes majority samples	❌ No	Fast, reduces dataset size	Data loss, less info
+5️⃣ Tips / Recommendations
+
+SMOTE → Use for small/medium datasets, especially medical datasets.
+
+Random Oversampling → Simple solution when dataset is small.
+
+Random Undersampling → Use for very large datasets or memory issues.
+
+✅ Visual Summary (Quick Diagram)
+
+Dataset: 0=majority, 1=minority
+
+Original:        0 0 0 0 1 1
+SMOTE:           0 0 0 0 1 1 1 1
+Random Oversample:0 0 0 0 1 1 1 1
+Random Undersample:0 0 1 1
+
