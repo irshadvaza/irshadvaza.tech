@@ -88,3 +88,95 @@ matplotlib & seaborn → For plotting graphs and visualizations.
 train_test_split → To split the dataset into training and testing sets.
 
 StandardScaler → Scales numeric features so all features contribute equally to distance (important for KNN).
+
+
+2️⃣ Download and Load Dataset
+import kagglehub
+
+# Download dataset
+```
+path = kagglehub.dataset_download("uciml/pima-indians-diabetes-database")
+```
+
+# Load CSV into DataFrame
+```
+df = pd.read_csv(path + "/diabetes.csv")
+```
+
+🔎 Explanation:
+
+dataset_download() → Downloads dataset from Kaggle.
+
+```
+pd.read_csv() → Reads the CSV file into a pandas DataFrame.
+```
+
+df → Contains the full dataset including features and target column.
+
+3️⃣ Explore the Dataset
+a) Check Dataset Shape
+```
+df.shape
+```
+
+🔎 Explanation:
+
+Returns the number of rows and columns.
+
+Example output (768, 9) → 768 samples and 9 columns (including target).
+
+b) Check Data Types
+```
+df.dtypes
+```
+
+🔎 Explanation:
+
+Confirms the datatype of each column (int64, float64).
+
+Ensures all features are numeric for KNN.
+
+c) View First 5 Rows
+```
+df.head()
+```
+
+🔎 Explanation:
+
+Displays the first 5 records of the dataset.
+
+Helps verify data is loaded correctly and understand feature values.
+
+d) Check Class Distribution
+```
+df['Outcome'].value_counts()
+```
+
+🔎 Explanation:
+
+Counts samples in each class:
+
+0 → No Diabetes
+
+1 → Diabetes
+
+Example output:
+
+0    500
+1    268
+
+
+Indicates dataset is imbalanced because class 0 has almost twice the samples of class 1.
+
+e) Visualize Class Distribution
+```
+sns.countplot(x='Outcome', data=df)
+plt.title("Class Distribution")
+plt.show()
+```
+
+🔎 Explanation:
+
+Creates a bar chart showing number of samples in each class.
+
+Helps visually confirm class imbalance.
