@@ -291,7 +291,7 @@ random_state=42 → Ensures reproducibility.
 
 
 
-Handling Imbalanced Data
+#Handling Imbalanced Data
 
 The dataset has:
 
@@ -302,6 +302,7 @@ Fewer diabetic patients
 This is called an Imbalanced Dataset.
 
 Imbalanced datasets can bias the model toward the majority class.
+
 We can handle this using SMOTE, Random Oversampling, or Random Undersampling.
 
 1️⃣ SMOTE (Synthetic Minority Over-sampling Technique)
@@ -316,6 +317,7 @@ Balances dataset without duplicating data.
 
 Example:
 
+```
 Before SMOTE:
 Non-diabetic: 500
 Diabetic    : 268
@@ -323,22 +325,26 @@ Diabetic    : 268
 After SMOTE:
 Non-diabetic: 500
 Diabetic    : 500
+```
 
 
 Visual Idea:
 
+```
 Before: 0 0 0 0 1 1 1
 After:  0 0 0 0 1 1 1 1 1 1  <- synthetic 1s added
-
+```
 
 Python Code:
 
+```
 from imblearn.over_sampling import SMOTE
 
 smote = SMOTE(random_state=42)
 X_res, y_res = smote.fit_resample(X_train, y_train)
 
 print("After SMOTE:", y_res.value_counts())
+```
 
 
 ✅ Key Points:
