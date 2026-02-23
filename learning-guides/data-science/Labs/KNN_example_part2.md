@@ -1,106 +1,144 @@
-K-Nearest Neighbors (KNN)
-📘 What is KNN?
+# 🏥 K-Nearest Neighbors (KNN)
 
-KNN = K-Nearest Neighbors
+KNN is a **simple machine learning algorithm** used for classification.  
+It predicts the **class of a new data point** based on the **K closest neighbors** in the dataset.  
 
-One of the simplest machine learning algorithms.
+---
 
-Works based on distance between data points.
+## 📘 What is KNN?
 
-Predicts the class of a new point by looking at its K closest neighbors.
+- **Full Name:** K-Nearest Neighbors  
+- **Type:** Lazy learner, instance-based algorithm  
+- **Idea:** Similar points belong to the same class  
+- **Prediction:** Based on the **majority vote** of K nearest neighbors  
 
-🧠 Simple Real-Life Example
+> KNN **does not train a model**; it stores the dataset and predicts based on neighbors.
 
-Imagine:
+---
 
-You move to a new city and want to know if a neighborhood is safe.
+## 🧠 Real-Life Analogy
 
-You ask your 5 nearest neighbors.
+Imagine moving to a new city and asking your **5 nearest neighbors** if the neighborhood is safe:  
 
-If:
+- ✅ 4 say safe  
+- ❌ 1 says unsafe  
 
-4 say it is safe
+You conclude → **Safe**  
 
-1 says it is not safe
+> KNN works the same way using **majority vote** from the closest points.
 
-You decide → It is safe ✅
+---
 
-This is exactly how KNN works: it looks at nearby points and predicts based on the majority vote.
+## 🎯 KNN in Diabetes Prediction
 
-🎯 KNN in Our Diabetes Problem
+We want to predict **whether a patient has diabetes**.  
 
-We want to predict:
+**Steps KNN follows:**
 
-👉 Does a patient have diabetes or not?
+1. Take a **new patient**  
+2. Measure **distance** to all other patients  
+3. Select **K closest patients**  
+4. Check **majority class**  
+5. Predict patient’s class  
 
-Steps KNN follows:
+---
 
-Take a new patient.
+## 🔢 Understanding K
 
-Measure distance to all other patients.
+- K = number of neighbors considered for prediction  
 
-Select K closest patients.
+**Example:**
 
-Check the majority class among neighbors.
+| K | Neighbors | Class Distribution | Prediction |
+|---|-----------|-----------------|------------|
+| 3 | 2 diabetic, 1 non-diabetic | Majority = Diabetic | ✅ Diabetic |
+| 5 | 3 non-diabetic, 2 diabetic | Majority = Non-diabetic | ❌ Non-diabetic |
 
-Predict based on majority vote.
+> Choosing K is important:  
+> - Small K → sensitive to noise (may overfit)  
+> - Large K → smoother predictions (may underfit)
 
-🔢 What is K?
+---
 
-K = number of neighbors considered for prediction.
+## 📏 Distance Metrics
+
+| Metric | Description | Formula |
+|--------|-------------|---------|
+| Euclidean | Straight-line distance | √((x1-x2)² + (y1-y2)²) |
+| Manhattan | Grid-like distance | |x1-x2| + |y1-y2| |
+
+---
+
+## 💡 Why Feature Scaling is Important
 
 Example:
 
-If K = 3, look at 3 closest patients:
+- Glucose = 150  
+- BMI = 30  
 
-2 diabetic
+Without scaling, **Glucose dominates distance**, misleading results.  
 
-1 non-diabetic
+**Solution:** Use **StandardScaler** to normalize all features.
 
-Prediction = Diabetic ✅
+---
 
-📏 How Distance is Measured?
+## 📦 Advantages of KNN
 
-Euclidean distance → straight-line distance
+- ✅ Simple and intuitive  
+- ✅ Easy to implement  
+- ✅ No training time (lazy learner)  
 
-Manhattan distance → grid-based distance
+---
 
-💡 Why Scaling is Important?
+## ⚠ Disadvantages of KNN
 
-If one feature is much larger than others, e.g.:
+- ❌ Slow for large datasets  
+- ❌ Sensitive to feature scaling  
+- ❌ Sensitive to irrelevant features  
 
-Glucose = 150
+---
 
-BMI = 30
-
-Then distance is dominated by the larger feature → misleading results
-
-Solution: Use StandardScaler to normalize all features.
-
-📦 Advantages of KNN
-
-✔ Simple to understand
-✔ Easy to implement
-✔ No training time (lazy learner)
-
-⚠ Disadvantages of KNN
-
-❌ Slow for large datasets
-❌ Sensitive to feature scaling
-❌ Sensitive to irrelevant features
-
-🔹 Example (Diabetes KNN)
+## 🔹 Example – Diabetes Dataset
 
 If K = 5:
 
-Checks 5 closest points
+- Checks **5 nearest points**  
+- Majority vote decides class  
 
-Majority vote decides the class
+```text
+Neighbors: 1 1 0 1 0
+Class Labels: Diabetic=1, Non-diabetic=0
+Majority = 1 → Predict Diabetic ✅
+```
 
-Example:
 
-3 diabetic
+```
+from sklearn.neighbors import KNeighborsClassifier
 
-2 non-diabetic
+# Create KNN model
+model = KNeighborsClassifier()
 
-Prediction = Diabetic ✅
+# Hyperparameter grid
+param_grid = {
+    'n_neighbors': [3,5,7,9,11],
+    'weights': ['uniform', 'distance'],
+    'metric': ['euclidean', 'manhattan']
+}
+```
+
+Explanation:
+
+n_neighbors → number of neighbors to consider
+
+weights → 'uniform' (all neighbors equal) or 'distance' (closer neighbors weigh more)
+
+metric → distance calculation method
+
+📊 Visual Intuition
+
+```
+Original Dataset: 0 0 0 1 1
+New Point:        ?
+Neighbors: 1 1 0 1 0
+Majority = 1 → Predict Diabetic ✅
+```
