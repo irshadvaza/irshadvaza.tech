@@ -1,34 +1,60 @@
-🧪 KNN Classification on Pima Indians Diabetes Dataset
+# 🧪 KNN Classification – Pima Indians Diabetes Dataset
 
-Lab: Machine Learning Pipeline (Part 1)
+## 📌 Objective
 
-📌 1. Problem Description
-📊 Dataset
+The objective of this lab is to build a Machine Learning classification model using **K-Nearest Neighbors (KNN)** to predict whether a patient has diabetes.
 
-We are using the Pima Indians Diabetes Dataset from Kaggle.
+This project demonstrates:
 
-🎯 Objective
+- Data preprocessing
+- Handling imbalanced dataset
+- Feature scaling
+- Hyperparameter tuning
+- Model evaluation using multiple metrics
+- Visualization of ROC and PR curves
 
-Predict whether a patient has diabetes based on medical measurements.
+---
 
-This is a:
+## 📊 Dataset Description
 
-Binary Classification Problem
+We are using the **Pima Indians Diabetes Dataset**.
 
-Target variable:
+This dataset contains medical information about female patients of Pima Indian heritage.
 
-0 → No Diabetes
+### 🎯 Target Variable
 
-1 → Diabetes
+| Value | Meaning |
+|-------|---------|
+| 0     | No Diabetes |
+| 1     | Diabetes |
 
-📁 Features Description
-Feature	Description
-Pregnancies	Number of pregnancies
-Glucose	Plasma glucose concentration
-BloodPressure	Diastolic blood pressure
-SkinThickness	Triceps skin fold thickness
-Insulin	2-Hour serum insulin
-BMI	Body Mass Index
-DiabetesPedigreeFunction	Genetic influence
-Age	Age of patient
-Outcome	Target variable
+This is a **binary classification problem**.
+
+---
+
+## 📁 Features
+
+| Feature | Description |
+|----------|-------------|
+| Pregnancies | Number of pregnancies |
+| Glucose | Plasma glucose concentration |
+| BloodPressure | Diastolic blood pressure |
+| SkinThickness | Triceps skin fold thickness |
+| Insulin | 2-Hour serum insulin |
+| BMI | Body Mass Index |
+| DiabetesPedigreeFunction | Genetic influence factor |
+| Age | Age of patient |
+| Outcome | Target variable |
+
+---
+
+## 🧠 Learning Goals
+
+After completing this lab, you should understand:
+
+- How KNN works
+- Why scaling is important for distance-based models
+- What is class imbalance
+- How SMOTE helps balance data
+- How GridSearch finds best hyperparameters
+- How to evaluate classification models properly
