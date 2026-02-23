@@ -149,7 +149,7 @@ Majority = 1 → Predict Diabetic ✅
 1️⃣ n_neighbors
 
 'n_neighbors': [3,5,7,9,11]
-
+```
 
 Try different K values:
 • 3 neighbors
@@ -196,3 +196,91 @@ Defines how distance is calculated between points.
 Euclidean: straight-line distance
 
 Manhattan: grid-based distance
+'''
+
+```
+3️⃣ GridSearchCV with RepeatedStratifiedKFold
+
+We are doing two things:
+
+1️⃣ Cross-validation → RepeatedStratifiedKFold
+2️⃣ Hyperparameter tuning → GridSearchCV
+
+🔹 Importing the Tools
+from sklearn.model_selection import GridSearchCV, RepeatedStratifiedKFold
+
+
+GridSearchCV: Finds the best parameter combination
+
+RepeatedStratifiedKFold: Performs robust cross-validation
+
+🔹 Setting up Cross-Validation
+cv = RepeatedStratifiedKFold(
+    n_splits=5,
+    n_repeats=3,
+    random_state=42
+)
+
+
+K-Fold: Dataset split into 5 parts → each used once as validation
+
+Stratified: Each fold maintains class ratio (important for imbalanced datasets)
+
+Repeated: 5-fold process repeated 3 times → more reliable results
+
+🔹 GridSearchCV
+grid = GridSearchCV(
+    model,
+    param_grid,
+    cv=cv,
+    scoring='roc_auc',
+    n_jobs=-1
+)
+
+
+Tries all combinations in param_grid
+
+Uses cross-validation to evaluate each combination
+
+Selects the best parameters
+
+🔹 Hyperparameters Explained
+1️⃣ n_neighbors
+
+[3,5,7,9,11] → Try different K values
+
+Small K → sensitive, may overfit
+
+Large K → stable, may underfit
+
+2️⃣ weights
+
+'uniform' → all neighbors equal
+
+'distance' → closer neighbors weigh more (usually better)
+
+3️⃣ metric
+
+'euclidean' → straight-line distance
+
+'manhattan' → grid-like distance
+
+🔹 Fitting GridSearch
+grid.fit(X_train_res, y_train_res)
+
+print("Best Parameters:", grid.best_params_)
+print("Best CV Score:", grid.best_score_)
+
+
+Example Output:
+
+Best Parameters: {'n_neighbors': 5, 'weights': 'distance', 'metric': 'euclidean'}
+Best CV Score: 0.83
+
+✅ Summary
+
+RepeatedStratifiedKFold → robust, stratified cross-validation
+
+GridSearchCV → systematic hyperparameter tuning
+
+Together: finds best KNN parameters with reliable performance
