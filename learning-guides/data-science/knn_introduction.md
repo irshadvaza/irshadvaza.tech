@@ -103,7 +103,7 @@ prediction = knn.predict(new_kid)
 print("Predicted Sport:", "Basketball 🏀" if prediction[0]==1 else "Soccer ⚽")
 ```
 
-Step 7: Key Points
+## Step 7: Key Points
 
 KNN does not train in the usual way. It remembers the dataset.
 
@@ -113,7 +113,7 @@ Distance can be Euclidean or Manhattan
 
 Scaling is important if features have different ranges
 
-Step 8: Choosing K
+## Step 8: Choosing K
 
 Small K → sensitive to noise → may overfit
 
@@ -121,7 +121,7 @@ Large K → smoother predictions → may underfit
 
 Best K is usually found using GridSearchCV.
 
-✅ Summary for Beginners
+## ✅ Summary for Beginners
 
 Imagine new data points in a playground
 
@@ -132,3 +132,92 @@ Count the votes
 Predict based on majority
 
 That’s KNN in the simplest terms!
+
+
+
+
+## Step 2: What Are Hyperparameters?
+
+Hyperparameters are like knobs or settings for the model.
+
+For KNN, we can adjust 3 important knobs:
+
+1️⃣ n_neighbors → How many neighbors to look at
+2️⃣ weights → Do all neighbors count equally? Or do closer neighbors count more?
+3️⃣ metric → How do we measure distance between points?
+
+Step 3: Set Hyperparameter Options
+param_grid = {
+    'n_neighbors': [3,5,7,9,11],
+    'weights': ['uniform','distance'],
+    'metric': ['euclidean','manhattan']
+}
+
+1️⃣ n_neighbors (K)
+
+n_neighbors = [3,5,7,9,11]
+
+This means we want the model to try K=3, K=5, K=7, K=9, K=11
+
+Example:
+
+If K = 3 → looks at 3 nearest patients
+
+If K = 5 → looks at 5 nearest patients
+
+Effect:
+
+K	Effect
+Small (3)	Sensitive to nearby points, may overfit
+Large (11)	Looks at many points, may underfit, smoother prediction
+2️⃣ weights
+
+'uniform' → All neighbors have equal importance
+
+'distance' → Closer neighbors have more importance
+
+Example:
+
+K = 3 neighbors:
+
+Neighbors: [closest, middle, farthest]
+
+Uniform: each neighbor counts 1 vote
+
+Distance: closest neighbor counts more than the farthest
+
+Usually, 'distance' gives better results because the nearest points are more relevant.
+
+3️⃣ metric
+
+How do we measure distance between patients?
+
+Options:
+
+Metric	Description
+'euclidean'	Straight line distance
+'manhattan'	Grid-like distance (like city blocks)
+
+Example:
+
+Patient A: Glucose=150, BMI=30
+
+Patient B: Glucose=160, BMI=32
+
+Euclidean: straight line between points
+
+Manhattan: sum of horizontal + vertical differences
+
+KNN uses this to find the closest neighbors.
+
+Step 4: Why We Try Many Combinations
+
+We don’t know which combination is best:
+
+Small K or Large K?
+
+Uniform or Distance?
+
+Euclidean or Manhattan?
+
+So we try all combinations using GridSearchCV (covered in the next step).
