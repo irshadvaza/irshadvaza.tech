@@ -250,3 +250,6 @@ Instead think:
 👉 That is how great research begins.
 
 ---
+
+👉 Previous: [Foundation Basics](01-foundation-phd-basics.md)  
+👉 Next: [Preparing for PhD](03-preparing-for-phd.md)
