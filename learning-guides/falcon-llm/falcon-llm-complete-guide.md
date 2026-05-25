@@ -1,8 +1,8 @@
 # 🦅 Falcon LLM — Complete Reference Guide
 > **Developed by:** Technology Innovation Institute (TII), Abu Dhabi, UAE  
-> **Guide Purpose:** Portfolio reference for job interviews, AI/ML roles, and LLM knowledge  
+> **Guide Purpose:** for model details, AI/ML roles, and LLM knowledge  
 > **Last Updated:** May 2026  
-> **Author:** [Your Name]
+> **Author:** Irshad Vaza
 
 ---
 
