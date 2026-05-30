@@ -890,7 +890,7 @@ Verdict: For databases with complex schemas and many query patterns,
 
 ---
 
-## 12. Interview Q&A
+## 12. Qestations & Answer for summary.
 
 ### "What is Azure OpenAI Service and how is it different from using OpenAI directly?"
 
