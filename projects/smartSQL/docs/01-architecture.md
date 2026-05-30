@@ -10,55 +10,6 @@
 
 SmartSQL is structured in four distinct zones. The boundary between Zone 3 (Azure cloud) and Zone 4 (local execution) is the critical security boundary — raw data never crosses it.
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  ZONE 1 — User Interface (Streamlit)                        │
-│                                                             │
-│   [Speech input]      [Text input]      [Results display]  │
-│   Google STT          500 char max      Table + Chart + CSV │
-└──────────────┬─────────────┬────────────────────────────────┘
-               │             │
-               └──────┬──────┘
-                      ▼
-┌─────────────────────────────────────────────────────────────┐
-│  ZONE 2 — Security Gate                                     │
-│                                                             │
-│   Rate limit (10/60s) → Input validation → Content Safety  │
-└─────────────────────────┬───────────────────────────────────┘
-                          │  clean question text only
-                          ▼
-┌─────────────────────────────────────────────────────────────┐
-│  ZONE 3 — Azure Cloud (AI Foundry)              ☁           │
-│                                                             │
-│   ┌──────────────────────────────────────────┐             │
-│   │  RAG pipeline                            │             │
-│   │  Question → text-embedding-ada-002       │             │
-│   │           → Azure AI Search (SQL index)  │             │
-│   │           → 5 similar SQL patterns       │             │
-│   └──────────────┬───────────────────────────┘             │
-│                  │ patterns + question                      │
-│                  ▼                                          │
-│          GPT-4o-mini (Azure AI Foundry)                     │
-│                  │                                          │
-│                  │  SQL text only ◄── no data crosses up    │
-└──────────────────┼──────────────────────────────────────────┘
-                   │  generated SQL script only
-                   ▼
-┌─────────────────────────────────────────────────────────────┐
-│  ZONE 4 — Local / Private Environment          🔒           │
-│                                                             │
-│   SQL validation → DuckDB / Azure SQL → Audit log          │
-│   (SELECT only)    (read-only conn)     (hashed)            │
-│                          │                                  │
-│                          ▼                                  │
-│                    DataFrame results                        │
-└──────────────────────────┬──────────────────────────────────┘
-                           │
-                           ▼
-                    Back to Zone 1 UI
-```
-
----
 
 ## Component responsibilities
 
