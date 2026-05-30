@@ -679,7 +679,7 @@ DISADVANTAGES:
 
 ---
 
-## 14. Interview Q&A
+## 14. Q&A
 
 ### "What is a transformer and why was it significant?"
 
