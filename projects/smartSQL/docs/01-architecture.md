@@ -4,7 +4,7 @@
 
 ---
 
-![Smart SQL Architecture](assets/images/smart-sql-architecture.png)
+![Smart SQL Architecture](images/smart-sql-architecture.png)
 
 
 ## System overview
