@@ -4,6 +4,9 @@
 
 ---
 
+![Smart SQL Architecture](assets/images/smart-sql-architecture.png)
+
+
 ## System overview
 
 SmartSQL is structured in four distinct zones. The boundary between Zone 3 (Azure cloud) and Zone 4 (local execution) is the critical security boundary — raw data never crosses it.
