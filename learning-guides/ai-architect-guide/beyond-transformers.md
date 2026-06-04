@@ -4,7 +4,7 @@
 > Author: Irshad Vaza · AI & Data Specialist · [irshadvaza.tech](https://irshadvaza.tech)
 > Last updated: 2025 · Beginner-friendly · Real examples throughout
 
-[![Level](https://img.shields.io/badge/Level-Beginner_friendly-brightgreen)](https://github.com/irshadvaza/irshadvaza.tech/blob/main/learning-guides/falcon-llm)
+[![Level](https://img.shields.io/badge/Level-Beginner_friendly-brightgreen)](https://github.com/irshadvaza/irshadvaza.tech/blob/main/learning-guides/ai-architect-guide)
 [![Prerequisite](https://img.shields.io/badge/Prerequisite-Transformers_Guide-blue)](./transformers.md)
 [![Architectures](https://img.shields.io/badge/Covers-RAG%20%7C%20Agents%20%7C%20MoE%20%7C%20Mamba%20%7C%20Jamba-purple)](https://github.com/irshadvaza/irshadvaza.tech)
 
