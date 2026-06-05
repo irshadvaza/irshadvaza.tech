@@ -7,7 +7,7 @@ governance, and enterprise domains across the UAE and GCC region.
 
 - **[AquaticAI](https://github.com/irshadvaza/AquaticAI)** — AI system for aquatic environment monitoring
 - **[Environmental Inspection Copilot](https://github.com/irshadvaza/envinspectionv01)** — RAG-powered regulatory inspection briefings using Azure OpenAI + Groq
-- **[Environmental Data Governance](https://github.com/irshadvaza/data-governance-environmental)** — Data governance framework for environmental datasets
+- **[Enterprise Data Governance](https://github.com/irshadvaza/data-governance-environmental)** — Data governance framework for environmental datasets
 - **SmartSQL** — Natural language to SQL using RAG + Falcon LLM (~$1.52/month)
 - **Data Healing on Databricks** — Automated data quality detection and repair pipelines
 
