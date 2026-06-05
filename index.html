@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Irshad Vaza — AI & Data Specialist</title>
+<meta name="description" content="AI & Data Specialist based in UAE. RAG systems, environmental AI, Falcon LLM, Databricks."/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#0d1b2a;--navy2:#1b2d42;--navy3:#243447;
+  --cyan:#00d4ff;--cyan2:#00a8cc;
+  --orange:#ff6b35;--orange2:#ff8c5a;
+  --green:#00e5a0;--purple:#a855f7;
+  --white:#ffffff;--off:#e2eaf4;--muted:#8ca0b8;--dim:#4a6080;
+  --border:rgba(0,212,255,0.15);--card:#142030;--card2:#1a2a3d;
+}
+html{scroll-behavior:smooth}
+body{background:var(--navy);color:var(--white);font-family:'Inter',sans-serif;font-size:16px;line-height:1.6;overflow-x:hidden}
+::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:var(--navy)}::-webkit-scrollbar-thumb{background:var(--cyan2);border-radius:3px}
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes glow{0%,100%{text-shadow:0 0 20px rgba(0,212,255,0.5)}50%{text-shadow:0 0 40px rgba(0,212,255,0.9),0 0 80px rgba(0,212,255,0.3)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}
+.fade-up{opacity:0;animation:fadeUp 0.8s ease forwards}
+.d1{animation-delay:0.1s}.d2{animation-delay:0.25s}.d3{animation-delay:0.4s}.d4{animation-delay:0.55s}.d5{animation-delay:0.7s}.d6{animation-delay:0.85s}
+nav{position:fixed;top:0;left:0;right:0;z-index:999;display:flex;justify-content:space-between;align-items:center;padding:1rem 3rem;background:rgba(13,27,42,0.92);backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
+.nav-logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1.1rem;color:var(--cyan);letter-spacing:0.05em;text-decoration:none}
+.nav-links{display:flex;gap:2.5rem;list-style:none}
+.nav-links a{color:var(--muted);text-decoration:none;font-size:0.85rem;font-weight:500;letter-spacing:0.04em;transition:color 0.2s}
+.nav-links a:hover{color:var(--cyan)}
+.hero{min-height:100vh;display:flex;align-items:center;padding:8rem 3rem 5rem;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-200px;right:-200px;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(0,212,255,0.08) 0%,transparent 70%);pointer-events:none}
+.hero::after{content:'';position:absolute;bottom:-150px;left:-100px;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(255,107,53,0.07) 0%,transparent 70%);pointer-events:none}
+.hero-inner{max-width:1000px;margin:0 auto;width:100%}
+.hero-badge{display:inline-flex;align-items:center;gap:0.6rem;background:rgba(0,212,255,0.1);border:1px solid rgba(0,212,255,0.3);border-radius:100px;padding:0.4rem 1rem;font-size:0.78rem;font-weight:500;color:var(--cyan);letter-spacing:0.05em;margin-bottom:2rem}
+.hero-badge .dot{width:7px;height:7px;border-radius:50%;background:var(--green);animation:pulse 2s infinite}
+.hero h1{font-family:'Syne',sans-serif;font-size:clamp(3.5rem,8vw,6.5rem);font-weight:800;line-height:1;letter-spacing:-0.02em;margin-bottom:1rem}
+.hero h1 .name-first{color:var(--white)}
+.hero h1 .name-last{color:var(--cyan);animation:glow 3s ease-in-out infinite;display:block}
+.hero-role{font-family:'Syne',sans-serif;font-size:clamp(1rem,2.5vw,1.4rem);font-weight:600;color:var(--orange);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:1.5rem}
+.hero-desc{font-size:1.05rem;color:var(--muted);max-width:580px;line-height:1.8;margin-bottom:2.5rem}
+.hero-tags{display:flex;flex-wrap:wrap;gap:0.6rem;margin-bottom:3rem}
+.htag{padding:0.4rem 1rem;border-radius:4px;font-size:0.78rem;font-weight:500;border:1px solid;transition:all 0.2s;cursor:default}
+.htag-cyan{color:var(--cyan);border-color:rgba(0,212,255,0.3);background:rgba(0,212,255,0.08)}
+.htag-orange{color:var(--orange);border-color:rgba(255,107,53,0.3);background:rgba(255,107,53,0.08)}
+.htag-green{color:var(--green);border-color:rgba(0,229,160,0.3);background:rgba(0,229,160,0.08)}
+.htag-purple{color:var(--purple);border-color:rgba(168,85,247,0.3);background:rgba(168,85,247,0.08)}
+.htag:hover{transform:translateY(-2px)}
+.hero-cta{display:flex;gap:1rem;flex-wrap:wrap}
+.btn{display:inline-block;text-decoration:none;padding:0.85rem 2rem;border-radius:6px;font-weight:600;font-size:0.88rem;letter-spacing:0.04em;transition:all 0.25s;cursor:pointer;border:none}
+.btn-cyan{background:var(--cyan);color:var(--navy)}
+.btn-cyan:hover{background:#33dbff;transform:translateY(-2px);box-shadow:0 8px 30px rgba(0,212,255,0.35)}
+.btn-outline-cyan{background:transparent;color:var(--cyan);border:1.5px solid rgba(0,212,255,0.4)}
+.btn-outline-cyan:hover{border-color:var(--cyan);background:rgba(0,212,255,0.08);transform:translateY(-2px)}
+.btn-outline-white{background:transparent;color:var(--off);border:1.5px solid rgba(255,255,255,0.15)}
+.btn-outline-white:hover{border-color:rgba(255,255,255,0.4);transform:translateY(-2px)}
+.stats-bar{background:var(--card);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:2rem 3rem;display:flex;justify-content:center;gap:0}
+.stat{flex:1;max-width:220px;text-align:center;padding:0 2rem;border-right:1px solid var(--border)}
+.stat:last-child{border-right:none}
+.stat-num{font-family:'Syne',sans-serif;font-weight:800;font-size:2rem;color:var(--cyan);display:block;margin-bottom:0.2rem}
+.stat-label{font-size:0.78rem;color:var(--muted);letter-spacing:0.05em}
+.section{padding:6rem 3rem}
+.section-inner{max-width:1000px;margin:0 auto}
+.section-header{margin-bottom:3.5rem}
+.section-eyebrow{font-size:0.75rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--cyan);margin-bottom:0.8rem;display:flex;align-items:center;gap:0.8rem}
+.section-eyebrow::before{content:'';width:24px;height:2px;background:var(--cyan)}
+.section-title{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(2rem,4vw,3rem);color:var(--white);margin-bottom:0.8rem;line-height:1.1}
+.section-sub{color:var(--muted);font-size:0.95rem;max-width:500px}
+.section-alt{background:var(--card)}
+.projects-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+.proj-card{background:var(--card2);border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:2rem;text-decoration:none;color:inherit;display:flex;flex-direction:column;transition:all 0.3s;position:relative;overflow:hidden}
+.proj-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;border-radius:12px 12px 0 0}
+.proj-card.c-cyan::before{background:linear-gradient(90deg,var(--cyan),var(--cyan2))}
+.proj-card.c-orange::before{background:linear-gradient(90deg,var(--orange),var(--orange2))}
+.proj-card.c-green::before{background:linear-gradient(90deg,var(--green),#00b37a)}
+.proj-card.c-purple::before{background:linear-gradient(90deg,var(--purple),#c084fc)}
+.proj-card.wide{grid-column:span 2}
+.proj-card:not(.disabled):hover{transform:translateY(-5px);border-color:rgba(0,212,255,0.2);box-shadow:0 20px 60px rgba(0,0,0,0.4)}
+.proj-card.disabled{opacity:0.6;pointer-events:none}
+.proj-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1.2rem}
+.proj-icon{font-size:2.2rem;animation:float 4s ease-in-out infinite}
+.proj-num{font-size:0.68rem;color:var(--dim);font-weight:500;letter-spacing:0.1em}
+.proj-title{font-family:'Syne',sans-serif;font-weight:700;font-size:1.25rem;color:var(--white);margin-bottom:0.7rem;line-height:1.2}
+.proj-desc{font-size:0.875rem;color:var(--muted);line-height:1.75;margin-bottom:1.5rem;flex:1}
+.proj-stack{display:flex;flex-wrap:wrap;gap:0.4rem;margin-bottom:1.2rem}
+.pill{font-size:0.68rem;font-weight:500;padding:0.22rem 0.65rem;border-radius:100px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);color:var(--off);letter-spacing:0.03em}
+.proj-footer{display:flex;justify-content:space-between;align-items:center;margin-top:auto;padding-top:1rem;border-top:1px solid rgba(255,255,255,0.06)}
+.proj-link-text{font-size:0.78rem;font-weight:600;color:var(--cyan);letter-spacing:0.05em}
+.proj-arrow{width:32px;height:32px;border-radius:50%;background:rgba(0,212,255,0.1);border:1px solid rgba(0,212,255,0.2);display:flex;align-items:center;justify-content:center;color:var(--cyan);font-size:0.85rem;transition:all 0.2s;text-decoration:none}
+.proj-card:not(.disabled):hover .proj-arrow{background:var(--cyan);color:var(--navy)}
+.coming-tag{display:inline-block;font-size:0.65rem;font-weight:600;padding:0.2rem 0.6rem;border-radius:100px;background:rgba(255,107,53,0.15);border:1px solid rgba(255,107,53,0.3);color:var(--orange);letter-spacing:0.1em}
+.guides-list{display:flex;flex-direction:column;gap:1rem}
+.guide-card{display:grid;grid-template-columns:60px 1fr auto;align-items:center;gap:1.5rem;background:var(--card2);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:1.6rem 2rem;text-decoration:none;color:inherit;transition:all 0.25s}
+.guide-card:hover{transform:translateX(6px);border-color:rgba(0,212,255,0.25);background:var(--navy3)}
+.guide-n{width:50px;height:50px;border-radius:10px;background:rgba(0,212,255,0.1);border:1px solid rgba(0,212,255,0.2);display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif;font-weight:800;font-size:1.1rem;color:var(--cyan)}
+.guide-title{font-family:'Syne',sans-serif;font-weight:700;font-size:1.05rem;color:var(--white);margin-bottom:0.3rem}
+.guide-topics{font-size:0.8rem;color:var(--muted)}
+.guide-badge{font-size:0.65rem;font-weight:700;padding:0.3rem 0.8rem;border-radius:100px;letter-spacing:0.1em;white-space:nowrap}
+.badge-live{background:rgba(0,229,160,0.12);border:1px solid rgba(0,229,160,0.3);color:var(--green)}
+.badge-new{background:rgba(0,212,255,0.12);border:1px solid rgba(0,212,255,0.3);color:var(--cyan)}
+.stack-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:1rem}
+.stack-card{background:var(--card2);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:1.2rem;transition:all 0.25s;text-align:center}
+.stack-card:hover{transform:translateY(-4px);border-color:rgba(0,212,255,0.2);box-shadow:0 10px 30px rgba(0,0,0,0.3)}
+.stack-emoji{font-size:1.8rem;margin-bottom:0.5rem;display:block}
+.stack-cat{font-size:0.62rem;color:var(--cyan);font-weight:600;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:0.25rem}
+.stack-name{font-size:0.82rem;color:var(--off);font-weight:500}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem}
+.contact-info h2{font-family:'Syne',sans-serif;font-weight:800;font-size:2.2rem;color:var(--white);margin-bottom:1rem;line-height:1.15}
+.contact-info p{color:var(--muted);font-size:0.95rem;line-height:1.8;margin-bottom:2rem}
+.contact-links{display:flex;flex-direction:column;gap:0.8rem}
+.contact-link{display:flex;align-items:center;gap:0.8rem;text-decoration:none;padding:0.9rem 1.2rem;border-radius:8px;border:1px solid rgba(255,255,255,0.08);background:var(--card2);transition:all 0.2s;color:var(--off);font-size:0.88rem;font-weight:500}
+.contact-link:hover{border-color:var(--cyan);color:var(--cyan);transform:translateX(4px)}
+.contact-link-icon{font-size:1.1rem;width:20px;text-align:center}
+.contact-visual{background:var(--card2);border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:2.5rem;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;position:relative;overflow:hidden}
+.contact-visual::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 50%,rgba(0,212,255,0.06) 0%,transparent 70%)}
+.cv-big{font-family:'Syne',sans-serif;font-weight:800;font-size:4rem;color:var(--cyan);opacity:0.15;position:absolute;bottom:1rem;right:1.5rem;letter-spacing:-0.05em}
+.cv-title{font-family:'Syne',sans-serif;font-weight:700;font-size:1.2rem;color:var(--white);margin-bottom:0.5rem}
+.cv-sub{font-size:0.85rem;color:var(--muted);margin-bottom:1.5rem}
+.cv-location{display:flex;align-items:center;gap:0.4rem;font-size:0.8rem;color:var(--cyan);margin-bottom:1.5rem;font-weight:500}
+footer{background:var(--card);border-top:1px solid var(--border);padding:2rem 3rem;display:flex;justify-content:space-between;align-items:center}
+.footer-left{font-family:'Syne',sans-serif;font-weight:700;font-size:0.85rem;color:var(--muted)}
+.footer-left span{color:var(--cyan)}
+.footer-right{display:flex;gap:1.5rem}
+.footer-right a{font-size:0.8rem;color:var(--dim);text-decoration:none;transition:color 0.2s}
+.footer-right a:hover{color:var(--cyan)}
+.divider{height:1px;background:var(--border)}
+@media(max-width:768px){
+  nav{padding:1rem 1.5rem}.nav-links{display:none}
+  .hero{padding:7rem 1.5rem 4rem}
+  .stats-bar{flex-direction:column;gap:1.5rem;padding:2rem 1.5rem}
+  .stat{border-right:none;border-bottom:1px solid var(--border);padding-bottom:1.5rem;max-width:100%}
+  .stat:last-child{border-bottom:none}
+  .section{padding:4rem 1.5rem}
+  .projects-grid{grid-template-columns:1fr}
+  .proj-card.wide{grid-column:span 1}
+  .guide-card{grid-template-columns:50px 1fr;gap:1rem}.guide-badge{display:none}
+  .contact-grid{grid-template-columns:1fr}.contact-visual{display:none}
+  footer{flex-direction:column;gap:1rem;text-align:center;padding:1.5rem}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="#">IRSHAD VAZA</a>
+  <ul class="nav-links">
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#guides">Guides</a></li>
+    <li><a href="#stack">Stack</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge fade-up d1"><span class="dot"></span>Based in Ajman, UAE &middot; Open to Collaborations</div>
+    <h1 class="fade-up d2"><span class="name-first">Irshad</span><span class="name-last">Vaza</span></h1>
+    <p class="hero-role fade-up d3">AI &amp; Data Specialist</p>
+    <p class="hero-desc fade-up d4">Building RAG pipelines, agentic AI systems, and environmental intelligence solutions for real-world problems across the Gulf region.</p>
+    <div class="hero-tags fade-up d5">
+      <span class="htag htag-cyan">Falcon LLM</span>
+      <span class="htag htag-cyan">RAG Systems</span>
+      <span class="htag htag-orange">Azure OpenAI</span>
+      <span class="htag htag-orange">LangChain</span>
+      <span class="htag htag-green">Databricks</span>
+      <span class="htag htag-green">Environmental AI</span>
+      <span class="htag htag-purple">Arabic NLP</span>
+      <span class="htag htag-purple">Data Governance</span>
+    </div>
+    <div class="hero-cta fade-up d6">
+      <a href="#projects" class="btn btn-cyan">View My Work</a>
+      <a href="https://github.com/irshadvaza" target="_blank" class="btn btn-outline-cyan">GitHub Profile</a>
+      <a href="mailto:aiandsmartdata@gmail.com" class="btn btn-outline-white">Get in Touch</a>
+    </div>
+  </div>
+</section>
+
+<div class="stats-bar">
+  <div class="stat"><span class="stat-num">5+</span><span class="stat-label">AI Projects Built</span></div>
+  <div class="stat"><span class="stat-num">3</span><span class="stat-label">Deep Learning Guides</span></div>
+  <div class="stat"><span class="stat-num">$1.52</span><span class="stat-label">SmartSQL / Month</span></div>
+  <div class="stat"><span class="stat-num">UAE</span><span class="stat-label">Gulf Region Focus</span></div>
+</div>
+
+<section class="section" id="projects">
+  <div class="section-inner">
+    <div class="section-header">
+      <p class="section-eyebrow">01 &mdash; Work</p>
+      <h2 class="section-title">AI Solutions Built</h2>
+      <p class="section-sub">End-to-end AI systems solving real domain problems in environmental compliance, data quality, and enterprise intelligence.</p>
+    </div>
+    <div class="projects-grid">
+
+      <a class="proj-card c-cyan" href="https://github.com/irshadvaza/AquaticAI" target="_blank">
+        <div class="proj-top"><span class="proj-icon">&#127754;</span><span class="proj-num">01</span></div>
+        <h3 class="proj-title">AquaticAI</h3>
+        <p class="proj-desc">AI-powered intelligence system for aquatic environment monitoring and analysis. Processes environmental data to surface actionable insights and support decision-making in aquatic domains.</p>
+        <div class="proj-stack"><span class="pill">Python</span><span class="pill">AI/ML</span><span class="pill">Environmental</span></div>
+        <div class="proj-footer"><span class="proj-link-text">VIEW PROJECT</span><span class="proj-arrow">&#8594;</span></div>
+      </a>
+
+      <a class="proj-card c-orange" href="https://github.com/irshadvaza/envinspectionv01" target="_blank">
+        <div class="proj-top"><span class="proj-icon">&#128269;</span><span class="proj-num">02</span></div>
+        <h3 class="proj-title">Environmental Inspection Copilot</h3>
+        <p class="proj-desc">Upload permits, EIA studies, and compliance documents to generate intelligent "Lookout For" inspection briefings, detect environmental risks, and support smarter regulatory decision-making.</p>
+        <div class="proj-stack"><span class="pill">Azure OpenAI</span><span class="pill">Groq</span><span class="pill">LangChain</span><span class="pill">RAG</span><span class="pill">Streamlit</span></div>
+        <div class="proj-footer"><span class="proj-link-text">VIEW PROJECT</span><span class="proj-arrow">&#8594;</span></div>
+      </a>
+
+      <a class="proj-card c-green" href="https://github.com/irshadvaza/data-governance-environmental" target="_blank">
+        <div class="proj-top"><span class="proj-icon">&#128202;</span><span class="proj-num">03</span></div>
+        <h3 class="proj-title">Environmental Data Governance</h3>
+        <p class="proj-desc">Structured data governance framework for environmental datasets covering quality, lineage, classification, and regulatory compliance to ensure data meets operational and legal standards.</p>
+        <div class="proj-stack"><span class="pill">Data Governance</span><span class="pill">Compliance</span><span class="pill">Environmental</span></div>
+        <div class="proj-footer"><span class="proj-link-text">VIEW PROJECT</span><span class="proj-arrow">&#8594;</span></div>
+      </a>
+
+      <div class="proj-card c-purple disabled">
+        <div class="proj-top"><span class="proj-icon">&#128172;</span><span class="proj-num">04</span></div>
+        <h3 class="proj-title">SmartSQL</h3>
+        <p class="proj-desc">Natural language to SQL using RAG + Falcon LLM. Your database schema lives in a vector store &mdash; ask questions in plain English, get accurate SQL back. Running cost: ~$1.52/month.</p>
+        <div class="proj-stack"><span class="pill">Falcon LLM</span><span class="pill">RAG</span><span class="pill">Vector DB</span><span class="pill">Python</span></div>
+        <div class="proj-footer"><span class="coming-tag">COMING SOON</span></div>
+      </div>
+
+      <div class="proj-card c-cyan disabled wide">
+        <div class="proj-top"><span class="proj-icon">&#128296;</span><span class="proj-num">05</span></div>
+        <h3 class="proj-title">Data Healing &mdash; Databricks</h3>
+        <p class="proj-desc">Automated data quality detection and repair pipeline on the Databricks Lakehouse platform. Detects anomalies, missing values, schema drift, and data quality issues &mdash; then applies intelligent automated remediation strategies at scale across large enterprise data pipelines.</p>
+        <div class="proj-stack"><span class="pill">Databricks</span><span class="pill">PySpark</span><span class="pill">Delta Lake</span><span class="pill">Data Quality</span><span class="pill">Automation</span><span class="pill">Azure</span></div>
+        <div class="proj-footer"><span class="coming-tag">DOCUMENTATION COMING SOON</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section class="section section-alt" id="guides">
+  <div class="section-inner">
+    <div class="section-header">
+      <p class="section-eyebrow">02 &mdash; Knowledge</p>
+      <h2 class="section-title">AI Architecture Guides</h2>
+      <p class="section-sub">Deep-dive technical guides written in plain language &mdash; real analogies, ASCII diagrams, step-by-step walkthroughs, and interview Q&amp;A.</p>
+    </div>
+    <div class="guides-list">
+      <a class="guide-card" href="https://github.com/irshadvaza/irshadvaza.tech/blob/main/learning-guides/ai-architect-guide/transformers.md" target="_blank">
+        <div class="guide-n">01</div>
+        <div><div class="guide-title">Transformers &mdash; In Depth</div><div class="guide-topics">Self-attention &middot; Positional encoding &middot; Why LSTMs failed &middot; How GPT works &middot; Interview Q&amp;A</div></div>
+        <span class="guide-badge badge-live">LIVE</span>
+      </a>
+      <a class="guide-card" href="https://github.com/irshadvaza/irshadvaza.tech/blob/main/learning-guides/ai-architect-guide/beyond-transformers.md" target="_blank">
+        <div class="guide-n">02</div>
+        <div><div class="guide-title">Beyond Transformers</div><div class="guide-topics">RAG &middot; AI Agents &middot; Mixture of Experts &middot; Mamba &middot; Mamba 2 &middot; Jamba &middot; Falcon H1</div></div>
+        <span class="guide-badge badge-new">NEW</span>
+      </a>
+      <a class="guide-card" href="https://github.com/irshadvaza/irshadvaza.tech/tree/main/learning-guides/falcon-llm" target="_blank">
+        <div class="guide-n">03</div>
+        <div><div class="guide-title">Falcon LLM &mdash; TII's Model Family</div><div class="guide-topics">Falcon 7B &middot; Falcon 40B &middot; Falcon H1 &middot; Arabic NLP &middot; UAE AI ecosystem</div></div>
+        <span class="guide-badge badge-live">LIVE</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section class="section" id="stack">
+  <div class="section-inner">
+    <div class="section-header">
+      <p class="section-eyebrow">03 &mdash; Tools</p>
+      <h2 class="section-title">Tech Stack</h2>
+      <p class="section-sub">The platforms, frameworks, and tools I build with every day.</p>
+    </div>
+    <div class="stack-grid">
+      <div class="stack-card"><span class="stack-emoji">&#129417;</span><div class="stack-cat">LLM</div><div class="stack-name">Falcon LLM</div></div>
+      <div class="stack-card"><span class="stack-emoji">&#9729;&#65039;</span><div class="stack-cat">LLM</div><div class="stack-name">Azure OpenAI</div></div>
+      <div class="stack-card"><span class="stack-emoji">&#9889;</span><div class="stack-cat">LLM</div><div class="stack-name">Groq</div></div>
+      <div class="stack-card"><span class="stack-emoji">&#129303;</span><div class="stack-cat">LLM</div><div class="stack-name">HuggingFace</div></div>
+      <div class="stack-card"><span class="stack-emoji">&#128279;</span><div class="stack-cat">Framework</div><div class="stack-name">LangChain</div></div>
+      <div class="stack-card"><span class="stack-emoji">&#128218;</span><div class="stack-cat">Pattern</div><div class="stack-name">RAG Pipelines</div></div>
+      <div class="stack-card"><span class="stack-emoji">&#127888;</span><div class="stack-cat">UI</div><div class="stack-name">Streamlit</div></div>
+      <div class="stack-card"><span class="stack-emoji">&#9889;</span><div class="stack-cat">Platform</div><div class="stack-name">Databricks</div></div>
+      <div class="stack-card"><span class="stack-emoji">&#128190;</span><div class="stack-cat">Storage</div><div class="stack-name">Delta Lake</div></div>
+      <div class="stack-card"><span class="stack-emoji">&#128013;</span><div class="stack-cat">Language</div><div class="stack-name">Python</div></div>
+      <div class="stack-card"><span class="stack-emoji">&#128451;&#65039;</span><div class="stack-cat">Language</div><div class="stack-name">SQL</div></div>
+      <div class="stack-card"><span class="stack-emoji">&#9729;</span><div class="stack-cat">Cloud</div><div class="stack-name">Microsoft Azure</div></div>
+      <div class="stack-card"><span class="stack-emoji">&#129504;</span><div class="stack-cat">Storage</div><div class="stack-name">Vector Databases</div></div>
+      <div class="stack-card"><span class="stack-emoji">&#127807;</span><div class="stack-cat">Domain</div><div class="stack-name">Environmental AI</div></div>
+      <div class="stack-card"><span class="stack-emoji">&#127758;</span><div class="stack-cat">Domain</div><div class="stack-name">Arabic NLP</div></div>
+      <div class="stack-card"><span class="stack-emoji">&#128202;</span><div class="stack-cat">Domain</div><div class="stack-name">Data Governance</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section class="section section-alt" id="contact">
+  <div class="section-inner">
+    <div class="section-header">
+      <p class="section-eyebrow">04 &mdash; Connect</p>
+      <h2 class="section-title">Let's Build Something</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p>Open to collaborations in AI, LLMs, environmental tech, and data solutions across UAE &amp; GCC. Whether it's a project, consultation, or a conversation about AI &mdash; reach out.</p>
+        <div class="contact-links">
+          <a class="contact-link" href="mailto:aiandsmartdata@gmail.com"><span class="contact-link-icon">&#9993;&#65039;</span>aiandsmartdata@gmail.com</a>
+          <a class="contact-link" href="https://github.com/irshadvaza" target="_blank"><span class="contact-link-icon">&#128187;</span>github.com/irshadvaza</a>
+          <a class="contact-link" href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank"><span class="contact-link-icon">&#128279;</span>LinkedIn Profile</a>
+        </div>
+      </div>
+      <div class="contact-visual">
+        <div class="cv-title">Irshad Vaza</div>
+        <div class="cv-sub">AI &amp; Data Specialist</div>
+        <div class="cv-location">&#128205; Ajman, United Arab Emirates</div>
+        <a href="mailto:aiandsmartdata@gmail.com" class="btn btn-cyan">Send a Message</a>
+        <div class="cv-big">AI</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-left"><span>IRSHAD VAZA</span> &middot; AI &amp; Data Specialist &middot; UAE &middot; 2025</div>
+  <div class="footer-right">
+    <a href="https://github.com/irshadvaza/irshadvaza.tech" target="_blank">Source</a>
+    <a href="https://github.com/irshadvaza" target="_blank">GitHub</a>
+    <a href="mailto:aiandsmartdata@gmail.com">Email</a>
+  </div>
+</footer>
+
+</body>
+</html>
