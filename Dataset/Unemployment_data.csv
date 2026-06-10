@@ -1,0 +1,1525 @@
+Year,Month,State,Labor Force,Employed,Unemployed,Unemployment Rate,Industry,Gender,Education Level
+2021,Jan,CA,100000,90000,10000,10.00%,Tech,Male,Bachelor's degree
+2021,Jan,CA,150000,135000,15000,10.00%,Retail,Female,High school diploma
+2021,Jan,NY,120000,108000,12000,10.00%,Manufacturing,Male,Associate's degree
+2021,Jan,NY,85000,76500,8500,10.00%,Finance,Female,High school diploma
+2021,Feb,NY,120000,110000,10000,8.33%,Finance,Male,Master's degree
+2021,Feb,NY,80000,72000,8000,10.00%,Healthcare,Female,Associate's degree
+2021,Feb,CA,180000,162000,18000,10.00%,Energy,Male,Bachelor's degree
+2021,Feb,CA,95000,85500,9500,10.00%,Retail,Female,High school diploma
+2021,Mar,CA,180000,162000,18000,10.00%,Energy,Male,Bachelor's degree
+2021,Mar,CA,90000,81000,9000,10.00%,Education,Female,High school diploma
+2021,Mar,NY,820000,739000,81000,9.88%,Finance,Male,Master's degree
+2021,Mar,NY,305000,275000,30000,9.84%,Retail,Female,Associate's degree
+2021,Apr,CA,130000,117000,13000,10.00%,Hospitality,Male,Bachelor's degree
+2021,Apr,CA,95000,85500,9500,10.00%,Agriculture,Female,High school diploma
+2021,Apr,NY,135000,121500,13500,10.00%,Agriculture,Male,High school diploma
+2021,Apr,NY,95000,85500,9500,10.00%,Healthcare,Female,Bachelor's degree
+2021,May,NY,110000,99000,11000,10.00%,Manufacturing,Male,Master's degree
+2021,May,NY,68000,63000,5000,7.35%,Retail,Female,Associate's degree
+2021,May,CA,180000,162000,18000,10.00%,Retail,Male,High school diploma
+2021,May,CA,105000,94500,10500,10.00%,Manufacturing,Female,Bachelor's degree
+2021,Jun,NY,170000,153000,17000,10.00%,Finance,Male,Bachelor's degree
+2021,Jun,NY,80000,72000,8000,10.00%,Healthcare,Female,High school diploma
+2021,Jun,CA,15282000,14079000,1203000,7.87%,Education,Female,Bachelor's degree
+2021,Jun,CA,11374000,10516000,858000,7.54%,Healthcare,Male,High school diploma
+2021,Jul,CA,120000,108000,12000,10.00%,Tech,Male,Bachelor's degree
+2021,Jul,CA,100000,90000,10000,10.00%,Education,Female,High school diploma
+2021,Jul,NY,980000,882000,98000,10.00%,Agriculture,Male,High school diploma
+2021,Jul,NY,415000,373500,41500,10.00%,Healthcare,Female,Bachelor's degree
+2021,Aug,NY,130000,117000,13000,10.00%,Retail,Male,Master's degree
+2021,Aug,NY,85000,76500,8500,10.00%,Hospitality,Female,Associate
+2021,Aug,CA,77000,65450,11550,15.00%,Manufacturing,Male,Bachelor's degree
+2021,Aug,CA,52000,44200,7800,15.00%,Retail,Female,High school diploma
+2021,Sep,CA,15321000,14181000,1140000,7.44%,Energy,Female,Associate's degree
+2021,Sep,CA,11404000,10546000,858000,7.52%,Education,Male,High school diploma
+2021,Sep,NY,190000,171000,19000,10.00%,Energy,Male,Bachelor's degree
+2021,Sep,NY,100000,90000,10000,10.00%,Healthcare,Female,High school diploma
+2021,Oct,CA,140000,126000,14000,10.00%,Manufacturing,Male,Bachelor's degree
+2021,Oct,CA,105000,94500,10500,10.00%,Retail,Female,High school diploma
+1998,Oct,NY,817000,754000,63000,7.71%,Agriculture,Male,Bachelor's degree
+1998,Oct,NY,407000,378000,29000,7.13%,Retail,Female,High school diploma
+2021,Nov,NY,115000,103500,11500,10.00%,Finance,Male,Master's degree
+2021,Nov,NY,75000,67500,7500,10.00%,Education,Female,Associate's degree
+2021,Nov,CA,150000,135000,15000,10.00%,Manufacturing,Male,Bachelor's degree
+2021,Nov,CA,115000,103500,11500,10.00%,Retail,Female,High school diploma
+2021,Dec,NY,160000,144000,16000,10.00%,Agriculture,Male,Bachelor's degree
+2021,Dec,NY,85000,76500,8500,10.00%,Healthcare,Female,High school diploma
+2021,Dec,CA,190000,171000,19000,10.00%,Energy,Male,Bachelor's degree
+2021,Dec,CA,100000,90000,10000,10.00%,Healthcare,Female,High school diploma
+2022,Jan,CA,125000,112500,12500,10.00%,Technology,Male,Bachelor's degree
+2022,Jan,CA,65400,62000,3400,5.20%,Healthcare,Female,High school diploma
+2022,Jan,NY,130000,117000,13000,10.00%,Retail,Male,Bachelor's degree
+2022,Jan,NY,90000,81000,9000,10.00%,Healthcare,Female,High school diploma
+2022,Feb,NY,120000,108000,12000,10.00%,Finance,Male,Master's degree
+2022,Feb,NY,75000,67500,7500,10.00%,Education,Female,Associate's degree
+2022,Feb,CA,1060000,961000,99000,9.34%,Manufacturing,Male,Bachelor's degree
+2022,Feb,CA,650000,589000,61000,9.38%,Education,Female,High school diploma
+2022,Mar,NY,180000,162000,18000,10.00%,Energy,Male,Bachelor's degree
+2022,Mar,NY,95000,85500,9500,10.00%,Retail,Female,High school diploma
+2022,Mar,CA,230000,207000,23000,10.00%,Agriculture,Male,Bachelor's degree
+2022,Mar,CA,120000,108000,12000,10.00%,Healthcare,Female,High school diploma
+2022,Apr,CA,135000,121500,13500,10.00%,Manufacturing,Male,Bachelor's degree
+2022,Apr,CA,90000,81000,9000,10.00%,Healthcare,Female,High school diploma
+2022,Apr,NY,875000,788000,87000,9.94%,Agriculture,Male,High school diploma
+2022,Apr,NY,325000,293000,32000,9.85%,Healthcare,Female,Bachelor's degree
+2022,May,NY,115000,103500,11500,10.00%,Technology,Male,Bachelor's degree
+2022,May,NY,70000,63000,7000,10.00%,Education,Female,Associate's degree
+2022,May,CA,1270000,1148000,122000,9.61%,Manufacturing,Male,Bachelor's degree
+2022,May,CA,750000,675000,75000,10.00%,Retail,Female,High school diploma
+2022,Jun,NY,160000,144000,16000,10.00%,Energy,Male,Bachelor's degree
+2022,Jun,NY,85000,76500,8500,10.00%,Retail,Female,High school diploma
+2022,Jun,CA,15301000,14138000,1163000,7.60%,Agriculture,Female,High school diploma
+2022,Jun,CA,11389000,10531000,858000,7.53%,Healthcare,Male,Bachelor's degree
+2022,Jul,CA,130000,117000,13000,10.00%,Manufacturing,Male,Bachelor's degree
+2022,Jul,CA,85000,76500,8500,10.00%,Healthcare,Female,High school diploma
+2022,Jul,NY,980000,882000,98000,10.00%,Agriculture,Male,High school diploma
+2022,Jul,NY,415000,373500,41500,10.00%,Healthcare,Female,Bachelor's degree
+2022,Aug,NY,110000,99000,11000,10.00%,Finance,Male,Master's degree
+2022,Aug,NY,75000,67500,7500,10.00%,Education,Female,Associate's
+2022,Aug,CA,150000,133100,16900,11.27%,Finance,Male,Master's degree
+2022,Aug,CA,95000,85500,9500,10.00%,Retail,Female,Bachelor's degree
+2022,Sep,NY,200000,180000,20000,10.00%,Energy,Male,Bachelor's degree
+2022,Sep,NY,105000,94500,10500,10.00%,Healthcare,Female,High school diploma
+2022,Sep,CA,140000,126000,14000,10.00%,Manufacturing,Male,Bachelor's degree
+2022,Sep,CA,90000,81000,9000,10.00%,Retail,Female,High school diploma
+2022,Oct,CA,145000,130500,14500,10.00%,Manufacturing,Male,Bachelor's degree
+2022,Oct,CA,110000,99000,11000,10.00%,Retail,Female,High school diploma
+2022,Oct,NY,87000,73950,13050,15.00%,Energy,Male,Bachelor's degree
+2022,Oct,NY,46000,39100,6900,15.00%,Healthcare,Female,High school diploma
+2022,Nov,NY,120000,98000,22000,18.33%,Finance,Male,Master's degree
+2022,Nov,NY,80000,72000,8000,10.00%,Education,Female,Associate's degree
+2022,Nov,CA,60000,51000,9000,15.00%,Manufacturing,Male,Master's degree
+2022,Nov,CA,39000,33150,5850,15.00%,Retail,Female,Associate's degree
+2022,Dec,NY,170000,153000,17000,10.00%,Agriculture,Male,Bachelor's degree
+2022,Dec,NY,90000,81000,9000,10.00%,Healthcare,Female,High school diploma
+2022,Dec,CA,125000,115625,9375,7.50%,Manufacturing,Male,Master's degree
+2022,Dec,CA,110000,101400,8600,7.82%,Retail,Female,High school diploma
+2023,Jan,NY,130000,117000,13000,10.00%,Technology,Male,Bachelor's degree
+2023,Jan,NY,85000,76500,8500,10.00%,Retail,Female,High school diploma
+2023,Jan,CA,105000,94500,10500,10.00%,Retail,Male,Bachelor's degree
+2023,Jan,CA,75000,67500,7500,10.00%,Education,Female,High school diploma
+2023,Feb,CA,150000,135000,15000,10.00%,Manufacturing,Male,Bachelor's degree
+2023,Feb,CA,115000,93500,21500,18.70%,Retail,Female,High school diploma
+2023,Feb,NY,120000,108000,12000,10.00%,Manufacturing,Male,Associate's degree
+2023,Feb,NY,85000,76500,8500,10.00%,Finance,Female,High school diploma
+2023,Mar,NY,125000,112500,12500,10.00%,Finance,Male,Master's degree
+2023,Mar,NY,75000,67500,7500,10.00%,Education,Female,Associate's degree
+2023,Mar,CA,15282000,14079000,1203000,7.87%,Education,Female,Bachelor's degree
+2023,Mar,CA,11374000,10516000,858000,7.54%,Healthcare,Male,High school diploma
+2023,Apr,NY,190000,171000,19000,10.00%,Energy,Male,Bachelor's degree
+2023,Apr,NY,100000,90000,10000,10.00%,Healthcare,Female,Bachelor's degree
+2023,Apr,CA,135000,121500,13500,10.00%,Agriculture,Male,High school diploma
+2023,Apr,CA,95000,85500,9500,10.00%,Wholesale Trade,Female,Bachelor's degree
+1995,Jan,NY,790000,712000,78000,9.87%,Retail,Male,High school diploma
+1995,Jan,NY,215000,195000,20000,9.30%,Healthcare,Female,Bachelor's degree
+1995,Jan,CA,130000,117000,13000,10.00%,Retail,Male,Bachelor's degree
+1995,Jan,CA,90000,81000,9000,10.00%,Healthcare,Female,High school diploma
+1995,Feb,CA,1060000,961000,99000,9.34%,Manufacturing,Male,Bachelor's degree
+1995,Feb,CA,650000,589000,61000,9.38%,Education,Female,High school diploma
+1995,Feb,NY,126000,115000,11000,8.73%,Agriculture,Male,Master's degree
+1995,Feb,NY,86000,78000,8000,9.30%,Retail,Female,Associate's degree
+1995,Mar,NY,820000,739000,81000,9.88%,Finance,Male,Master's degree
+1995,Mar,NY,305000,275000,30000,9.84%,Retail,Female,Associate's degree
+1995,Mar,CA,130000,120750,9250,7.12%,Manufacturing,Male,Master's degree
+1995,Mar,CA,115000,106950,8050,7.00%,Retail,Female,Bachelor's degree
+1995,Apr,NY,875000,788000,87000,9.94%,Agriculture,Male,High school diploma
+1995,Apr,NY,325000,293000,32000,9.85%,Healthcare,Female,Bachelor's degree
+1995,Apr,CA,140000,126000,14000,10.00%,Wholesale Trade,Male,Bachelor's degree
+1995,Apr,CA,105000,94500,10500,10.00%,Retail,Female,High school diploma
+1995,May,CA,1270000,1148000,122000,9.61%,Manufacturing,Male,Bachelor's degree
+1995,May,CA,690000,675000,15000,2.17%,Retail,Female,High school diploma
+1995,May,NY,170000,144500,25500,15.00%,Manufacturing,Male,High school diploma
+1995,May,NY,110000,93500,16500,15.00%,Education,Female,Master's degree
+1995,Jun,NY,895000,805500,89500,10.00%,Finance,Male,Master's degree
+1995,Jun,NY,405000,364500,40500,10.00%,Education,Female,Associate's degree
+1995,Jun,CA,135000,126900,8100,6.00%,Manufacturing,Male,Master's degree
+1995,Jun,CA,120000,112200,7800,6.50%,Retail,Female,High school diploma
+1995,Jul,NY,980000,882000,98000,10.00%,Agriculture,Male,High school diploma
+1995,Jul,NY,415000,373500,41500,10.00%,Healthcare,Female,Bachelor's degree
+1995,Jul,CA,140000,126000,14000,10.00%,Manufacturing,Male,Bachelor's degree
+1995,Jul,CA,105000,94500,10500,10.00%,Retail,Female,High school diploma
+1995,Aug,CA,1440000,1296000,144000,10.00%,Manufacturing,Male,Bachelor's degree
+1995,Aug,CA,900000,810000,90000,10.00%,Retail,Female,High school
+1995,Aug,NY,200000,180000,20000,10.00%,Energy,Male,Bachelor's degree
+1995,Aug,NY,105000,94500,10500,10.00%,Healthcare,Female,High school diploma
+1995,Sep,NY,110000,99000,11000,10.00%,Wholesale Trade,Male,High school diploma
+1995,Sep,NY,80000,72000,8000,10.00%,Healthcare,Female,Bachelor's degree
+1995,Sep,CA,140000,126000,14000,10.00%,Manufacturing,Male,Bachelor's degree
+1995,Sep,CA,90000,81000,9000,10.00%,Retail,Female,High school diploma
+1995,Oct,CA,125000,112500,12500,10.00%,Manufacturing,Male,High school diploma
+1995,Oct,CA,95000,85500,9500,10.00%,Finance,Female,Master's degree
+1995,Oct,NY,118000,107000,11000,9.32%,Finance,Male,Bachelor's degree
+1995,Oct,NY,71000,64000,7000,9.86%,Agriculture,Female,High school diploma
+1995,Nov,NY,105000,94500,10500,10.00%,Education,Male,Associate's degree
+1995,Nov,NY,70000,63000,7000,10.00%,Energy,Female,High school diploma
+1995,Nov,CA,132000,121000,11000,8.33%,Healthcare,Male,Master's degree
+1995,Nov,CA,88000,80000,8000,9.09%,Retail,Female,Associate's degree
+1995,Dec,NY,140000,126000,14000,10.00%,Wholesale Trade,Male,Bachelor's degree
+1995,Dec,NY,75000,67500,7500,10.00%,Healthcare,Female,High school diploma
+1995,Dec,CA,220000,202400,17600,8.00%,Manufacturing,Male,Bachelor's degree
+1995,Dec,CA,105000,94500,10500,10.00%,Retail,Female,High school diploma
+1996,Jan,CA,130000,117000,13000,10.00%,Retail,Male,Bachelor's degree
+1996,Jan,CA,90000,81000,9000,10.00%,Healthcare,Female,High school diploma
+1996,Jan,NY,131200,120500,10700,8.16%,Retail,Male,Bachelor's degree
+1996,Jan,NY,90000,81000,9000,10.00%,Healthcare,Female,High school diploma
+1996,Feb,NY,120000,108000,12000,10.00%,Manufacturing,Male,Associate's degree
+1996,Feb,NY,85000,76500,8500,10.00%,Finance,Female,High school diploma
+1996,Feb,CA,80000,68000,12000,15.00%,Manufacturing,Male,Associate's degree
+1996,Feb,CA,75000,68000,7000,9.33%,Finance,Female,High school diploma
+1996,Mar,NY,150000,135000,15000,10.00%,Education,Male,Master's degree
+1996,Mar,NY,70000,63000,7000,10.00%,Energy,Female,High school diploma
+1996,Mar,CA,131200,120500,10700,8.16%,Education,Male,Master's degree
+1996,Mar,CA,75000,69000,6000,8.00%,Wholesale Trade,Female,High school diploma
+1996,Apr,CA,135000,121500,13500,10.00%,Agriculture,Male,High school diploma
+1996,Apr,CA,95000,85500,9500,10.00%,Healthcare,Female,Bachelor's degree
+1996,Apr,NY,88000,80000,8000,9.09%,Agriculture,Male,High school diploma
+1996,Apr,NY,75000,68000,7000,9.33%,Healthcare,Female,Bachelor's degree
+1996,May,NY,115000,103500,11500,10.00%,Retail,Male,Associate's degree
+1996,May,NY,75000,67500,7500,10.00%,Finance,Female,High school diploma
+1996,May,CA,95000,85500,9500,10.00%,Retail,Male,Associate's degree
+1996,May,CA,80000,67500,12500,15.63%,Finance,Female,High school diploma
+1996,Jun,NY,160000,144000,16000,10.00%,Manufacturing,Male,Bachelor's degree
+1996,Jun,NY,85000,76500,8500,10.00%,Healthcare,Female,High school diploma
+1996,Jun,CA,30000,25500,4500,15.00%,Manufacturing,Male,Bachelor's degree
+1996,Jun,CA,60000,51000,9000,15.00%,Healthcare,Female,High school diploma
+1996,Jul,NY,118000,100300,17700,15.00%,Education,Male,Bachelor's degree
+1996,Jul,NY,62000,52700,9300,15.00%,Retail,Female,High school diploma
+1996,Jul,CA,98000,83300,14700,15.00%,Education,Male,Bachelor's degree
+1996,Jul,CA,75000,52700,22300,29.73%,Retail,Female,High school diploma
+1996,Aug,CA,80000,68000,12000,15.00%,Healthcare,Male,Master's degree
+1996,Aug,CA,52000,44200,7800,15.00%,Wholesale Trade,Female,Associate's degree
+1996,Aug,NY,15282000,7800500,7481500,48.96%,Healthcare,Male,Master's degree
+1996,Aug,NY,52000,44200,7800,15.00%,Manufacturing,Female,Associate's degree
+1996,Sep,NY,62000,52700,9300,15.00%,Finance,Male,Bachelor's degree
+1996,Sep,NY,40000,34000,6000,15.00%,Agriculture,Female,High school diploma
+1996,Sep,CA,66000,52700,13300,20.15%,Finance,Male,Bachelor's degree
+1996,Sep,CA,11374000,11134000,240000,2.11%,Agriculture,Female,High school diploma
+1996,Oct,NY,87000,73950,13050,15.00%,Energy,Male,Bachelor's degree
+1996,Oct,NY,46000,39100,6900,15.00%,Healthcare,Female,High school diploma
+1996,Oct,CA,118000,73950,44050,37.33%,Energy,Male,Bachelor's degree
+1996,Oct,CA,66000,39100,26900,40.76%,Healthcare,Female,High school diploma
+1996,Nov,CA,60000,51000,9000,15.00%,Manufacturing,Male,Master's degree
+1996,Nov,CA,39000,33150,5850,15.00%,Retail,Female,Associate's degree
+1996,Nov,NY,80000,68000,12000,15.00%,Manufacturing,Male,Master's degree
+1996,Nov,NY,52000,44200,7800,15.00%,Retail,Female,Associate's degree
+1996,Dec,NY,46000,39100,6900,15.00%,Education,Male,Bachelor's degree
+1996,Dec,NY,30000,25500,4500,15.00%,Healthcare,Female,High school diploma
+1996,Dec,CA,15301000,14138000,1163000,7.60%,Education,Male,Bachelor's degree
+1996,Dec,CA,11389000,10531000,858000,7.53%,Healthcare,Female,High school diploma
+1997,Jan,NY,98000,83300,14700,15.00%,Agriculture,Male,Bachelor's degree
+1997,Jan,NY,51000,43350,7650,15.00%,Healthcare,Female,High school diploma
+1997,Jan,CA,7364000,6833000,531000,7.21%,Wholesale Trade,Male,Bachelor's degree
+1997,Jan,CA,15301000,14138000,1163000,7.60%,Healthcare,Female,High school diploma
+1997,Feb,CA,66000,56100,9900,15.00%,Finance,Male,Master's degree
+1997,Feb,CA,43000,36550,6450,15.00%,Retail,Female,Associate's degree
+1997,Feb,NY,11404000,10546000,858000,7.52%,Finance,Male,Master's degree
+1997,Feb,NY,9309000,8673000,636000,6.83%,Retail,Female,Associate's degree
+1997,Mar,CA,15282000,14079000,1203000,7.87%,Education,Female,Bachelor's degree
+1997,Mar,CA,11374000,10516000,858000,7.54%,Healthcare,Male,High school diploma
+1997,Mar,NY,6886000,6420000,466000,6.77%,Education,Female,Bachelor's degree
+1997,Mar,NY,9723000,9021000,702000,7.22%,Healthcare,Male,High school diploma
+1997,Apr,NY,9226000,8558000,668000,7.24%,Manufacturing,Female,Master's degree
+1997,Apr,NY,6813000,6332000,481000,7.06%,Retail,Male,Associate's degree
+1997,Apr,CA,98000,83300,14700,15.00%,Manufacturing,Female,Master's degree
+1997,Apr,CA,51000,43350,7650,15.00%,Retail,Male,Associate's degree
+1997,May,NY,9642000,8929000,713000,7.39%,Finance,Female,High school diploma
+1997,May,NY,7364000,6833000,531000,7.21%,Energy,Male,Bachelor's degree
+1997,May,CA,46000,39100,6900,15.00%,Finance,Female,High school diploma
+1997,May,CA,30000,25500,4500,15.00%,Energy,Male,Bachelor's degree
+1997,Jun,CA,15301000,14138000,1163000,7.60%,Agriculture,Female,High school diploma
+1997,Jun,CA,11389000,10531000,858000,7.53%,Healthcare,Male,Bachelor's degree
+1997,Jun,NY,9800000,9082500,717500,7.32%,Agriculture,Female,High school diploma
+1997,Jun,NY,8700000,8047500,652500,7.50%,Healthcare,Male,Bachelor's degree
+1997,Jul,NY,9277000,8626000,651000,7.02%,Education,Female,Associate's degree
+1997,Jul,NY,6886000,6420000,466000,6.77%,Retail,Male,Bachelor's degree
+1997,Jul,CA,9800000,9082500,717500,7.32%,Education,Female,Associate's degree
+1997,Jul,CA,8700000,8047500,652500,7.50%,Retail,Male,Bachelor's degree
+1997,Aug,NY,9723000,9021000,702000,7.22%,Manufacturing,Female,High school diploma
+1997,Aug,NY,7457000,6923000,534000,7.16%,Healthcare,Male,Bachelor's degree
+1997,Aug,CA,9723000,9021000,702000,7.22%,Manufacturing,Female,High school diploma
+1997,Aug,CA,6723000,4621000,2102000,31.27%,Healthcare,Male,Bachelor's degree
+1997,Sep,CA,9226000,8558000,668000,7.24%,Energy,Female,Associate's degree
+1997,Sep,CA,11404000,10546000,858000,7.52%,Education,Male,High school diploma
+1997,Sep,NY,8700000,8047500,652500,7.50%,Energy,Female,Associate's degree
+1997,Sep,NY,9277000,8626000,651000,7.02%,Wholesale Trade,Male,High school diploma
+1997,Oct,NY,9309000,8673000,636000,6.83%,Healthcare,Female,Bachelor's degree
+1997,Oct,NY,6935000,6472000,463000,6.68%,Retail,Male,Bachelor's degree
+1997,Oct,CA,11389000,10531000,858000,7.53%,Healthcare,Female,Bachelor's degree
+1997,Oct,CA,9800000,9082500,717500,7.32%,Retail,Male,Bachelor's degree
+1997,Nov,CA,15450000,14460000,990000,6.41%,Healthcare,Male,Master's degree
+1997,Nov,CA,9800000,9082500,717500,7.32%,Retail,Female,High school diploma
+1997,Nov,NY,9870000,9169500,700500,7.10%,Healthcare,Male,Master's degree
+1997,Nov,NY,8800000,8154000,646000,7.34%,Retail,Female,High school diploma
+1997,Dec,NY,8700000,8047500,652500,7.50%,Finance,Male,Bachelor's degree
+1997,Dec,NY,5500000,5115000,385000,7.00%,Education,Female,Associate's degree
+1997,Dec,CA,8700000,8047500,652500,7.50%,Finance,Male,Bachelor's degree
+1997,Dec,CA,9723000,9021000,702000,7.22%,Education,Female,Associate's degree
+1998,Jan,NY,10015000,9266000,749000,7.48%,Manufacturing,Male,Bachelor's degree
+1998,Jan,NY,6400000,5908000,492000,7.69%,Agriculture,Female,High school diploma
+1998,Jan,CA,10060000,9318000,742000,7.38%,Manufacturing,Male,Bachelor's degree
+1998,Jan,CA,872000,806000,66000,7.57%,Agriculture,Female,High school diploma
+1998,Feb,CA,15620000,14615000,1005000,6.43%,Healthcare,Male,Master's degree
+1998,Feb,CA,9870000,9169500,700500,7.10%,Retail,Female,High school diploma
+1998,Feb,NY,9870000,9169500,700500,7.10%,Healthcare,Male,Master's degree
+1998,Feb,NY,8800000,8154000,646000,7.34%,Retail,Female,High school diploma
+1998,Mar,NY,8800000,8154000,646000,7.34%,Finance,Male,Bachelor's degree
+1998,Mar,NY,5600000,5196000,404000,7.21%,Education,Female,Associate's degree
+1998,Mar,CA,341000,316000,25000,7.33%,Finance,Male,Bachelor's degree
+1998,Mar,CA,6400000,5944000,456000,7.13%,Education,Female,Associate's degree
+1998,Apr,NY,10060000,9318000,742000,7.38%,Manufacturing,Male,Bachelor's degree
+1998,Apr,NY,6400000,5944000,456000,7.13%,Agriculture,Female,High school diploma
+1998,Apr,CA,46000,39100,6900,15.00%,Manufacturing,Male,Bachelor's degree
+1998,Apr,CA,30000,25500,4500,15.00%,Agriculture,Female,High school diploma
+1998,May,CA,15720000,14750000,970000,6.17%,Healthcare,Male,Master's degree
+1998,May,CA,9880000,9258000,622000,6.30%,Retail,Female,High school diploma
+1998,May,NY,135000,121500,13500,10.00%,Healthcare,Male,Master's degree
+1998,May,NY,95000,85500,9500,10.00%,Retail,Female,High school diploma
+1998,Jun,NY,8850000,8255000,595000,6.72%,Wholesale Trade,Male,Bachelor's degree
+1998,Jun,NY,10060000,9318000,742000,7.38%,Manufacturing,Male,Bachelor's degree
+1998,Jun,NY,118000,73950,44050,37.33%,Finance,Male,Bachelor's degree
+1998,Jun,NY,66000,39100,26900,40.76%,Manufacturing,Male,Bachelor's degree
+1998,Jul,NY,872000,806000,66000,7.57%,Retail,Male,Bachelor's degree
+1998,Jul,NY,458000,425000,33000,7.21%,Finance,Female,High school diploma
+1998,Jul,CA,82000,76840,5160,6.29%,Retail,Male,Bachelor's degree
+1998,Jul,CA,145000,123250,21750,15.00%,Finance,Female,High school diploma
+1998,Aug,CA,651000,606000,45000,6.91%,Healthcare,Male,Master's degree
+1998,Aug,CA,382000,354000,28000,7.33%,Manufacturing,Female,Bachelor's degree
+1998,Aug,NY,120000,112800,7200,6.00%,Healthcare,Male,Master's degree
+1998,Aug,NY,82000,76840,5160,6.29%,Manufacturing,Female,Bachelor's degree
+1998,Sep,NY,473000,440000,33000,6.98%,Education,Male,High school diploma
+1998,Sep,NY,316000,292000,24000,7.59%,Energy,Female,Associate's degree
+1998,Sep,CA,150000,135000,15000,10.00%,Education,Male,High school diploma
+1998,Sep,CA,95000,85500,9500,10.00%,Energy,Female,Associate's degree
+1998,Oct,NY,817000,754000,63000,7.71%,Agriculture,Male,Bachelor's degree
+1998,Oct,NY,407000,378000,29000,7.13%,Retail,Female,High school diploma
+1998,Oct,CA,125000,115625,9375,7.50%,Agriculture,Male,Bachelor's degree
+1998,Oct,CA,110000,101400,8600,7.82%,Retail,Female,High school diploma
+1998,Nov,CA,612000,568000,44000,7.19%,Healthcare,Male,Master's degree
+1998,Nov,CA,360000,334000,26000,7.22%,Manufacturing,Female,Bachelor's degree
+1998,Nov,NY,125000,118125,6875,5.50%,Healthcare,Male,Master's degree
+1998,Nov,NY,85000,79875,5125,6.03%,Manufacturing,Female,Bachelor's degree
+1998,Dec,NY,455000,421000,34000,7.47%,Education,Male,High school diploma
+1998,Dec,NY,301000,279000,22000,7.31%,Energy,Female,Associate's degree
+1998,Dec,CA,59000,53000,6000,10.17%,Education,Male,High school diploma
+1998,Dec,CA,118000,107000,11000,9.32%,Energy,Female,Associate's degree
+1999,Jan,NY,798000,740000,58000,7.27%,Agriculture,Male,Bachelor's degree
+1999,Jan,NY,397000,369000,28000,7.05%,Retail,Female,High school diploma
+1999,Jan,CA,230000,207000,23000,10.00%,Agriculture,Male,Bachelor's degree
+1999,Jan,CA,120000,108000,12000,10.00%,Retail,Female,High school diploma
+1999,Feb,CA,583000,541000,42000,7.20%,Healthcare,Male,Master's degree
+1999,Feb,CA,341000,316000,25000,7.33%,Manufacturing,Female,Bachelor's degree
+1999,Feb,NY,160000,148800,11200,7.00%,Healthcare,Male,Master's degree
+1999,Feb,NY,82000,75960,6040,7.37%,Manufacturing,Female,Bachelor's degree
+1999,Mar,NY,6400000,5944000,456000,7.13%,Wholesale Trade,Female,High school diploma
+1999,Mar,NY,180000,162000,18000,10.00%,Energy,Male,Bachelor's degree
+1999,Mar,CA,105000,98625,6375,6.07%,Healthcare,Female,High school diploma
+1999,Mar,CA,85000,79500,5500,6.47%,Energy,Male,Bachelor's degree
+1999,Apr,CA,140000,126000,14000,10.00%,Manufacturing,Male,Bachelor's degree
+1999,Apr,CA,105000,94500,10500,10.00%,Retail,Female,High school diploma
+1999,Apr,NY,63000,57000,6000,9.52%,Manufacturing,Male,Bachelor's degree
+1999,Apr,NY,126000,115000,11000,8.73%,Retail,Female,High school diploma
+1999,May,NY,115000,103500,11500,10.00%,Finance,Male,Master's degree
+1999,May,NY,75000,67500,7500,10.00%,Education,Female,Associate's degree
+1999,May,CA,84000,76600,7400,8.81%,Finance,Male,Master's degree
+1999,May,CA,178000,161200,16800,9.44%,Education,Female,Associate's degree
+1999,Jun,NY,160000,144000,16000,10.00%,Agriculture,Male,Bachelor's degree
+1999,Jun,NY,85000,76500,8500,10.00%,Healthcare,Female,High school diploma
+1999,Jun,CA,120000,118000,2000,1.67%,Agriculture,Male,Bachelor's degree
+1999,Jun,CA,170000,153100,16900,9.94%,Healthcare,Female,High school diploma
+1999,Jul,CA,140000,126000,14000,10.00%,Manufacturing,Male,Bachelor's degree
+1999,Jul,CA,105000,94500,10500,10.00%,Retail,Female,High school diploma
+1999,Jul,NY,98000,78300,19700,20.10%,Wholesale Trade,Male,Bachelor's degree
+1999,Jul,NY,211000,144900,66100,31.33%,Retail,Female,High school diploma
+1999,Aug,NY,115000,103500,11500,10.00%,Finance,Male,Master's degree
+1999,Aug,NY,75000,67500,7500,10.00%,Education,Female,Associate's degree
+1999,Aug,CA,180000,142000,38000,21.11%,Finance,Male,Master's degree
+1999,Aug,CA,105000,95500,9500,9.05%,Education,Female,Associate's degree
+1999,Sep,NY,190000,171000,19000,10.00%,Energy,Male,Bachelor's degree
+1999,Sep,NY,100000,90000,10000,10.00%,Healthcare,Female,High school diploma
+1999,Sep,CA,85000,79875,5125,6.03%,Energy,Male,Bachelor's degree
+1999,Sep,CA,455000,421000,34000,7.47%,Healthcare,Female,High school diploma
+1999,Oct,CA,140000,126000,14000,10.00%,Manufacturing,Male,Bachelor's degree
+1999,Oct,CA,105000,94500,10500,10.00%,Retail,Female,High school diploma
+1999,Oct,NY,9880000,9258000,622000,6.30%,Manufacturing,Male,Bachelor's degree
+1999,Oct,NY,135000,121500,13500,10.00%,Retail,Female,High school diploma
+1999,Nov,NY,95000,89300,5700,6.00%,Healthcare,Male,High school diploma
+1999,Nov,NY,78000,72840,5160,6.62%,Finance,Female,Bachelor's degree
+1999,Nov,CA,125000,118125,6875,5.50%,Healthcare,Male,High school diploma
+1999,Nov,CA,85000,79875,5125,6.03%,Finance,Female,Bachelor's degree
+1999,Dec,CA,125000,115625,9375,7.50%,Manufacturing,Male,Master's degree
+1999,Dec,CA,110000,101400,8600,7.82%,Retail,Female,High school diploma
+1999,Dec,NY,99000,91000,8000,8.08%,Manufacturing,Male,Master's degree
+1999,Dec,NY,62000,56000,6000,9.68%,Retail,Female,High school diploma
+2000,Jan,NY,120000,112800,7200,6.00%,Education,Male,Bachelor's degree
+2000,Jan,NY,82000,76840,5160,6.29%,Energy,Female,High school diploma
+2000,Jan,CA,145000,123250,21750,15.00%,Energy,Male,Master's degree
+2000,Jan,CA,95000,80750,14250,15.00%,Education,Female,Associate's degree
+2000,Feb,NY,105000,98625,6375,6.07%,Healthcare,Male,Associate's degree
+2000,Feb,NY,85000,79500,5500,6.47%,Finance,Female,High school diploma
+2000,Feb,CA,145000,110500,34500,23.79%,Manufacturing,Male,Associate's degree
+2000,Feb,CA,87000,68300,18700,21.49%,Energy,Female,High school diploma
+2000,Mar,CA,130000,120750,9250,7.12%,Manufacturing,Male,Master's degree
+2000,Mar,CA,115000,106950,8050,7.00%,Retail,Female,Bachelor's degree
+2000,Mar,NY,110000,92750,17250,15.68%,Manufacturing,Male,Master's degree
+2000,Mar,NY,215000,191950,23050,10.72%,Wholesale Trade,Female,Bachelor's degree
+2000,Apr,NY,125000,118125,6875,5.50%,Education,Male,Bachelor's degree
+2000,Apr,NY,85000,79875,5125,6.03%,Energy,Female,High school diploma
+2000,Apr,CA,82000,67840,14160,17.27%,Education,Male,Bachelor's degree
+2000,Apr,CA,345000,323250,21750,6.30%,Energy,Female,High school diploma
+2000,May,NY,110000,103400,6600,6.00%,Healthcare,Male,Associate's degree
+2000,May,NY,90000,84375,5625,6.25%,Finance,Female,Bachelor's degree
+2000,May,CA,80000,62000,18000,22.50%,Energy,Male,Associate's degree
+2000,May,CA,200000,192000,8000,4.00%,Finance,Female,Bachelor's degree
+2000,Jun,CA,135000,126900,8100,6.00%,Manufacturing,Male,Master's degree
+2000,Jun,CA,120000,112200,7800,6.50%,Retail,Female,High school diploma
+2000,Jun,NY,135000,121500,13500,10.00%,Manufacturing,Male,Master's degree
+2000,Jun,NY,90000,81000,9000,10.00%,Retail,Female,High school diploma
+2000,Jul,NY,103000,94000,9000,8.74%,Agriculture,Male,Bachelor's degree
+2000,Jul,NY,62000,56000,6000,9.68%,Manufacturing,Female,High school diploma
+2000,Jul,CA,120000,112800,7200,6.00%,Agriculture,Male,Bachelor's degree
+2000,Jul,CA,82000,76840,5160,6.29%,Manufacturing,Female,High school diploma
+2000,Aug,CA,125000,115000,10000,8.00%,Healthcare,Male,Master's degree
+2000,Aug,CA,85000,77000,8000,9.41%,Wholesale Trade,Female,Associate's degree
+2000,Aug,NY,162000,152000,10000,6.17%,Healthcare,Male,Master's degree
+2000,Aug,NY,91000,81000,10000,10.99%,Retail,Female,Associate's degree
+2000,Sep,NY,95000,87000,8000,8.42%,Education,Male,Bachelor's degree
+2000,Sep,NY,59000,53000,6000,10.17%,Energy,Female,High school diploma
+2000,Sep,CA,102000,91800,10200,10.00%,Education,Male,Bachelor's degree
+2000,Sep,CA,141000,126900,14100,10.00%,Energy,Female,High school diploma
+2000,Oct,NY,118000,107000,11000,9.32%,Finance,Male,Bachelor's degree
+2000,Oct,NY,71000,64000,7000,9.86%,Agriculture,Female,High school diploma
+2000,Oct,CA,173000,155700,17300,10.00%,Finance,Male,Bachelor's degree
+2000,Oct,CA,102000,91800,10200,10.00%,Agriculture,Female,High school diploma
+2000,Nov,CA,132000,121000,11000,8.33%,Healthcare,Male,Master's degree
+2000,Nov,CA,88000,80000,8000,9.09%,Retail,Female,Associate's degree
+2000,Nov,NY,125000,118125,6875,5.50%,Healthcare,Male,Master's degree
+2000,Nov,NY,85000,79875,5125,6.03%,Retail,Female,Associate's degree
+2000,Dec,NY,99000,91000,8000,8.08%,Education,Male,Bachelor's degree
+2000,Dec,NY,62000,56000,6000,9.68%,Energy,Female,High school diploma
+2000,Dec,CA,59000,53000,6000,10.17%,Finance,Male,Bachelor's degree
+2000,Dec,CA,102000,91800,10200,10.00%,Energy,Female,High school diploma
+2001,Jan,NY,104000,95000,9000,8.65%,Healthcare,Male,Bachelor's degree
+2001,Jan,NY,63000,57000,6000,9.52%,Retail,Female,High school diploma
+2001,Jan,CA,75000,68500,6500,8.67%,Finance,Male,Bachelor's degree
+2001,Jan,CA,160000,144000,16000,10.00%,Healthcare,Female,High school diploma
+2001,Feb,CA,126000,115000,11000,8.73%,Agriculture,Male,Master's degree
+2001,Feb,CA,86000,78000,8000,9.30%,Retail,Female,Associate's degree
+2001,Feb,NY,135000,131500,3500,2.59%,Agriculture,Male,Master's degree
+2001,Feb,NY,90000,61000,29000,32.22%,Retail,Female,Associate's degree
+2001,Mar,NY,230000,207000,23000,10.00%,Wholesale Trade,Male,Bachelor's degree
+2001,Mar,NY,120000,108000,12000,10.00%,Healthcare,Female,High school diploma
+2001,Mar,CA,141000,136900,4100,2.91%,Agriculture,Male,Bachelor's degree
+2001,Mar,CA,90000,81420,8580,9.53%,Healthcare,Female,High school diploma
+2001,Apr,CA,170000,153000,17000,10.00%,Manufacturing,Male,Bachelor's degree
+2001,Apr,CA,128000,115200,12800,10.00%,Retail,Female,High school diploma
+2001,Apr,NY,170000,144500,25500,15.00%,Agriculture,Male,Bachelor's degree
+2001,Apr,NY,110000,93500,16500,15.00%,Retail,Female,High school diploma
+2001,May,NY,140000,126000,14000,10.00%,Finance,Male,Master's degree
+2001,May,NY,90000,81000,9000,10.00%,Education,Female,Associate's degree
+2001,May,CA,52000,34200,17800,34.23%,Finance,Male,Master's degree
+2001,May,CA,62000,41700,20300,32.74%,Education,Female,Associate's degree
+2001,Jun,NY,190000,171000,19000,10.00%,Energy,Male,Bachelor's degree
+2001,Jun,NY,100000,90000,10000,10.00%,Healthcare,Female,High school diploma
+2001,Jun,CA,125000,92500,32500,26.00%,Energy,Male,Bachelor's degree
+2001,Jun,CA,111000,92000,19000,17.12%,Wholesale Trade,Female,High school diploma
+2001,Jul,CA,140000,126000,14000,10.00%,Manufacturing,Male,Bachelor's degree
+2001,Jul,CA,105000,94500,10500,10.00%,Retail,Female,High school diploma
+2001,Jul,NY,141000,136900,4100,2.91%,Manufacturing,Male,Bachelor's degree
+2001,Jul,NY,90000,81420,8580,9.53%,Retail,Female,High school diploma
+2001,Aug,NY,115000,103500,11500,10.00%,Finance,Male,Master's degree
+2001,Aug,NY,75000,67500,7500,10.00%,Education,Female,Associate's degree
+2001,Aug,CA,99000,91000,8000,8.08%,Finance,Male,Master's degree
+2001,Aug,CA,62000,56000,6000,9.68%,Education,Female,Associate's degree
+2001,Sep,NY,160000,144000,16000,10.00%,Agriculture,Male,Bachelor's degree
+2001,Sep,NY,85000,76500,8500,10.00%,Healthcare,Female,High school diploma
+2001,Sep,CA,190000,182000,8000,4.21%,Agriculture,Male,Bachelor's degree
+2001,Sep,CA,185000,154500,30500,16.49%,Healthcare,Female,High school diploma
+2001,Oct,CA,190000,171000,19000,10.00%,Manufacturing,Male,Bachelor's degree
+2001,Oct,CA,120000,108000,12000,10.00%,Retail,Female,High school diploma
+2001,Oct,NY,125000,102500,22500,18.00%,Manufacturing,Male,Bachelor's degree
+2001,Oct,NY,80000,62000,18000,22.50%,Retail,Female,High school diploma
+2001,Nov,CA,173000,155700,17300,10.00%,Healthcare,Male,High school diploma
+2001,Nov,CA,102000,91800,10200,10.00%,Wholesale Trade,Female,Bachelor's degree
+2001,Nov,NY,161000,154900,6100,3.79%,Healthcare,Male,High school diploma
+2001,Nov,NY,87000,68300,18700,21.49%,Retail,Female,Bachelor's degree
+2001,Dec,NY,141000,126900,14100,10.00%,Education,Male,Associate's degree
+2001,Dec,NY,90000,81000,9000,10.00%,Finance,Female,High school diploma
+2001,Dec,CA,99000,91000,8000,8.08%,Education,Male,Associate's degree
+2001,Dec,CA,62000,56000,6000,9.68%,Finance,Female,High school diploma
+2002,Jan,NY,159000,143100,15900,10.00%,Agriculture,Male,Master's degree
+2002,Jan,NY,84000,75600,8400,10.00%,Healthcare,Female,Bachelor's degree
+2002,Jan,CA,125000,92500,32500,26.00%,Agriculture,Male,Master's degree
+2002,Jan,CA,111000,92000,19000,17.12%,Construction,Female,Bachelor's degree
+2002,Feb,CA,178000,160200,17800,10.00%,Manufacturing,Male,High school diploma
+2002,Feb,CA,103000,92700,10300,10.00%,Retail,Female,Bachelor's degree
+2002,Feb,NY,145000,110500,34500,23.79%,Manufacturing,Male,Associate's degree
+2002,Feb,NY,87000,68300,18700,21.49%,Energy,Female,High school diploma
+2002,Mar,NY,145000,130500,14500,10.00%,Finance,Male,Associate's degree
+2002,Mar,NY,87000,78300,8700,10.00%,Education,Female,High school diploma
+2002,Mar,CA,141000,136900,4100,2.91%,Agriculture,Male,Bachelor's degree
+2002,Mar,CA,90000,81420,8580,9.53%,Wholesale Trade,Female,High school diploma
+2002,Apr,NY,161000,144900,16100,10.00%,Healthcare,Male,Master's degree
+2002,Apr,NY,87000,78300,8700,10.00%,Agriculture,Female,Bachelor's degree
+2002,Apr,CA,98000,83300,14700,15.00%,Manufacturing,Female,Master's degree
+2002,Apr,CA,51000,43350,7650,15.00%,Retail,Male,Associate's degree
+2002,May,CA,180000,162000,18000,10.00%,Retail,Male,High school diploma
+2002,May,CA,105000,94500,10500,10.00%,Manufacturing,Female,Bachelor's degree
+2002,May,NY,110000,103400,6600,6.00%,Healthcare,Male,Associate's degree
+2002,May,NY,90000,84375,5625,6.25%,Finance,Female,Bachelor's degree
+2002,Jun,NY,147000,132300,14700,10.00%,Finance,Male,Associate's degree
+2002,Jun,NY,88000,79200,8800,10.00%,Education,Female,High school diploma
+2002,Jun,CA,95000,80750,14250,15.00%,Wholesale Trade,Male,Master's degree
+2002,Jun,CA,67000,56950,10050,15.00%,Finance,Female,Associate's degree
+2002,Jul,NY,220000,198200,21800,9.91%,Healthcare,Female,High school diploma
+2002,Jul,CA,95000,85600,9400,9.89%,Retail,Female,Bachelor's degree
+2002,Jul,NY,110000,93500,16500,15.00%,Retail,Male,Bachelor's degree
+2002,Jul,NY,75000,63750,11250,15.00%,Agriculture,Female,High school diploma
+2002,Aug,CA,150000,135500,14500,9.67%,Finance,Male,Master's degree
+2002,Aug,CA,95000,85600,9400,9.89%,Retail,Female,Bachelor's degree
+2002,Aug,NY,88000,55500,32500,36.93%,Construction,Male,Master's degree
+2002,Aug,NY,95000,85600,9400,9.89%,Retail,Female,Bachelor's degree
+2002,Sep,NY,125000,112500,12500,10.00%,Education,Male,Associate's degree
+2002,Sep,NY,80000,72000,8000,10.00%,Agriculture,Female,High school diploma
+2002,Sep,CA,90000,81000,9000,10.00%,Finance,Male,Associate's degree
+2002,Sep,CA,820000,739000,81000,9.88%,Agriculture,Female,High school diploma
+2002,Oct,NY,180000,162000,18000,10.00%,Manufacturing,Male,Bachelor's degree
+2002,Oct,NY,95000,85500,9500,10.00%,Healthcare,Female,High school diploma
+2002,Oct,CA,145000,133250,11750,8.10%,Education,Male,Bachelor's degree
+2002,Oct,CA,95000,90750,4250,4.47%,Healthcare,Female,High school diploma
+2002,Nov,CA,135000,121500,13500,10.00%,Energy,Male,Master's degree
+2002,Nov,CA,90000,81000,9000,10.00%,Retail,Female,Associate's degree
+2002,Nov,NY,140500,102000,38500,27.40%,Energy,Male,Master's degree
+2002,Nov,NY,83100,68000,15100,18.17%,Construction,Female,Associate's degree
+2002,Dec,NY,110000,99000,11000,10.00%,Education,Male,High school diploma
+2002,Dec,NY,70000,63000,7000,10.00%,Healthcare,Female,Bachelor's degree
+2002,Dec,CA,125000,99000,26000,20.80%,Education,Male,High school diploma
+2002,Dec,CA,90000,83000,7000,7.78%,Education,Female,Bachelor's degree
+2003,Jan,NY,200000,180000,20000,10.00%,Manufacturing,Male,Master's degree
+2003,Jan,NY,105000,94500,10500,10.00%,Construction,Female,High school diploma
+2003,Jan,CA,87800,68300,19500,22.21%,Manufacturing,Male,Master's degree
+2003,Jan,CA,141300,126900,14400,10.19%,Retail,Female,High school diploma
+2003,Feb,CA,145000,130520,14480,9.99%,Agriculture,Male,Bachelor's degree
+2003,Feb,CA,90000,81000,9000,10.00%,Healthcare,Female,Associate's degree
+2003,Feb,NY,95310,60750,34560,36.26%,Agriculture,Male,Bachelor's degree
+2003,Feb,NY,97000,90950,6050,6.24%,Healthcare,Female,Associate's degree
+2003,Mar,NY,120000,108000,12000,10.00%,Wholesale Trade,Male,Bachelor's degree
+2003,Mar,NY,125000,112500,12500,10.00%,Education,Male,Associate's degree
+2003,Mar,CA,98000,93300,4700,4.80%,Finance,Male,Bachelor's degree
+2003,Mar,CA,55000,53350,1650,3.00%,Education,Male,Associate's degree
+2003,Apr,NY,110000,93500,16500,15.00%,Retail,Male,Bachelor's degree
+2003,Apr,NY,75000,63750,11250,15.00%,Agriculture,Female,High school diploma
+2003,Apr,CA,140990,99000,41990,29.78%,Retail,Male,Bachelor's degree
+2003,Apr,CA,80000,76500,3500,4.38%,Agriculture,Female,High school diploma
+2003,May,CA,95000,80750,14250,15.00%,Healthcare,Male,Master's degree
+2003,May,CA,67000,56950,10050,15.00%,Finance,Female,Associate's degree
+2003,May,NY,98000,80750,17250,17.60%,Healthcare,Male,Master's degree
+2003,May,NY,110000,56950,53050,48.23%,Finance,Female,Associate's degree
+2003,Jun,NY,80000,68000,12000,15.00%,Manufacturing,Male,Bachelor's degree
+2003,Jun,NY,53000,45050,7950,15.00%,Education,Female,High school diploma
+2003,Jun,CA,120000,100750,19250,16.04%,Manufacturing,Male,Bachelor's degree
+2003,Jun,CA,95000,56950,38050,40.05%,Education,Female,High school diploma
+2003,Jul,NY,90000,86500,3500,3.89%,Energy,Male,Bachelor's degree
+2003,Jul,NY,60000,51000,9000,15.00%,Healthcare,Female,High school diploma
+2003,Jul,CA,67000,56950,10050,15.00%,Professional and Business S.,Male,Associate's degree
+2003,Jul,CA,98000,80750,17250,17.60%,"Trade, Transportation, Util.",Female,Master's degree
+2003,Aug,CA,77000,65450,11550,15.00%,Construction,Male,Bachelor's degree
+2003,Aug,CA,52000,44200,7800,15.00%,Agriculture,Female,High school diploma
+2003,Aug,NY,90000,84375,5625,6.25%,Energy,Male,Bachelor's degree
+2003,Aug,NY,90000,83000,7000,7.78%,Finance,Female,High school diploma
+2003,Sep,NY,62000,52700,9300,15.00%,Retail,Male,Master's degree
+2003,Sep,NY,42000,35700,6300,15.00%,Healthcare,Female,Associate's degree
+2003,Sep,CA,12451600,11224400,1227200,9.86%,Hospitality,Male,Associate's degree
+2003,Sep,CA,17678400,15576000,2102400,11.89%,Professional and Business S.,Female,Master's degree
+2003,Oct,NY,80000,68000,12000,15.00%,"Trade, Transportation, Util.",Male,Bachelor's degree
+2003,Oct,NY,54000,45900,8100,15.00%,Energy,Female,High school diploma
+2003,Oct,CA,165000,140250,24750,15.00%,Finance,Male,High school diploma
+2003,Oct,CA,230000,207000,23000,10.00%,Hospitality,Female,Associate's degree
+2003,Nov,CA,120000,108000,12000,10.00%,Energy,Male,Master's degree
+2003,Nov,CA,49000,41650,7350,15.00%,Retail,Female,Bachelor's degree
+2003,Nov,NY,85000,81000,4000,4.71%,Professional and Business S.,Male,High school diploma
+2003,Nov,NY,120000,112200,7800,6.50%,"Trade, Transportation, Util.",Female,Master's degree
+2003,Dec,NY,135000,121500,13500,10.00%,Energy,Male,Associate's degree
+2003,Dec,NY,90000,81000,9000,10.00%,Finance,Female,Bachelor's degree
+2003,Dec,CA,103000,94000,9000,8.74%,Hospitality,Male,High school diploma
+2003,Dec,CA,80000,68000,12000,15.00%,Professional and Business S.,Female,Master's degree
+2004,Jan,NY,75000,68000,7000,9.33%,"Trade, Transportation, Util.",Male,Associate's degree
+2004,Jan,NY,95000,80750,14250,15.00%,Energy,Female,Bachelor's degree
+2004,Jan,CA,15321000,14181000,1140000,7.44%,Finance,Male,Master's degree
+2004,Jan,CA,11404000,10546000,858000,7.52%,Hospitality,Female,Associate's degree
+2004,Feb,CA,160000,136000,24000,15.00%,Manufacturing,Male,Bachelor's degree
+2004,Feb,CA,105000,89250,15750,15.00%,Finance,Female,Bachelor's degree
+2004,Feb,NY,65400,62000,3400,5.20%,Professional and Business S.,Male,Associate's degree
+2004,Feb,NY,15321000,14181000,1140000,7.44%,Finance,Female,Associate's degree
+2004,Mar,NY,11404000,10546000,858000,7.52%,Hospitality,Male,High school diploma
+2004,Mar,NY,85000,74250,10750,12.65%,Retail,Female,Master's degree
+2004,Mar,CA,85000,81000,4000,4.71%,Professional and Business S.,Male,Associate's degree
+2004,Mar,CA,5291,5022,269,5.08%,"Trade, Transportation, Util.",Female,Associate's degree
+2004,Apr,NY,155000,131750,23250,15.00%,Energy,Male,Associate's degree
+2004,Apr,NY,100000,85000,15000,15.00%,Finance,Female,Bachelor's degree
+2004,Apr,CA,165000,140250,24750,15.00%,Hospitality,Male,Associate's degree
+2004,Apr,CA,9800000,9082500,717500,7.32%,Professional and Business S.,Female,Associate's degree
+2004,May,CA,8700000,8047500,652500,7.50%,Finance,Male,High school diploma
+2004,May,CA,110000,93500,16500,15.00%,Hospitality,Female,Master's degree
+2004,May,NY,817000,754000,63000,7.71%,Professional and Business S.,Male,Associate's degree
+2004,May,NY,407000,378000,29000,7.13%,"Trade, Transportation, Util.",Female,Associate's degree
+2004,Jun,NY,140000,119000,21000,15.00%,Energy,Male,Master's degree
+2004,Jun,NY,90000,76500,13500,15.00%,Finance,Female,Bachelor's degree
+2004,Jun,CA,17678400,15576000,2102400,11.89%,Hospitality,Male,High school diploma
+2004,Jun,CA,85000,74250,10750,12.65%,Hospitality,Female,Master's degree
+2004,Jul,NY,165000,140250,24750,15.00%,Energy,Male,Associate's degree
+2004,Jul,NY,105000,89250,15750,15.00%,Healthcare,Female,Bachelor's degree
+2004,Jul,CA,67000,56950,10050,15.00%,Professional and Business S.,Male,High school diploma
+2004,Jul,CA,98000,80750,17250,17.60%,Finance,Female,Master's degree
+2004,Aug,NY,200000,180000,20000,10.00%,Hospitality,Male,Associate's degree
+2004,Aug,NY,105000,94500,10500,10.00%,Energy,Female,Bachelor's degree
+2004,Aug,CA,4183000,3929000,254000,6.07%,Finance,Male,High school diploma
+2004,Aug,CA,7044000,6622000,422000,5.99%,Professional and Business S.,Female,Master's degree
+2004,Sep,CA,140000,126000,14000,10.00%,Finance,Male,Associate's degree
+2004,Sep,CA,90000,81000,9000,10.00%,Hospitality,Female,Bachelor's degree
+2004,Sep,NY,68000,63000,5000,7.35%,Energy,Male,High school diploma
+2004,Sep,NY,65400,62000,3400,5.20%,Finance,Female,Master's degree
+2004,Oct,NY,115000,103500,11500,10.00%,Finance,Male,Bachelor's degree
+2004,Oct,NY,75000,67500,7500,10.00%,Education,Female,High school diploma
+2004,Oct,CA,12451600,11224400,1227200,9.86%,Professional and Business S.,Male,Bachelor's degree
+2004,Oct,CA,17678400,15576000,2102400,11.89%,Finance,Female,Bachelor's degree
+2004,Nov,NY,160000,144000,16000,10.00%,Hospitality,Male,Bachelor's degree
+2004,Nov,NY,85000,76500,8500,10.00%,Energy,Female,High school diploma
+2004,Nov,CA,42800,34900,7900,18.46%,Finance,Male,Bachelor's degree
+2004,Nov,CA,1270000,1148000,122000,9.61%,Professional and Business S.,Female,Bachelor's degree
+2004,Dec,CA,750000,675000,75000,10.00%,Finance,Male,Bachelor's degree
+2004,Dec,CA,100000,90000,10000,10.00%,Hospitality,Female,High school diploma
+2004,Dec,NY,817000,754000,63000,7.71%,Energy,Male,Bachelor's degree
+2004,Dec,NY,407000,378000,29000,7.13%,Finance,Female,Associate's degree
+2005,Jan,NY,140000,126000,14000,10.00%,Hospitality,Male,Bachelor's degree
+2005,Jan,NY,90000,81000,9000,10.00%,Retail,Female,High school diploma
+2005,Jan,CA,67000,56950,10050,15.00%,Finance,Male,Master's degree
+2005,Jan,CA,98000,80750,17250,17.60%,Hospitality,Female,Master's degree
+2005,Feb,NY,115000,103500,11500,10.00%,Energy,Male,Master's degree
+2005,Feb,NY,75000,67500,7500,10.00%,Education,Female,Associate's degree
+2005,Feb,CA,12451600,11224400,1227200,9.86%,Hospitality,Male,Master's degree
+2005,Feb,CA,17678400,15576000,2102400,11.89%,Energy,Female,Associate's degree
+2005,Mar,CA,160000,144000,16000,10.00%,Finance,Male,Bachelor's degree
+2005,Mar,CA,85000,76500,8500,10.00%,Hospitality,Female,High school diploma
+2005,Mar,NY,165000,140250,24750,15.00%,Energy,Male,Master's degree
+2005,Mar,NY,120000,112200,7800,6.50%,Finance,Female,Master's degree
+2005,Apr,CA,135000,121500,13500,10.00%,Manufacturing,Male,Master's degree
+2005,Apr,CA,90000,81000,9000,10.00%,Healthcare,Female,Associate's degree
+2005,Apr,NY,103000,94000,9000,8.74%,Professional and Business S.,Male,Master's degree
+2005,Apr,NY,110000,101200,8800,8.00%,Finance,Female,Associate's degree
+2005,May,NY,138000,126900,11100,8.04%,Hospitality,Male,Bachelor's degree
+2005,May,NY,90000,82800,7200,8.00%,Education,Female,High school diploma
+2005,May,CA,4183000,3929000,254000,6.07%,Energy,Male,Master's degree
+2005,May,CA,7044000,6622000,422000,5.99%,Professional and Business S.,Female,Associate's degree
+2005,Jun,NY,150000,138000,12000,8.00%,Finance,Male,Bachelor's degree
+2005,Jun,NY,85000,78200,6800,8.00%,Hospitality,Female,High school diploma
+2005,Jun,CA,230000,207000,23000,10.00%,Energy,Male,High school diploma
+2005,Jun,CA,120000,108000,12000,10.00%,Finance,Female,High school diploma
+2005,Jul,CA,195000,180900,14100,7.23%,Agriculture,Male,High school diploma
+2005,Jul,CA,97000,89780,7220,7.44%,Healthcare,Female,Bachelor's degree
+2005,Jul,NY,67000,56950,10050,15.00%,Professional and Business S.,Male,High school diploma
+2005,Jul,NY,98000,80750,17250,17.60%,Finance,Female,High school diploma
+2005,Aug,NY,142000,131960,10040,7.07%,Hospitality,Male,Associate's degree
+2005,Aug,NY,87000,80520,6480,7.45%,Energy,Female,Bachelor's degree
+2005,Aug,CA,110000,101200,8800,8.00%,Finance,Male,Master's degree
+2005,Aug,CA,85000,74250,10750,12.65%,Hospitality,Female,Associate's degree
+2005,Sep,NY,160000,148800,11200,7.00%,Energy,Male,Bachelor's degree
+2005,Sep,NY,82000,75960,6040,7.37%,Healthcare,Female,Master's degree
+2005,Sep,CA,90000,82800,7200,8.00%,Hospitality,Male,High school diploma
+2005,Sep,CA,82000,75960,6040,7.37%,Energy,Female,Master's degree
+2005,Oct,CA,182000,169240,12760,7.01%,Hospitality,Male,Associate's degree
+2005,Oct,CA,96000,89040,6960,7.25%,Energy,Female,Bachelor's degree
+2005,Oct,NY,90000,82800,7200,8.00%,Finance,Male,Master's degree
+2005,Oct,NY,82000,75960,6040,7.37%,Energy,Female,High school diploma
+2005,Nov,NY,136000,125900,10100,7.43%,Energy,Male,Master's degree
+2005,Nov,NY,88000,81120,6880,7.82%,Manufacturing,Female,Associate's degree
+2005,Nov,CA,90000,82800,7200,8.00%,Energy,Male,Master's degree
+2005,Nov,CA,82000,75960,6040,7.37%,Hospitality,Female,Master's degree
+2005,Dec,NY,130000,117000,13000,10.00%,Energy,Male,Associate's degree
+2005,Dec,NY,95000,85500,9500,10.00%,Healthcare,Female,Bachelor's degree
+2005,Dec,CA,90000,82800,7200,8.00%,Energy,Male,Master's degree
+2005,Dec,CA,82000,75960,6040,7.37%,Energy,Female,High school diploma
+2006,Jan,CA,105000,94500,10500,10.00%,Retail,Male,Master's degree
+2006,Jan,CA,75000,67500,7500,10.00%,Education,Female,High school diploma
+2006,Jan,NY,17678400,15576000,2102400,11.89%,Hospitality,Male,Master's degree
+2006,Jan,NY,4145000,3878000,267000,6.44%,Energy,Female,Associate's degree
+2006,Feb,NY,6971000,6524000,447000,6.41%,Finance,Male,Bachelor's degree
+2006,Feb,NY,4162000,3909000,253000,6.08%,Agriculture,Female,High school diploma
+2006,Feb,CA,6998000,6555000,443000,6.33%,Energy,Male,Master's degree
+2006,Feb,CA,4168000,3914000,254000,6.09%,Hospitality,Female,Associate's degree
+2006,Mar,NY,7019000,6590000,429000,6.11%,Energy,Male,Bachelor's degree
+2006,Mar,NY,4183000,3929000,254000,6.07%,Healthcare,Female,High school diploma
+2006,Mar,CA,7044000,6622000,422000,5.99%,Hospitality,Male,High school diploma
+2006,Mar,CA,90000,82800,7200,8.00%,Energy,Female,Master's degree
+2006,Apr,CA,160000,144000,16000,10.00%,Manufacturing,Male,Bachelor's degree
+2006,Apr,CA,85000,76500,8500,10.00%,Retail,Female,High school diploma
+2006,Apr,NY,12451600,11224400,1227200,9.86%,Agriculture,Male,Master's degree
+2006,Apr,NY,17678400,15576000,2102400,11.89%,Energy,Female,Associate's degree
+2006,May,NY,115000,103500,11500,10.00%,Finance,Male,Bachelor's degree
+2006,May,NY,75000,67500,7500,10.00%,Education,Female,Associate's degree
+2006,May,CA,67000,56950,10050,15.00%,Energy,Male,Master's degree
+2006,May,CA,98000,80750,17250,17.60%,Professional and Business S.,Female,Associate's degree
+2006,Jun,NY,140000,126000,14000,10.00%,Finance,Male,Bachelor's degree
+2006,Jun,NY,105000,94500,10500,10.00%,Hospitality,Female,High school diploma
+2006,Jun,CA,12451600,11224400,1227200,9.86%,Agriculture,Male,High school diploma
+2006,Jun,CA,17678400,15576000,2102400,11.89%,Professional and Business S.,Female,Master's degree
+2006,Jul,CA,160000,144000,16000,10.00%,Energy,Male,Associate's degree
+2006,Jul,CA,85000,76500,8500,10.00%,Finance,Female,Bachelor's degree
+2006,Jul,NY,90000,82800,7200,8.00%,Finance,Male,High school diploma
+2006,Jul,NY,85000,81000,4000,4.71%,Hospitality,Female,Associate's degree
+2006,Aug,CA,240000,220000,20000,8.33%,Hospitality,Male,Bachelor's degree
+2006,Aug,CA,110000,101200,8800,8.00%,Healthcare,Female,High school diploma
+2006,Aug,NY,68000,63000,5000,7.35%,Professional and Business S.,Male,Master's degree
+2006,Aug,NY,90000,82800,7200,8.00%,Finance,Female,Associate's degree
+2006,Sep,NY,175000,160000,15000,8.57%,Hospitality,Male,Bachelor's degree
+2006,Sep,NY,90000,81000,9000,10.00%,Education,Female,High school diploma
+2006,Sep,CA,90000,82800,7200,8.00%,Education,Male,Bachelor's degree
+2006,Sep,CA,82000,75960,6040,7.37%,Professional and Business S.,Female,Bachelor's degree
+2006,Oct,NY,160000,148000,12000,7.50%,Energy,Male,Associate's degree
+2006,Oct,NY,80000,72000,8000,10.00%,Finance,Female,Bachelor's degree
+2006,Oct,CA,19250000,16805000,2445000,12.70%,Finance,Male,High school diploma
+2006,Oct,CA,85000,81000,4000,4.71%,Hospitality,Female,Master's degree
+2006,Nov,NY,130000,120000,10000,7.69%,Hospitality,Male,Associate's degree
+2006,Nov,NY,75000,67500,7500,10.00%,Healthcare,Female,Bachelor's degree
+2006,Nov,CA,4183000,3929000,254000,6.07%,Professional and Business S.,Male,High school diploma
+2006,Nov,CA,7044000,6622000,422000,5.99%,Finance,Female,Associate's degree
+2006,Dec,NY,220000,202400,17600,8.00%,Hospitality,Male,Bachelor's degree
+2006,Dec,NY,105000,94500,10500,10.00%,Retail,Female,High school diploma
+2006,Dec,CA,17678400,15576000,2102400,11.89%,Manufacturing,Male,Master's degree
+2006,Dec,CA,15321000,14181000,1140000,7.44%,Technology,Female,Associate's degree
+2007,Jan,NY,11404000,10546000,858000,7.52%,Finance,Male,Bachelor's degree
+2007,Jan,NY,95000,85500,9500,10.00%,Education,Female,High school diploma
+2007,Jan,CA,12451600,11224400,1227200,9.86%,Retail,Male,Master's degree
+2007,Jan,CA,17678400,15576000,2102400,11.89%,Professional and Business S.,Female,Associate's degree
+2007,Feb,NY,170000,157600,12400,7.29%,Energy,Male,Bachelor's degree
+2007,Feb,NY,85000,76500,8500,10.00%,Finance,Female,High school diploma
+2007,Feb,CA,90000,82800,7200,8.00%,Finance,Male,Master's degree
+2007,Feb,CA,82000,75960,6040,7.37%,Hospitality,Female,Bachelor's degree
+2007,Mar,NY,140000,129200,10800,7.71%,Hospitality,Male,Bachelor's degree
+2007,Mar,NY,70000,63000,7000,10.00%,Retail,Female,Bachelor's degree
+2007,Mar,CA,110000,101200,8800,8.00%,Education,Male,High school diploma
+2007,Mar,CA,9800000,9082500,717500,7.32%,Manufacturing,Female,Master's degree
+2007,Apr,NY,8700000,8047500,652500,7.50%,Finance,Male,Associate's degree
+2007,Apr,NY,190000,174400,15600,8.21%,Healthcare,Female,Bachelor's degree
+2007,Apr,CA,85000,81000,4000,4.71%,Finance,Male,Master's degree
+2007,Apr,CA,120000,112200,7800,6.50%,Technology,Female,Associate's degree
+2007,May,NY,135000,121500,13500,10.00%,Manufacturing,Male,Bachelor's degree
+2007,May,NY,90000,81000,9000,10.00%,Retail,Female,High school diploma
+2007,May,CA,103000,94000,9000,8.74%,Retail,Male,Associate's degree
+2007,May,CA,19800,9900,9900,50.00%,Education,Female,Associate's degree
+2007,Jun,NY,220000,202400,17600,8.00%,Manufacturing,Male,Associate's degree
+2007,Jun,NY,200000,182000,18000,9.00%,Technology,Female,Bachelor's degree
+2007,Jun,CA,12451600,11224400,1227200,9.86%,Retail,Male,Master's degree
+2007,Jun,CA,17678400,15576000,2102400,11.89%,Education,Female,Associate's degree
+2007,Jul,NY,225000,208800,16200,7.20%,Manufacturing,Male,Associate's degree
+2007,Jul,NY,195000,179400,15600,8.00%,Technology,Female,Bachelor's degree
+2007,Jul,CA,15321000,14181000,1140000,7.44%,Retail,Male,Master's degree
+2007,Jul,CA,11404000,10546000,858000,7.52%,Professional and Business S.,Female,Associate's degree
+2007,Aug,NY,220000,204400,15600,7.09%,Energy,Male,Bachelor's degree
+2007,Aug,NY,200000,183800,16200,8.10%,Finance,Female,High school diploma
+2007,Aug,CA,42800,34900,7900,18.46%,Finance,Male,Master's degree
+2007,Aug,CA,110000,101200,8800,8.00%,Hospitality,Female,Associate's degree
+2007,Sep,NY,225000,209000,16000,7.11%,Hospitality,Male,Bachelor's degree
+2007,Sep,NY,195000,178200,16800,8.62%,Energy,Female,High school diploma
+2007,Sep,CA,80000,68000,12000,15.00%,Retail,Male,Master's degree
+2007,Sep,CA,75000,68000,7000,9.33%,Finance,Female,Bachelor's degree
+2007,Oct,NY,230000,213800,16200,7.04%,Healthcare,Male,Bachelor's degree
+2007,Oct,NY,200000,183000,17000,8.50%,Education,Female,High school diploma
+2007,Oct,CA,12451600,11224400,1227200,9.86%,Education,Male,High school diploma
+2007,Oct,CA,17678400,15576000,2102400,11.89%,Manufacturing,Female,Master's degree
+2007,Nov,NY,225000,209400,15600,6.93%,Technology,Male,Bachelor's degree
+2007,Nov,NY,195000,178800,16200,8.31%,Retail,Female,High school diploma
+2007,Nov,CA,5291,5022,269,5.08%,Education,Male,Master's degree
+2007,Nov,CA,68000,63000,5000,7.35%,Retail,Female,Associate's degree
+2007,Dec,NY,132000,118800,13200,10.00%,Hospitality,Male,Bachelor's degree
+2007,Dec,NY,186000,167400,18600,10.00%,Healthcare,Female,High school diploma
+2007,Dec,CA,12451600,11224400,1227200,9.86%,Retail,Male,Master's degree
+2007,Dec,CA,17678400,15576000,2102400,11.89%,Professional and Business S.,Female,Associate's degree
+2008,Jan,NY,128500,115650,12850,10.00%,Energy,Male,Bachelor's degree
+2008,Jan,NY,194000,174600,19400,10.00%,Finance,Female,High school diploma
+2008,Jan,CA,19250000,16805000,2445000,12.70%,Finance,Male,Master's degree
+2008,Jan,CA,85000,81000,4000,4.71%,Hospitality,Female,Associate's degree
+2008,Feb,NY,135000,121500,13500,10.00%,Hospitality,Male,Bachelor's degree
+2008,Feb,NY,197500,177750,19750,10.00%,Education,Female,High school diploma
+2008,Feb,CA,17678400,15576000,2102400,11.89%,Education,Male,Master's degree
+2008,Feb,CA,90000,82800,7200,8.00%,Manufacturing,Female,Associate's degree
+2008,Mar,NY,139000,125100,13900,10.00%,Technology,Male,Bachelor's degree
+2008,Mar,NY,201000,180900,20100,10.00%,Retail,Female,High school diploma
+2008,Mar,CA,110000,101200,8800,8.00%,Education,Male,High school diploma
+2008,Mar,CA,53800,45900,7900,14.68%,Retail,Female,Bachelor's degree
+2008,Apr,NY,141000,126900,14100,10.00%,Energy,Male,Bachelor's degree
+2008,Apr,NY,203000,182700,20300,10.00%,Finance,Female,Bachelor's degree
+2008,Apr,CA,90000,82800,7200,8.00%,Finance,Male,High school diploma
+2008,Apr,CA,82000,75960,6040,7.37%,Hospitality,Female,Bachelor's degree
+2008,May,NY,143000,128700,14300,10.00%,Hospitality,Male,Bachelor's degree
+2008,May,NY,206000,185400,20600,10.00%,Finance,Female,High school diploma
+2008,May,CA,85000,81000,4000,4.71%,Education,Male,Master's degree
+2008,May,CA,230000,207000,23000,10.00%,Manufacturing,Female,Associate's degree
+2008,Jun,NY,120000,108000,12000,10.00%,Technology,Male,Master's degree
+2008,Jun,NY,207500,186750,20750,10.00%,Retail,Female,Associate's degree
+2008,Jun,CA,817000,754000,63000,7.71%,Education,Male,Master's degree
+2008,Jun,CA,407000,378000,29000,7.13%,Manufacturing,Female,Master's degree
+2008,Jul,NY,146000,131400,14600,10.00%,Technology,Male,Associate's degree
+2008,Jul,NY,209500,188550,20950,10.00%,Retail,Female,Bachelor's degree
+2008,Jul,CA,65400,62000,3400,5.20%,Hospitality,Male,High school diploma
+2008,Jul,CA,99800,89900,9900,9.92%,Hospitality,Female,Master's degree
+2008,August,NY,19500000,18300000,1200000,6.15%,Information,Male,Associate's degree
+2008,August,NY,12500000,11800000,700000,5.60%,Construction,Female,Bachelor's degree
+2008,August,CA,4183000,3929000,254000,6.07%,Professional and Business S.,Male,High school diploma
+2008,August,CA,7044000,6622000,422000,5.99%,Energy,Female,Master's degree
+2008,September,NY,19450000,18250000,1200000,6.17%,Finance,Male,Associate's degree
+2008,September,NY,450000,250000,200000,44.44%,Finance,Female,Bachelor's degree
+2008,September,CA,103000,94000,9000,8.74%,Hospitality,Male,High school diploma
+2008,September,CA,110000,101200,8800,8.00%,Hospitality,Female,Master's degree
+2008,October,NY,12600000,11900000,700000,5.56%,Manufacturing,Male,Associate's degree
+2008,October,NY,1100000,900000,200000,18.18%,Finance and Insurance,Female,Bachelor's degree
+2008,October,CA,90000,82800,7200,8.00%,Technology,Male,High school diploma
+2008,October,CA,82000,75960,6040,7.37%,Retail,Female,Master's degree
+2008,November,NY,400000,200000,200000,50.00%,Retail,Male,Associate's degree
+2008,November,NY,140000,82000,58000,41.43%,Government and Public Admin.,Female,Bachelor's degree
+2008,November,CA,17678400,15576000,2102400,11.89%,Professional and Business S.,Male,High school diploma
+2008,November,CA,120000,112200,7800,6.50%,Energy,Female,Associate's degree
+2008,December,NY,135000,121500,13500,10.00%,Finance,Male,Bachelor's degree
+2008,December,NY,90000,81000,9000,10.00%,Finance,Female,High school diploma
+2008,December,CA,103000,94000,9000,8.74%,Hospitality,Male,Master's degree
+2008,December,CA,17678400,15576000,2102400,11.89%,Hospitality,Female,Associate's degree
+2009,January,NY,19350000,18150000,1200000,6.20%,Manufacturing,Male,Bachelor's degree
+2009,January,NY,350000,150000,200000,57.14%,Manufacturing,Female,High school diploma
+2009,January,CA,90000,82800,7200,8.00%,Professional and Business S.,Male,Bachelor's degree
+2009,January,CA,82000,75960,6040,7.37%,Energy,Female,Bachelor's degree
+2009,February,NY,270000,200000,70000,25.93%,Finance,Male,Bachelor's degree
+2009,February,NY,12700000,12000000,700000,5.51%,Finance,Female,High school diploma
+2009,February,CA,19500000,18300000,1200000,6.15%,Hospitality,Male,High school diploma
+2009,February,CA,4145000,3878000,267000,6.44%,Hospitality,Female,High school diploma
+2009,March,NY,6971000,6524000,447000,6.41%,"Trade, Transportation, Util.",Male,Some College
+2009,March,NY,4162000,3909000,253000,6.08%,"Trade, Transportation, Util.",Female,Some College
+2009,March,CA,6998000,6555000,443000,6.33%,Professional and Business S.,Male,Master's degree
+2009,March,CA,4168000,3914000,254000,6.09%,Energy,Female,Master's degree
+2009,April,NY,7019000,6590000,429000,6.11%,Finance,Male,Bachelor's degree
+2009,April,NY,4183000,3929000,254000,6.07%,Finance,Female,High school diploma
+2009,April,CA,7044000,6622000,422000,5.99%,Hospitality,Male,Master's degree
+2009,April,CA,90000,82800,7200,8.00%,Hospitality,Female,Master's degree
+2009,May,NY,19250000,16805000,2445000,12.70%,Construction,Male,Bachelor's
+2009,May,NY,350000,150000,200000,57.14%,Construction,Female,Bachelor's
+2009,May,CA,103000,94000,9000,8.74%,Agriculture,Male,High school diploma
+2009,May,CA,85000,74250,10750,12.65%,Professional and Business S.,Female,Master's degree
+2009,June,NY,10708800,9589300,1119500,10.45%,Energy,Male,Associate's degree
+2009,June,NY,12800000,12100000,700000,5.47%,Finance,Female,Bachelor's degree
+2009,June,CA,4145000,3878000,267000,6.44%,Finance,Male,High school diploma
+2009,June,CA,6971000,6524000,447000,6.41%,Hospitality,Female,High school diploma
+2009,July,NY,4162000,3909000,253000,6.08%,Hospitality,Male,Master's degree
+2009,July,NY,6998000,6555000,443000,6.33%,Finance,Female,Master's
+2009,July,CA,4168000,3914000,254000,6.09%,Hospitality,Male,Bachelor's degree
+2009,July,CA,7019000,6590000,429000,6.11%,Hospitality,Female,Bachelor's degree
+2009,Aug,NY,4183000,3929000,254000,6.07%,Manufacturing,Male,Associate's degree
+2009,Aug,NY,7044000,6622000,422000,5.99%,Finance,Female,Bachelor's degree
+2009,Aug,CA,1270000,1148000,122000,9.61%,Agriculture,Male,High school diploma
+2009,Aug,CA,750000,675000,75000,10.00%,Professional and Business S.,Female,High school diploma
+2009,September,NY,11404000,10546000,858000,7.52%,Energy,Male,Master's degree
+2009,September,NY,10690300,9581500,1108800,10.37%,Finance,Female,Bachelor's
+2009,September,CA,12451600,11224400,1227200,9.86%,Finance,Male,Master's degree
+2009,September,CA,17678400,15576000,2102400,11.89%,Hospitality,Female,Master's degree
+2009,October,NY,13548700,11961900,1586800,11.71%,Hospitality,Male,Associate's degree
+2009,October,NY,10708100,9606300,1101800,10.29%,Retail,Female,Bachelor's degree
+2009,October,CA,90000,82800,7200,8.00%,Professional and Business S.,Male,High school diploma
+2009,October,CA,82000,75960,6040,7.37%,Energy,Female,Master's degree
+2009,November,NY,13540400,11937500,1602900,11.84%,Finance,Male,Bachelor's
+2009,November,NY,4145000,3878000,267000,6.44%,Finance,Female,High School
+2009,November,CA,6971000,6524000,447000,6.41%,Hospitality,Male,Master's degree
+2009,November,CA,4162000,3909000,253000,6.08%,Hospitality,Female,Master's degree
+2009,December,NY,6998000,6555000,443000,6.33%,Hospitality,Male,Associate's degree
+2009,December,NY,4168000,3914000,254000,6.09%,Health Care,Female,Bachelor's degree
+2009,December,CA,7019000,6590000,429000,6.11%,Professional and Business S.,Male,High school diploma
+2009,December,CA,4183000,3929000,254000,6.07%,Energy,Female,Master's degree
+2010,January,NY,7044000,6622000,422000,5.99%,Finance,Male,High School
+2010,January,NY,10694900,9516400,1178500,11.02%,Finance,Female,Some College
+2010,January,CA,4145000,3878000,267000,6.44%,Hospitality,Male,Bachelor's degree
+2010,January,CA,6971000,6524000,447000,6.41%,Hospitality,Female,Bachelor's degree
+2010,February,NY,4162000,3909000,253000,6.08%,Finance,Male,Bachelor's
+2010,February,NY,6998000,6555000,443000,6.33%,Manufacturing,Female,High School
+2010,February,CA,4168000,3914000,254000,6.09%,Professional and Business S.,Male,Master's degree
+2010,February,CA,7019000,6590000,429000,6.11%,Energy,Female,Associate's degree
+2010,March,NY,4183000,3929000,254000,6.07%,Hospitality,Male,Bachelor's degree
+2010,March,NY,7044000,6622000,422000,5.99%,Hospitality,Female,High school diploma
+2010,March,CA,90000,82800,7200,8.00%,Professional and Business S.,Male,Master's degree
+2010,March,CA,82000,75960,6040,7.37%,Energy,Female,Master's degree
+2010,April,NY,13565600,11925100,1640500,12.09%,Health Care,Male,Associate's degree
+2010,April,NY,12451600,11224400,1227200,9.86%,Information Tech,Female,Some College
+2010,April,CA,17678400,15576000,2102400,11.89%,Professional and Business S.,Male,Master's degree
+2010,April,CA,817000,754000,63000,7.71%,Energy,Female,Associate's degree
+2010,May,NY,407000,378000,29000,7.13%,Hospitality,Male,High School
+2010,May,NY,12225600,11006400,1219200,9.97%,Hospitality,Female,Bachelor's
+2010,May,CA,12451600,11224400,1227200,9.86%,Professional and Business S.,Male,Bachelor's degree
+2010,May,CA,17678400,15576000,2102400,11.89%,Energy,Female,Bachelor's degree
+2010,June,NY,16965100,14873700,2091400,12.33%,Construction,Male,Some College
+2010,June,NY,12314700,11076600,1238100,10.05%,Health Care,Female,Master's
+2010,June,CA,4145000,3878000,267000,6.44%,Professional and Business S.,Male,Master's degree
+2010,June,CA,6971000,6524000,447000,6.41%,Energy,Female,Master's degree
+2010,July,NY,4162000,3909000,253000,6.08%,Hospitality,Male,Associate's degree
+2010,July,NY,6998000,6555000,443000,6.33%,Hospitality,Female,Bachelor's degree
+2010,July,CA,4168000,3914000,254000,6.09%,Professional and Business S.,Male,High school diploma
+2010,July,CA,7019000,6590000,429000,6.11%,Energy,Female,Master's degree
+2010,August,NY,4183000,3929000,254000,6.07%,Retail,Male,Some College
+2010,August,NY,7044000,6622000,422000,5.99%,Transportation,Female,High School
+2010,August,CA,90000,82800,7200,8.00%,Finance,Male,Master's degree
+2010,August,CA,82000,75960,6040,7.37%,Professional and Business S.,Female,Associate's degree
+2010,September,NY,16896900,14746900,2150000,12.72%,Energy,Male,Bachelor's
+2010,September,NY,12353600,11122700,1230900,9.96%,Finance,Female,Some College
+2010,September,CA,7019000,6590000,429000,6.11%,Finance,Male,Master's degree
+2010,September,CA,103000,94000,9000,8.74%,Hospitality,Female,Associate's degree
+2010,October,NY,16903900,14799100,2104800,12.45%,Hospitality,Male,High School
+2010,October,NY,4168000,3914000,254000,6.09%,Health Care,Female,Bachelor's
+2010,October,CA,7019000,6590000,429000,6.11%,finance,Male,Master's degree
+2010,October,CA,53800,45900,7900,14.68%,Agriculture,Female,Associate's degree
+2010,November,NY,16855300,14694100,2161200,12.82%,Information Tech,Male,Some College
+2010,November,NY,12281500,11052600,1228900,10.01%,Manufacturing,Female,High School
+2010,November,CA,90000,82800,7200,8.00%,Technology,Male,Master's degree
+2010,November,CA,82000,75960,6040,7.37%,Retail,Female,Associate's degree
+2010,December,NY,16794400,14597200,2197200,13.08%,Technology,Male,Bachelor's
+2010,December,NY,19450000,18250000,1200000,6.17%,Retail,Female,Master's
+2010,December,CA,17678400,15576000,2102400,11.89%,Education,Male,Master's degree
+2010,December,CA,15309600,13973800,1335800,8.73%,Manufacturing,Female,Associate's degree
+2011,January,NY,18315300,15935100,2380200,13.00%,Technology,Male,Some College
+2011,January,NY,12078700,10912500,1166200,9.66%,Retail,Female,Bachelor's
+2011,January,CA,12451600,11224400,1227200,9.86%,Professional and Business S.,Male,Bachelor's degree
+2011,January,CA,17678400,15576000,2102400,11.89%,Energy,Female,Bachelor's degree
+2011,February,NY,18243100,15860200,2382900,13.06%,Finance,Male,High School
+2011,February,NY,12147500,10993700,1153800,9.50%,Finance,Female,Some College
+2011,February,CA,103000,94000,9000,8.74%,Hospitality,Male,Master's degree
+2011,February,CA,17678400,15576000,2102400,11.89%,Hospitality,Female,Associate's degree
+2011,March,NY,18289700,15912300,2377400,13.00%,Information Tech,Male,Bachelor's
+2011,March,NY,12137600,10925200,1212400,9.99%,Construction,Female,High School
+2011,March,CA,4168000,3914000,254000,6.09%,Professional and Business S.,Male,Master's degree
+2011,March,CA,7019000,6590000,429000,6.11%,Energy,Female,Associate's degree
+2011,April,NY,18345600,15985300,2360300,12.87%,Finance,Male,Bachelor's degree
+2011,April,NY,12191700,10966800,1224900,10.05%,Finance,Female,High school diploma
+2011,April,CA,85000,74250,10750,12.65%,Hospitality,Male,Master's degree
+2011,April,CA,65400,62000,3400,5.20%,Hospitality,Female,Associate's degree
+2011,May,NY,18339800,16016000,2323800,12.67%,Hospitality,Male,High School
+2011,May,NY,12239400,11042600,1196800,9.78%,Health Care,Female,Some College
+2011,May,CA,17678400,15576000,2102400,11.89%,Professional and Business S.,Male,Master's degree
+2011,May,CA,68000,63000,5000,7.35%,Energy,Female,Associate's degree
+2011,June,NY,18332200,16024600,2307600,12.59%,Finance,Male,Bachelor's
+2011,June,NY,12240200,11047400,1192800,9.74%,Finance,Female,High School
+2011,June,CA,11898900,10512000,1386900,11.66%,Hospitality,Male,Bachelor's degree
+2011,June,CA,14813100,13418200,1394900,9.42%,Hospitality,Female,Bachelor's degree
+2011,July,NY,18276100,15994200,2281900,12.49%,Finance,Male,Some College
+2011,July,NY,12191900,11024500,1167400,9.58%,Finance,Female,Bachelor's
+2011,July,CA,230000,207000,23000,10.00%,Professional and Business S.,Male,Master's degree
+2011,July,CA,120000,108000,12000,10.00%,Energy,Female,Associate's degree
+2011,August,NY,18245600,15941800,2303800,12.63%,Finance,Male,Bachelor's degree
+2011,August,NY,12253300,11025900,1227400,10.02%,Finance,Female,High school diploma
+2011,August,CA,80000,68000,12000,15.00%,Hospitality,Male,Master's degree
+2011,August,CA,75000,68000,7000,9.33%,Hospitality,Female,Associate's degree
+2011,September,NY,16923400,14723600,2199800,13.00%,Manufacturing,Male,High School
+2011,September,NY,12354600,10936700,1417900,11.48%,Finance,Female,Some College
+2011,September,CA,5291,5022,269,5.08%,Technology,Male,Master's degree
+2011,September,CA,99800,89900,9900,9.92%,Retail,Female,Associate's degree
+2011,October,NY,16890400,14674200,2216200,13.12%,Retail,Male,Bachelor's
+2011,October,NY,12304400,10887300,1417100,11.52%,Information,Female,Master's
+2011,October,CA,9800000,9082500,717500,7.32%,Professional and Business S.,Male,Master's degree
+2011,October,CA,8700000,8047500,652500,7.50%,Energy,Female,Associate's degree
+2011,November,NY,16812100,14629500,2182600,12.98%,Hospitality,Male,Some College
+2011,November,NY,12264600,10837500,1427100,11.64%,Hospitality,Female,High School
+2011,November,CA,17678400,15576000,2102400,11.89%,Professional and Business S.,Male,Master's degree
+2011,November,CA,15309600,13973800,1335800,8.73%,Energy,Female,Associate's degree
+2011,December,NY,16785600,14596300,2189300,13.04%,Finance,Male,Bachelor's degree
+2011,December,NY,12230500,10796800,1433700,11.72%,Health Care,Female,High school diploma
+2011,December,CA,1270000,1148000,122000,9.61%,Professional and Business S.,Male,Master's degree
+2011,December,CA,750000,675000,75000,10.00%,Energy,Female,Associate's degree
+2012,January,NY,135000,121500,13500,10.00%,Hospitality,Male,Master's
+2012,January,NY,90000,81000,9000,10.00%,Hospitality,Female,High School
+2012,January,CA,103000,94000,9000,8.74%,Professional and Business S.,Male,Master's degree
+2012,January,CA,53800,45900,7900,14.68%,Energy,Female,Associate's degree
+2012,February,NY,17583700,15891000,1692700,9.63%,Manufacturing,Male,High School
+2012,February,NY,12215300,11145700,1069600,8.76%,Health Care,Female,Some College
+2012,February,CA,90000,82800,7200,8.00%,Finance,Male,Master's degree
+2012,February,CA,65400,62000,3400,5.20%,Professional and Business S.,Female,Associate's degree
+2012,March,NY,17556700,15921400,1635300,9.31%,Energy,Male,Associate's
+2012,March,NY,12269100,11230300,1038800,8.47%,Hospitality,Female,Bachelor's
+2012,March,CA,15321000,14181000,1140000,7.44%,Hospitality,Male,Master's degree
+2012,March,CA,11404000,10546000,858000,7.52%,Professional and Business S.,Female,Associate's degree
+2012,April,NY,17561900,15921500,1640400,9.34%,Energy,Male,Associate's degree
+2012,April,NY,12280200,11237900,1042300,8.49%,Finance,Female,Bachelor's degree
+2012,April,CA,85000,74250,10750,12.65%,Education,Male,High school diploma
+2012,April,CA,103000,94000,9000,8.74%,Manufacturing,Female,Master's degree
+2012,May,NY,17616500,15959200,1657300,9.41%,Technology,Male,Associate's degree
+2012,May,NY,12359600,11300200,1059400,8.57%,Retail,Female,Associate's
+2012,May,CA,80000,68000,12000,15.00%,Education,Male,Master's degree
+2012,May,CA,75000,68000,7000,9.33%,Manufacturing,Female,Associate's degree
+2012,June,NY,17614200,15980600,1633600,9.27%,Technology,Male,Some College
+2012,June,NY,12355200,11331000,1024200,8.29%,Retail,Female,High School
+2012,June,CA,17678400,15576000,2102400,11.89%,Technology,Male,Master's degree
+2012,June,CA,15309600,13973800,1335800,8.73%,Retail,Female,Associate's degree
+2012,July,NY,17632500,16012900,1619600,9.19%,Energy,Male,Bachelor's
+2012,July,NY,12398700,11371300,1027400,8.29%,Hospitality,Female,Some College
+2012,July,CA,817000,754000,63000,7.71%,Hospitality,Male,Master's degree
+2012,July,CA,407000,378000,29000,7.13%,Professional and Business S.,Female,Associate's degree
+2012,August,NY,17667600,16033200,1634400,9.25%,Energy,Male,Associate's degree
+2012,August,NY,12416400,11392600,1023800,8.25%,Information Tech,Female,Bachelor's degree
+2012,August,CA,110000,101200,8800,8.00%,Professional and Business S.,Male,Bachelor's degree
+2012,August,CA,120000,112200,7800,6.50%,Energy,Female,Bachelor's degree
+2012,September,NY,135000,121500,13500,10.00%,Hospitality,Male,Associate's degree
+2012,September,NY,90000,81000,9000,10.00%,Hospitality,Female,High School
+2012,September,CA,103000,94000,9000,8.74%,Professional and Business S.,Male,Master's degree
+2012,September,CA,82000,75960,6040,7.37%,Energy,Female,Associate's degree
+2012,October,NY,18173400,16205200,1968200,10.83%,Retail,Male,Some College
+2012,October,NY,12451600,11224400,1227200,9.86%,Construction,Female,High School
+2012,October,CA,17678400,15576000,2102400,11.89%,Professional and Business S.,Male,Master's degree
+2012,October,CA,85000,74250,10750,12.65%,Energy,Female,Associate's degree
+2012,November,NY,18174600,16220900,1953700,10.75%,Hospitality,Male,Bachelor's
+2012,November,NY,12459000,11233100,1225900,9.84%,Hospitality,Female,Some College
+2012,November,CA,90000,82800,7200,8.00%,Professional and Business S.,Male,Master's degree
+2012,November,CA,42800,34900,7900,18.46%,Energy,Female,Associate's degree
+2012,December,NY,18190200,16255000,1935200,10.64%,Manufacturing,Male,Bachelor's degree
+2012,December,NY,12463900,11250400,1213500,9.74%,Financial Services,Female,High school diploma
+2012,December,CA,11898900,10512000,1386900,11.66%,Professional and Business S.,Male,Master's degree
+2012,December,CA,14813100,13418200,1394900,9.42%,Energy,Female,Associate's degree
+2013,January,NY,15320800,13876000,1444800,9.43%,Hospitality,Male,Associate's
+2013,January,NY,12075900,10958400,1117500,9.25%,Hospitality,Female,Some College
+2013,January,CA,103000,94000,9000,8.74%,Professional and Business S.,Male,Bachelor's degree
+2013,January,CA,5291,5022,269,5.08%,Energy,Female,Bachelor's degree
+2013,February,NY,15292400,13941200,1351200,8.84%,Retail,Male,Master's
+2013,February,NY,12031900,10963800,1068100,8.88%,Education,Female,Bachelor's
+2013,February,CA,18174600,16220900,1953700,10.75%,Agriculture,Male,Master's degree
+2013,February,CA,17678400,15576000,2102400,11.89%,Agriculture,Female,Associate's degree
+2013,March,NY,15309600,13973800,1335800,8.73%,Health Care,Male,High School
+2013,March,NY,110000,101200,8800,8.00%,Construction,Female,Some College
+2013,March,CA,230000,207000,23000,10.00%,Professional and Business S.,Male,Master's degree
+2013,March,CA,120000,108000,12000,10.00%,Energy,Female,Associate's degree
+2013,April,NY,135000,121500,13500,10.00%,Hospitality,Male,Associate's
+2013,April,NY,90000,81000,9000,10.00%,Manufacturing,Female,Master's
+2013,April,CA,103000,94000,9000,8.74%,Professional and Business S.,Male,Master's degree
+2013,April,CA,68000,63000,5000,7.35%,Energy,Female,Associate's degree
+2013,May,NY,15415800,14085800,1330000,8.63%,Hospitality,Male,High School
+2013,May,NY,12172700,11188300,984400,8.09%,Finance,Female,Bachelor's
+2013,May,CA,103000,94000,9000,8.74%,Professional and Business S.,Male,Master's degree
+2013,May,CA,9800000,9082500,717500,7.32%,Energy,Female,Associate's degree
+2013,June,NY,8700000,8047500,652500,7.50%,Hospitality,Male,Associate's
+2013,June,NY,12246600,10980700,1265900,10.34%,Hospitality,Female,High School
+2013,June,CA,53800,45900,7900,14.68%,Professional and Business S.,Male,Master's degree
+2013,June,CA,18174600,16220900,1953700,10.75%,Professional and Business S.,Female,Associate's degree
+2013,July,NY,14509100,13021100,1488000,10.26%,finance,Male,Associate's degree
+2013,July,NY,12275300,11001400,1273900,10.38%,Agriculture,Female,Bachelor's degree
+2013,July,CA,99800,89900,9900,9.92%,Hospitality,Male,High school diploma
+2013,July,CA,103000,94000,9000,8.74%,Professional and Business S.,Female,Master's degree
+2013,August,NY,14529100,13042000,1487100,10.24%,finance,Male,Associate's degree
+2013,August,NY,12302500,11024400,1278100,10.39%,Agriculture,Female,Doctorate
+2013,August,CA,17678400,15576000,2102400,11.89%,Hospitality,Male,Master's degree
+2013,August,CA,103000,94000,9000,8.74%,Professional and Business S.,Female,Associate's degree
+2013,September,NY,14547200,13063100,1484100,10.20%,finance,Male,Bachelor's
+2013,September,NY,12327800,11046400,1281400,10.39%,Agriculture,Female,Associate's
+2013,September,CA,120000,112200,7800,6.50%,Hospitality,Male,Master's degree
+2013,September,CA,135000,121500,13500,10.00%,Technology,Female,Associate's degree
+2013,October,NY,90000,81000,9000,10.00%,Retail,Male,High School
+2013,October,NY,103000,94000,9000,8.74%,Retail,Female,Some College
+2013,October,CA,65400,62000,3400,5.20%,Technology,Male,Master's degree
+2013,October,CA,5291,5022,269,5.08%,Retail,Female,Associate's degree
+2013,November,NY,14579900,13102700,1477200,10.13%,Education,Male,Bachelor's
+2013,November,NY,12376500,11094400,1282100,10.36%,Health Care,Female,Master's
+2013,November,CA,110000,101200,8800,8.00%,Professional and Business S.,Male,Master's degree
+2013,November,CA,15321000,14181000,1140000,7.44%,finance,Female,Associate's degree
+2013,December,NY,11404000,10546000,858000,7.52%,Agriculture,Male,Associate's degree
+2013,December,NY,12400000,11118500,1281500,10.33%,Hospitality,Female,Bachelor's degree
+2013,December,CA,11898900,10512000,1386900,11.66%,Agriculture,Male,High school diploma
+2013,December,CA,14813100,13418200,1394900,9.42%,Hospitality,Female,High school diploma
+2014,January,NY,14608300,13139300,1469000,10.06%,Professional and Business S.,Male,Master's degree
+2014,January,NY,12422900,11142500,1280400,10.31%,finance,Female,High School
+2014,January,CA,18174600,16220900,1953700,10.75%,Education,Male,High school diploma
+2014,January,CA,90000,82800,7200,8.00%,Manufacturing,Female,Master's degree
+2014,February,NY,17453900,15732900,1721000,9.86%,Technology,Male,Bachelor's
+2014,February,NY,12195200,11106900,1088300,8.92%,Retail,Female,Some College
+2014,February,CA,11898900,10512000,1386900,11.66%,Education,Male,Master's degree
+2014,February,CA,14813100,13418200,1394900,9.42%,Manufacturing,Female,Associate's degree
+2014,March,NY,17463300,15759400,1703900,9.76%,Technology,Male,Bachelor's degree
+2014,March,NY,12210700,11114100,1096600,8.98%,Retail,Female,High school diploma
+2014,March,CA,90000,82800,7200,8.00%,Agriculture,Male,Bachelor's degree
+2014,March,CA,82000,75960,6040,7.37%,Agriculture,Female,Bachelor's degree
+2014,April,NY,17492600,15804800,1687800,9.65%,Retail,Male,Master's
+2014,April,NY,12239900,11148800,1091100,8.91%,Professional and Business Services,Female,Some College
+2014,April,CA,103000,94000,9000,8.74%,Agriculture,Male,High school diploma
+2014,April,CA,120000,112200,7800,6.50%,Agriculture,Female,Master's degree
+2014,May,NY,135000,121500,13500,10.00%,Transportation and Utilities,Male,Bachelor's
+2014,May,NY,90000,81000,9000,10.00%,"Trade, Transportation, and Utilities",Female,High School
+2014,May,CA,103000,94000,9000,8.74%,Retail,Male,High school diploma
+2014,May,CA,65400,62000,3400,5.20%,Agriculture,Female,Master's degree
+2014,June,NY,17534200,15871900,1662300,9.48%,Manufacturing,Male,Some College
+2014,June,NY,12279100,11208600,1070500,8.72%,Information,Female,Bachelor's
+2014,June,CA,230000,207000,23000,10.00%,Technology,Male,High school diploma
+2014,June,CA,120000,108000,12000,10.00%,Retail,Female,Master's degree
+2014,July,NY,17561100,15914400,1646700,9.38%,Professional and Business Services,Male,High School
+2014,July,NY,12296400,11234600,1061800,8.64%,Education and Health,Female,Master's
+2014,July,CA,14813100,13418200,1394900,9.42%,Professional and Business S.,Male,High school diploma
+2014,July,CA,817000,754000,63000,7.71%,Energy,Female,Master's degree
+2014,August,NY,407000,378000,29000,7.13%,Hospitality,Male,Some College
+2014,August,NY,12313100,11260000,1053100,8.55%,Transportation and Utilities,Female,Bachelor's
+2014,August,CA,80000,68000,12000,15.00%,Agriculture,Male,High school diploma
+2014,August,CA,75000,68000,7000,9.33%,Retail,Female,Master's degree
+2014,September,NY,17599700,15984100,1615600,9.18%,Construction,Male,High School
+2014,September,NY,12326200,11288600,1037600,8.42%,Education and Health,Female,Master's
+2014,September,CA,1270000,1148000,122000,9.61%,Agriculture,Male,Master's degree
+2014,September,CA,750000,675000,75000,10.00%,Technology,Female,Associate's degree
+2014,October,NY,14432900,12825200,1607700,11.14%,Retail,Male,Bachelor's degree
+2014,October,NY,11848900,10456700,1392200,11.75%,Manufacturing,Female,High school diploma
+2014,October,CA,9800000,9082500,717500,7.32%,Retail,Male,Bachelor's degree
+2014,October,CA,8700000,8047500,652500,7.50%,Education,Female,Bachelor's degree
+2014,November,NY,135000,121500,13500,10.00%,Manufacturing,Male,Bachelor's
+2014,November,NY,90000,81000,9000,10.00%,Technology,Female,Some College
+2014,November,CA,103000,94000,9000,8.74%,Retail,Male,High school diploma
+2014,November,CA,15321000,14181000,1140000,7.44%,Education,Female,Master's degree
+2014,December,NY,11404000,10546000,858000,7.52%,Manufacturing,Male,Associate
+2014,December,NY,11898900,10512000,1386900,11.66%,Technology,Female,High School
+2014,December,CA,14813100,13418200,1394900,9.42%,Retail,Male,High school diploma
+2014,December,CA,230000,207000,23000,10.00%,Hospitality,Female,Master's degree
+2015,January,NY,120000,108000,12000,10.00%,Professional and Business S.,Male,Some College
+2015,January,NY,11931200,10535500,1395700,11.70%,Manufacturing,Female,Bachelor's
+2015,January,CA,68000,63000,5000,7.35%,Agriculture,Male,High school diploma
+2015,January,CA,53800,45900,7900,14.68%,Agriculture,Female,Master's degree
+2015,February,NY,14467400,12838200,1629200,11.26%,Education,Male,Associate's degree
+2015,February,NY,11963800,10561900,1401900,11.72%,Health Care,Female,Bachelor's degree
+2015,February,CA,13270900,12282200,988700,7.45%,Agriculture,Male,High school diploma
+2015,February,CA,41811,31974,9837,23.53%,Technology,Female,High school diploma
+2015,March,NY,14469100,12840600,1628500,11.26%,Retail,Male,Master's degree
+2015,March,NY,11994100,10587600,1406500,11.73%,Finance,Female,High School
+2015,March,CA,17678400,15576000,2102400,11.89%,Agriculture,Male,High school diploma
+2015,March,CA,85000,74250,10750,12.65%,Professional and Business S.,Female,Master's degree
+2015,April,NY,14469900,12842900,1627000,11.24%,Energy,Male,Some College
+2015,April,NY,12020400,10612300,1408100,11.71%,Hospitality,Female,Bachelor's
+2015,April,CA,13270900,12282200,988700,7.45%,Technology,Male,Bachelor's degree
+2015,April,CA,3675600,3230100,445500,12.12%,Retail,Female,Bachelor's degree
+2015,May,NY,14468800,12845400,1623400,11.22%,Manufacturing,Male,Associate
+2015,May,NY,12043500,10633300,1410200,11.71%,Education,Female,High School
+2015,May,CA,14813100,13418200,1394900,9.42%,Technology,Male,High school diploma
+2015,May,CA,15321000,14181000,1140000,7.44%,Retail,Female,Master's degree
+2015,June,NY,11404000,10546000,858000,7.52%,Energy,Male,Associate's
+2015,June,NY,12189600,10906500,1283100,10.53%,Hospitality,Female,High School
+2015,June,CA,90000,82800,7200,8.00%,Agriculture,Male,High school diploma
+2015,June,CA,82000,75960,6040,7.37%,Agriculture,Female,Master's degree
+2015,July,NY,14805900,13402800,1403100,9.48%,Manufacturing,Male,Bachelor's
+2015,July,NY,12256700,10931700,1325000,10.81%,Health Care,Female,Some College
+2015,July,CA,17492600,15804800,1687800,9.65%,Professional and Business S.,Male,High school diploma
+2015,July,CA,12239900,11148800,1091100,8.91%,Energy,Female,Master's degree
+2015,August,NY,14802200,13398600,1403600,9.48%,Hospitality,Male,Bachelor's degree
+2015,August,NY,12301400,10951600,1349800,10.97%,Construction,Female,High school diploma
+2015,August,CA,103000,94000,9000,8.74%,Education,Male,Master's degree
+2015,August,CA,17678400,15576000,2102400,11.89%,Manufacturing,Female,Associate's degree
+2015,September,NY,14810100,13413800,1396300,9.43%,Technology,Male,Bachelor's degree
+2015,September,NY,12357400,10977300,1380100,11.17%,Retail,Female,High school diploma
+2015,September,CA,3484800,3241600,243200,6.98%,Education,Male,High school diploma
+2015,September,CA,3486900,3244100,242800,6.96%,Manufacturing,Female,Bachelor's degree
+2015,October,NY,14798100,13395600,1402500,9.48%,Technology,Male,Bachelor's degree
+2015,October,NY,12320000,10966700,1353300,10.98%,Retail,Female,Bachelor's degree
+2015,October,CA,5291,5022,269,5.08%,Agriculture,Male,High school diploma
+2015,October,CA,817000,754000,63000,7.71%,Agriculture,Female,Master's degree
+2015,November,NY,407000,378000,29000,7.13%,Manufacturing,Male,Bachelor's
+2015,November,NY,12379600,10995300,1384300,11.18%,Health Care,Female,Master's
+2015,November,CA,13270900,12282200,988700,7.45%,Professional and Business S.,Male,High school diploma
+2015,November,CA,90000,81000,9000,10.00%,Energy,Female,Master's degree
+2015,December,NY,14801300,13399500,1401800,9.47%,Hospitality,Male,Associate's degree
+2015,December,NY,12404400,10987800,1416600,11.42%,Construction,Female,Bachelor's degree
+2015,December,CA,230000,207000,23000,10.00%,Finance,Male,High school diploma
+2015,December,CA,120000,108000,12000,10.00%,Professional and Business S.,Female,Master's degree
+2016,January,NY,15238900,14064200,1174700,7.71%,Energy,Male,Some College
+2016,January,NY,12169700,11209100,960600,7.89%,Hospitality,Female,Bachelor's
+2016,January,CA,17492600,15804800,1687800,9.65%,Technology,Male,High school diploma
+2016,January,CA,12239900,11148800,1091100,8.91%,Retail,Female,Master's degree
+2016,February,NY,15289100,14051600,1237500,8.09%,Healthcare,Male,Associate's degree
+2016,February,NY,12195200,11236900,958300,7.86%,Technology,Female,Bachelor's degree
+2016,February,CA,17678400,15576000,2102400,11.89%,Agriculture,Male,High school diploma
+2016,February,CA,103000,94000,9000,8.74%,Agriculture,Female,Master's degree
+2016,March,NY,15329200,14102700,1226500,8.00%,Education,Male,Associate's degree
+2016,March,NY,12241400,11242500,998900,8.16%,Construction,Female,Bachelor's degree
+2016,March,CA,3475600,3230100,245500,7.06%,Technology,Male,High school diploma
+2016,March,CA,13270900,12282200,988700,7.45%,Retail,Female,Bachelor's degree
+2016,April,NY,15418000,14207800,1210200,7.85%,Manufacturing,Male,Bachelor's degree
+2016,April,NY,12310500,11371400,939100,7.63%,Healthcare,Female,High school diploma
+2016,April,CA,90000,82800,7200,8.00%,Education,Male,High school diploma
+2016,April,CA,82000,75960,6040,7.37%,Manufacturing,Female,Master's degree
+2016,May,NY,15478200,14269200,1209000,7.81%,Technology,Male,Some College
+2016,May,NY,12352500,11421400,931100,7.54%,Retail,Female,Bachelor's
+2016,May,CA,14813100,13418200,1394900,9.42%,Education,Male,High school diploma
+2016,May,CA,14208700,13353200,855500,6.02%,Manufacturing,Female,Master's degree
+2016,June,NY,15428900,14301100,1127800,7.31%,Technology,Male,High School
+2016,June,NY,12410900,11528100,882800,7.11%,Retail,Female,Some College
+2016,June,CA,1270000,1148000,122000,9.61%,Technology,Male,High school diploma
+2016,June,CA,750000,675000,75000,10.00%,Retail,Female,Master's degree
+2016,July,NY,15478900,14351200,1127700,7.29%,Energy,Male,High School
+2016,July,NY,12460900,11588200,872700,7.00%,Hospitality,Female,Some College
+2016,July,CA,18174600,16220900,1953700,10.75%,Agriculture,Male,High school diploma
+2016,July,CA,13270900,12282200,988700,7.45%,Technology,Female,Master's degree
+2016,August,NY,15518900,14376400,1142500,7.36%,Retail,Male,Bachelor's
+2016,August,NY,12500500,11611300,889200,7.11%,Financial Services,Female,High School
+2016,August,CA,65400,62000,3400,5.20%,Professional and Business S.,Male,High school diploma
+2016,August,CA,120000,112200,7800,6.50%,Energy,Female,Master's degree
+2016,September,NY,135000,121500,13500,10.00%,Hospitality,Male,Some College
+2016,September,NY,90000,81000,9000,10.00%,Education,Female,Bachelor's
+2016,September,CA,103000,94000,9000,8.74%,Agriculture,Male,High school diploma
+2016,September,CA,85000,74250,10750,12.65%,Manufacturing,Female,Master's degree
+2016,October,NY,15468900,14340700,1128200,7.29%,Manufacturing,Male,Associate's degree
+2016,October,NY,12410900,11534800,876100,7.06%,Health Care,Female,Bachelor's degree
+2016,October,CA,3475600,3230100,245500,7.06%,Professional and Business S.,Male,Bachelor's degree
+2016,October,CA,14208700,13353200,855500,6.02%,Agriculture,Female,Bachelor's degree
+2016,November,NY,15478900,14350900,1128000,7.29%,Financial Services,Male,Bachelor's
+2016,November,NY,12450500,11566700,883800,7.10%,Construction,Female,High School
+2016,November,CA,3484800,3241600,243200,6.98%,Agriculture,Male,High school diploma
+2016,November,CA,3486900,3244100,242800,6.96%,Education,Female,Master's degree
+2016,December,NY,15518900,14392500,1126400,7.26%,Manufacturing,Male,Some College
+2016,December,NY,12480900,11594100,886800,7.11%,Technology,Female,Bachelor's
+2016,December,CA,17678400,15576000,2102400,11.89%,Retail,Male,High school diploma
+2016,December,CA,13270900,12282200,988700,7.45%,Education,Female,Master's degree
+2017,January,NY,16119200,15006700,1112500,6.90%,Manufacturing,Male,Some College
+2017,January,NY,12531900,11682000,849900,6.78%,Technology,Female,Bachelor's
+2017,January,CA,12410900,11534800,876100,7.06%,Retail,Male,High school diploma
+2017,January,CA,12531900,11682000,849900,6.78%,Education,Female,Master's degree
+2017,February,NY,16136700,15024600,1112100,6.89%,Retail,Male,High School
+2017,February,NY,12558100,11705900,852200,6.79%,Retail,Female,Master's
+2017,February,CA,80000,68000,12000,15.00%,Professional and Business S.,Male,High school diploma
+2017,February,CA,75000,68000,7000,9.33%,Energy,Female,Master's degree
+2017,March,NY,16142800,15032200,1110600,6.88%,Hospitality,Male,Some College
+2017,March,NY,12570600,11716900,853700,6.79%,Education,Female,Bachelor's
+2017,March,CA,5291,5022,269,5.08%,Technology,Male,High school diploma
+2017,March,CA,230000,207000,23000,10.00%,Retail,Female,Master's degree
+2017,April,NY,120000,108000,12000,10.00%,Financial Services,Male,Bachelor's degree
+2017,April,NY,12593300,11734900,858400,6.82%,Manufacturing,Female,High school diploma
+2017,April,CA,90000,82800,7200,8.00%,Technology,Male,High school diploma
+2017,April,CA,82000,75960,6040,7.37%,Retail,Female,Master's degree
+2017,May,NY,16168000,15051600,1116400,6.90%,Healthcare,Male,Bachelor's
+2017,May,NY,12629100,11778600,850500,6.73%,Retail,Female,High School
+2017,May,CA,15518900,14376400,1142500,7.36%,Education,Male,Bachelor's degree
+2017,May,CA,90000,81000,9000,10.00%,Manufacturing,Female,Bachelor's degree
+2017,June,NY,16187900,15068000,1119900,6.92%,Technology,Male,Associate's degree
+2017,June,NY,12664800,11848900,815900,6.44%,Retail,Female,Bachelor's degree
+2017,June,CA,14208700,13353200,855500,6.02%,Education,Male,High school diploma
+2017,June,CA,120000,112200,7800,6.50%,Manufacturing,Female,Master's degree
+2017,July,NY,135000,121500,13500,10.00%,Technology,Male,Associate's degree
+2017,July,NY,90000,81000,9000,10.00%,Retail,Female,Bachelor's degree
+2017,July,CA,103000,94000,9000,8.74%,Retail,Male,High school diploma
+2017,July,CA,12531900,11682000,849900,6.78%,Education,Female,Master's degree
+2017,August,NY,14208700,13353200,855500,6.02%,Manufacturing,Male,Bachelor's degree
+2017,August,NY,12176900,11561000,615900,5.06%,Technology,Female,High school diploma
+2017,August,CA,17492600,15804800,1687800,9.65%,Retail,Male,High school diploma
+2017,August,CA,12239900,11148800,1091100,8.91%,Education,Female,Master's degree
+2017,September,NY,14257800,13415600,842200,5.91%,Manufacturing,Male,Bachelor's
+2017,September,NY,12244000,11654300,589700,4.82%,Technology,Female,Some College
+2017,September,CA,14329500,13504000,825500,5.76%,Retail,Male,High school diploma
+2017,September,CA,15518900,14376400,1142500,7.36%,Education,Female,Master's degree
+2017,October,NY,14329500,13504000,825500,5.76%,Manufacturing,Male,Bachelor's degree
+2017,October,NY,12304200,11729600,574600,4.67%,Technology,Female,High school diploma
+2017,October,CA,90000,82800,7200,8.00%,Retail,Male,High school diploma
+2017,October,CA,82000,75960,6040,7.37%,Energy,Female,Master's degree
+2017,November,NY,14374600,13551800,822800,5.72%,Hospitality,Male,Associate's degree
+2017,November,NY,12383100,11812600,570500,4.61%,Financial Services,Female,Bachelor's degree
+2017,November,CA,12410900,11534800,876100,7.06%,Technology,Male,High school diploma
+2017,November,CA,12531900,11682000,849900,6.78%,Retail,Female,Master's degree
+2017,December,NY,14391200,13584200,807000,5.61%,Retail,Male,Associate's degree
+2017,December,NY,12392100,11908700,483400,3.90%,Health Care,Female,Bachelor's degree
+2017,December,CA,17492600,15804800,1687800,9.65%,Agriculture,Male,High school diploma
+2017,December,CA,12239900,11148800,1091100,8.91%,Education,Female,Master's degree
+2019,January,NY,18640300,17378000,1262300,6.77%,Manufacturing,Male,High School
+2019,January,NY,13270900,12282200,988700,7.45%,Technology,Female,Bachelor's
+2019,January,CA,15518900,14376400,1142500,7.36%,Retail,Male,High school diploma
+2019,February,CA,13270900,12282200,988700,7.45%,Education,Female,Master's degree
+2019,February,NY,18641600,17394000,1247600,6.69%,Manufacturing,Male,Associate's degree
+2019,February,NY,13288000,12311100,976900,7.35%,Technology,Female,Bachelor's degree
+2019,February,CA,90000,82800,7200,8.00%,Retail,Male,High school diploma
+2019,February,CA,82000,75960,6040,7.37%,Professional and Business S.,Female,Master's degree
+2019,March,NY,18688000,17450500,1237500,6.62%,Energy,Male,Master's
+2019,March,NY,13327300,12364600,962700,7.22%,Construction,Female,Some College
+2019,March,CA,17492600,15804800,1687800,9.65%,Education,Male,High school diploma
+2019,March,CA,12239900,11148800,1091100,8.91%,Manufacturing,Female,Master's degree
+2019,April,NY,18725100,17493200,1231900,6.58%,Technology,Male,Associate's degree
+2019,April,NY,13364700,12419000,945700,7.08%,Retail,Female,Bachelor's degree
+2019,April,CA,17678400,15576000,2102400,11.89%,Education,Male,High school diploma
+2019,April,CA,85000,74250,10750,12.65%,Manufacturing,Female,Master's degree
+2019,May,NY,18757400,17531300,1226100,6.54%,Technology,Male,Some College
+2019,May,NY,13403300,12469200,934100,6.97%,Retail,Female,Master's
+2019,May,CA,14208700,13353200,855500,6.02%,Education,Male,Bachelor's degree
+2019,May,CA,3475600,3230100,245500,7.06%,Manufacturing,Female,Bachelor's degree
+2019,June,NY,18782000,17563200,1218800,6.49%,Technology,Male,Bachelor's degree
+2019,June,NY,13438300,12516200,922100,6.86%,Retail,Female,High school diploma
+2019,June,CA,11148800,10230100,918700,8.24%,Education,Male,High school diploma
+2019,June,CA,15518900,14376400,1142500,7.36%,Manufacturing,Female,Master's degree
+2019,July,NY,18809400,17596500,1212900,6.45%,Technology,Male,Associate's degree
+2019,July,NY,13476800,12563600,913200,6.78%,Retail,Female,Bachelor's degree
+2019,July,CA,103000,94000,9000,8.74%,Technology,Male,High school diploma
+2019,July,CA,15518900,14376400,1142500,7.36%,Retail,Female,Master's degree
+2019,August,NY,18839900,17630700,1209200,6.42%,Manufacturing,Male,High School
+2019,August,NY,13515300,12609100,906200,6.70%,Technology,Female,Bachelor's
+2019,August,CA,11148800,10230100,918700,8.24%,Retail,Male,High school diploma
+2019,August,CA,17678400,15576000,2102400,11.89%,Education,Female,Master's degree
+2019,September,NY,18871600,17665500,1206100,6.39%,Manufacturing,Male,Some College
+2019,September,NY,14257800,13415600,842200,5.91%,Technology,Female,Bachelor's
+2019,September,CA,17492600,15804800,1687800,9.65%,Retail,Male,High school diploma
+2019,September,CA,12239900,11148800,1091100,8.91%,Manufacturing,Female,Master's degree
+2019,October,NY,18451000,17489600,961400,5.21%,Technology,Male,Bachelor's degree
+2019,October,NY,13159800,12442000,717800,5.45%,Retail,Female,High school diploma
+2019,October,CA,120000,112200,7800,6.50%,Education,Male,High school diploma
+2019,October,CA,135000,121500,13500,10.00%,Manufacturing,Female,Master's degree
+2019,November,NY,90000,81000,9000,10.00%,Technology,Male,Some College
+2019,November,NY,103000,94000,9000,8.74%,Retail,Female,Master's
+2019,November,CA,15518900,14376400,1142500,7.36%,Education,Male,High school diploma
+2019,November,CA,15518900,12442000,3076900,19.83%,Manufacturing,Female,Master's degree
+2019,December,NY,18326200,17367000,959200,5.23%,Technology,Male,Associate's degree
+2019,December,NY,13064700,12353300,711400,5.45%,Retail,Female,Bachelor's degree
+2019,December,CA,12239900,11148800,1091100,8.91%,Education,Male,High school diploma
+2019,December,CA,85000,74250,10750,12.65%,Manufacturing,Female,Master's degree
+2020,January,NY,18315500,17364500,951000,5.19%,Technology,Male,Associate's
+2020,January,NY,13062000,12351400,710600,5.44%,Retail,Female,High School
+2020,January,CA,17492600,15804800,1687800,9.65%,Agriculture,Male,High school diploma
+2020,January,CA,12239900,11148800,1091100,8.91%,Professional and Business S.,Female,Master's degree
+2020,February,NY,18312300,17365200,947100,5.17%,Energy,Male,Bachelor's
+2020,February,NY,13055100,12349100,706000,5.41%,Hospitality,Female,Some College
+2020,February,CA,17678400,15576000,2102400,11.89%,Retail,Male,High school diploma
+2020,February,CA,3475600,3230100,245500,7.06%,Agriculture,Female,Master's degree
+2020,March,NY,18246400,17080400,1166000,6.39%,Education,Male,Bachelor's degree
+2020,March,NY,12977800,12212200,765600,5.90%,Healthcare,Female,High school diploma
+2020,March,CA,3484800,3241600,243200,6.98%,Manufacturing,Male,High school diploma
+2020,March,CA,3486900,3244100,242800,6.96%,Professional and Business S.,Female,Master's degree
+2020,April,NY,17228000,12733800,4494200,26.09%,Energy,Male,Some College
+2020,April,NY,10892600,8071900,2820700,25.90%,Hospitality,Female,Bachelor's
+2020,April,CA,12244000,11654300,589700,4.82%,Education,Male,High school diploma
+2020,April,CA,15518900,14376400,1142500,7.36%,Manufacturing,Female,Master's degree
+2020,May,NY,16314800,13737500,2577300,15.80%,Technology,Male,Bachelor's degree
+2020,May,NY,10433100,8698900,1734200,16.62%,Retail,Female,High school diploma
+2020,May,CA,11148800,10230100,918700,8.24%,Education,Male,High school diploma
+2020,May,CA,120000,112200,7800,6.50%,Manufacturing,Female,Master's degree
+2020,June,NY,135000,121500,13500,10.00%,Technology,Male,High School
+2020,June,NY,90000,81000,9000,10.00%,Retail,Female,Bachelor's
+2020,June,CA,103000,94000,9000,8.74%,Technology,Male,High school diploma
+2020,June,CA,12239900,11148800,1091100,8.91%,Retail,Female,Master's degree
+2020,July,NY,18198200,15714600,2483600,13.65%,Retail,Male,Some College
+2020,July,NY,13136800,12027800,1109000,8.44%,Finance,Female,High School
+2020,July,CA,15518900,14376400,1142500,7.36%,Agriculture,Male,High school diploma
+2020,July,CA,85000,74250,10750,12.65%,Education,Female,Master's degree
+2020,August,NY,18100900,15832800,2268100,12.53%,Manufacturing,Male,Bachelor's degree
+2020,August,NY,13010700,11884200,1126500,8.66%,Technology,Female,High school diploma
+2020,August,CA,12244000,11654300,589700,4.82%,Retail,Male,High school diploma
+2020,August,CA,85000,74250,10750,12.65%,Education,Female,Master's degree
+2020,September,NY,18011000,15902100,2108900,11.71%,Manufacturing,Male,Bachelor's degree
+2020,September,NY,12893500,11815300,1078200,8.36%,Technology,Female,High school diploma
+2020,October,CA,12410900,11534800,876100,7.06%,Retail,Male,High school diploma
+2020,November,CA,12531900,11682000,849900,6.78%,Agriculture,Female,Master's degree
+2020,October,NY,17901300,15905200,1996100,11.15%,Manufacturing,Male,Bachelor's degree
+2020,October,NY,12808900,11784700,1024200,8.00%,Retail,Female,High school diploma
+2020,October,CA,17492600,15804800,1687800,9.65%,Agriculture,Male,High school diploma
+2020,October,CA,12239900,11148800,1091100,8.91%,Technology,Female,Master's degree
+2020,November,NY,17871900,15854900,2017000,11.29%,Retail,Male,Some College
+2020,November,NY,12718400,11673000,1045400,8.22%,Education,Female,High School
+2020,November,CA,817000,754000,63000,7.71%,Technology,Male,High school diploma
+2020,November,CA,407000,378000,29000,7.13%,Agriculture,Female,Master's degree
+2020,December,NY,17803400,15743400,2060000,11.57%,Construction,Male,Bachelor's degree
+2020,December,NY,12597700,11515700,1082000,8.59%,Hospitality,Female,High school diploma
+2020,December,CA,3484800,3241600,243200,6.98%,Technology,Male,High school diploma
+2020,December,CA,3486900,3244100,242800,6.96%,Professional and Business S.,Female,Master's degree
+2021,January,NY,17727700,15687700,2040000,11.51%,Energy,Male,Master's
+1995,January,FL,3000000,2800000,200000,6.67%,Manufacturing,Male,Bachelor's degree
+1995,February,FL,3010000,2810000,200000,6.64%,Retail,Female,High school diploma
+1995,March,FL,3020000,2820000,200000,6.62%,Education,Male,Bachelor's
+1995,April,FL,3030000,2830000,200000,6.60%,Healthcare,Female,High School
+1995,May,FL,3040000,2840000,200000,6.58%,Financial Services,Male,Some College
+1995,June,FL,3050000,2850000,200000,6.56%,Construction,Female,Bachelor's
+1995,July,FL,3060000,2860000,200000,6.54%,Manufacturing,Male,High School
+1995,August,FL,3070000,2870000,200000,6.51%,Retail,Female,Some College
+1995,September,FL,3080000,2880000,200000,6.49%,Education,Male,Bachelor's
+1995,October,FL,3090000,2890000,200000,6.47%,Healthcare,Female,High School
+1995,November,FL,3100000,2900000,200000,6.45%,Financial Services,Male,Some College
+1995,December,FL,3110000,2910000,200000,6.43%,Construction,Female,Bachelor's
+1995,January,FL,3468900,3222600,246300,7.10%,Education,Male,High School
+1995,February,FL,3471300,3225400,245900,7.08%,Financial Services,Female,Bachelor's
+1995,March,FL,3473700,3228100,245600,7.07%,Healthcare,Male,Some College
+1995,April,FL,3475600,3230100,245500,7.06%,Technology,Female,Master's
+1995,May,FL,3476800,3231600,245200,7.05%,Retail,Male,High School
+1995,June,FL,3478100,3232900,245200,7.05%,Education,Female,Bachelor's
+1995,July,FL,3478800,3233800,245000,7.04%,Healthcare,Male,Some College
+1995,August,FL,3479900,3235200,244700,7.03%,Financial Services,Female,Master's
+1995,September,FL,3481600,3237700,243900,7.01%,Technology,Male,High School
+1995,October,FL,3483300,3240200,243100,6.98%,Retail,Female,Bachelor's
+1995,November,FL,3484800,3241600,243200,6.98%,Education,Male,Some College
+1995,December,FL,3486900,3244100,242800,6.96%,Healthcare,Female,Master's
+1996,January,FL,6942000,6489000,453000,6.53%,Manufacturing,Male,High School
+1996,January,FL,4145000,3878000,267000,6.44%,Information,Female,Bachelor's
+1996,February,FL,6971000,6524000,447000,6.41%,Education,Male,Some College
+1996,February,FL,4162000,3909000,253000,6.08%,Health Care,Female,Master's
+1996,March,FL,6998000,6555000,443000,6.33%,Retail,Male,High School
+1996,March,FL,4168000,3914000,254000,6.09%,Financial Sector,Female,Bachelor's
+1996,April,FL,7019000,6590000,429000,6.11%,Construction,Male,Some College
+1996,April,FL,4183000,3929000,254000,6.07%,Manufacturing,Female,Master's
+1996,May,FL,7044000,6622000,422000,5.99%,Health Care,Male,High School
+1996,May,FL,4200000,3940000,260000,6.19%,Retail,Female,Bachelor's
+1996,June,FL,7065000,6649000,416000,5.89%,Education,Male,Some College
+1996,June,FL,4213000,3952000,261000,6.20%,Financial Sector,Female,Master's
+1996,July,FL,7091000,6685000,406000,5.73%,Construction,Male,High School
+1996,July,FL,4222000,3960000,262000,6.21%,Manufacturing,Female,Bachelor's
+1996,August,FL,7113000,6707000,406000,5.71%,Health Care,Male,Some College
+1996,August,FL,4240000,3980000,260000,6.13%,Retail,Female,Master's
+1996,September,FL,9248000,8610000,638000,6.90%,Manufacturing,Male,Some College
+1996,September,FL,4453000,4142000,311000,6.98%,Retail,Female,Bachelor's
+1996,October,FL,9261000,8645000,616000,6.65%,Healthcare,Male,High School
+1996,October,FL,4456000,4147000,309000,6.93%,Information Services,Female,Some College
+1996,November,FL,9266000,8661000,605000,6.53%,Financial Services,Male,Bachelor's
+1996,November,FL,4458000,4156000,302000,6.77%,Manufacturing,Female,Some College
+1996,December,FL,9269000,8674000,595000,6.42%,Retail,Male,High School
+1996,December,FL,4459000,4165000,294000,6.59%,Healthcare,Female,Bachelor's
+1997,January,FL,5478149,5128562,349587,6.38%,Construction,Male,High School
+1997,February,FL,5486172,5135402,350770,6.39%,Retail Trade,Female,Some College
+1997,March,FL,5495715,5149417,346298,6.30%,Finance and Insurance,Male,Bachelor's Degree
+1997,April,FL,5510523,5161526,348997,6.33%,Manufacturing,Female,Master's Degree
+1997,May,FL,5532920,5197536,335384,6.06%,Education Services,Male,Doctorate
+1997,June,FL,5539921,5213332,326589,5.90%,Health Care,Female,High School
+1997,July,FL,5564318,5240404,323914,5.82%,Professional Services,Male,Some College
+1997,August,FL,5585453,5263819,321634,5.76%,Wholesale Trade,Female,Bachelor's Degree
+1997,September,FL,5597598,5279014,318584,5.69%,Retail Trade,Male,Master's Degree
+1997,October,FL,5608832,5295262,313570,5.59%,Manufacturing,Female,High School
+1997,November,FL,5621776,5311429,310347,5.52%,Finance and Insurance,Male,Some College
+1997,December,FL,5636555,5329795,306760,5.44%,Health Care,Female,Bachelor's Degree
+1998,January,FL,7784000,7323000,461000,5.92%,Education Services,Male,High School
+1998,February,FL,7802000,7345000,457000,5.86%,Financial Services,Female,Bachelor's
+1998,March,FL,7813000,7362000,451000,5.77%,Healthcare Services,Male,Some College
+1998,April,FL,7841000,7386000,455000,5.80%,Retail,Female,High School
+1998,May,FL,7862000,7403000,459000,5.84%,Manufacturing,Male,Bachelor's
+1998,June,FL,7884000,7422000,462000,5.86%,Education Services,Female,Some College
+1998,July,FL,7899000,7438000,461000,5.84%,Financial Services,Male,High School
+1998,August,FL,7912000,7456000,456000,5.76%,Healthcare Services,Female,Bachelor's
+1998,September,FL,7929000,7472000,457000,5.76%,Retail,Male,Some College
+1998,October,FL,7953000,7498000,455000,5.72%,Manufacturing,Female,High School
+1998,November,FL,7962000,7508000,454000,5.70%,Education Services,Male,Bachelor's
+1998,December,FL,7974000,7523000,451000,5.66%,Financial Services,Female,Some College
+1997,January,FL,3587500,3264900,322600,8.99%,Financial Services,Male,Some College
+1997,February,FL,3596800,3282300,314500,8.74%,Retail,Female,Bachelor's
+1997,March,FL,3605400,3291500,313900,8.71%,Healthcare,Male,High School
+1997,April,FL,3611200,3298300,312900,8.66%,Technology,Female,Master's
+1997,May,FL,3617400,3306400,311000,8.60%,Manufacturing,Male,Some College
+1997,June,FL,3623300,3312500,310800,8.58%,Financial Services,Female,High School
+1997,July,FL,3629600,3321700,307900,8.48%,Retail,Male,Bachelor's
+1997,August,FL,3634600,3329600,305000,8.39%,Healthcare,Female,Some College
+1997,September,FL,3639200,3335300,303900,8.35%,Technology,Male,High School
+1997,October,FL,3644900,3341900,303000,8.31%,Manufacturing,Female,Master's
+1997,November,FL,3652000,3350900,301100,8.24%,Financial Services,Male,Some College
+1997,December,FL,3657500,3355700,301800,8.25%,Retail,Female,Bachelor's
+1998,January,FL,3345600,3108210,237390,7.10%,Manufacturing,Male,Some College
+1998,February,FL,3348200,3111020,237180,7.08%,Retail,Female,High School
+1998,March,FL,3351900,3114160,237740,7.09%,Education,Male,Bachelor's
+1998,April,FL,3355800,3117250,238550,7.11%,Healthcare,Female,Master's
+1998,May,FL,3359700,3120240,239460,7.13%,Financial Services,Male,Some College
+1998,June,FL,3363200,3122690,240510,7.15%,Manufacturing,Female,High School
+1998,July,FL,3366500,3125060,241440,7.17%,Retail,Male,Bachelor's
+1998,August,FL,3370000,3127310,242690,7.20%,Education,Female,Master's
+1998,September,FL,3373700,3129840,243860,7.23%,Healthcare,Male,Some College
+1998,October,FL,3377400,3132460,244940,7.25%,Financial Services,Female,High School
+1998,November,FL,3381000,3134840,246160,7.28%,Manufacturing,Male,Bachelor's
+1998,December,FL,3384500,3137260,247240,7.31%,Retail,Female,Master's
+1999,January,NJ,9375800,8757500,618300,6.59%,Manufacturing,Male,Some College
+1999,February,NJ,9394100,8785300,608800,6.48%,Information,Female,Bachelor's
+1999,March,NJ,9412000,8802600,609400,6.47%,Retail,Male,High School
+1999,April,NJ,9429000,8821400,607600,6.44%,Healthcare,Female,Some College
+1999,May,NJ,9446300,8840400,605900,6.41%,Financial Services,Male,Bachelor's
+1999,June,NJ,9464100,8860200,603900,6.38%,Education,Female,Master's
+1999,July,NJ,9481700,8880000,601700,6.35%,Construction,Male,Some College
+1999,August,NJ,9500000,8900500,599500,6.31%,Retail,Female,High School
+1999,September,NJ,9517800,8919700,598100,6.28%,Healthcare,Male,Bachelor's
+1999,October,NJ,9536200,8940500,595700,6.25%,Financial Services,Female,Some College
+1999,November,NJ,9554000,8960700,593300,6.21%,Education,Male,High School
+1999,December,NJ,9572000,8981500,590500,6.17%,Construction,Female,Bachelor's
+1999,Jan,NJ,5145,4876,269,5.23%,Finance,Male,High School
+1999,Feb,NJ,5196,4923,273,5.25%,Education,Female,Bachelor's
+1999,Mar,NJ,5237,4965,272,5.19%,Healthcare,Male,Master's
+1999,Apr,NJ,5291,5022,269,5.08%,Technology,Female,High School
+1999,May,NJ,5336,5079,257,4.82%,Finance,Male,Bachelor's
+1999,Jun,NJ,5378,5118,260,4.83%,Education,Female,High School
+1999,Jul,NJ,5420,5157,263,4.85%,Healthcare,Male,Master's
+1999,Aug,NJ,5458,5200,258,4.73%,Technology,Female,High School
+1999,January,NJ,450000,400000,50000,11.11%,Finance,Male,High School
+1999,February,NJ,455000,405000,50000,10.99%,Finance,Female,High School
+1999,March,NJ,460000,408000,52000,11.30%,Education,Male,Bachelor's
+1999,April,NJ,465000,412000,53000,11.40%,Education,Female,Bachelor's
+1999,May,NJ,470000,418000,52000,11.06%,Healthcare,Male,High School
+1999,June,NJ,475000,422000,53000,11.16%,Healthcare,Female,High School
+1999,July,NJ,480000,427000,53000,11.04%,Technology,Male,Master's
+1999,August,NJ,485000,432000,53000,10.93%,Technology,Female,Master's
+1999,Oct,NJ,5845,5571,274,4.69%,Education,Male,High School
+1999,Nov,NJ,5875,5600,275,4.68%,Healthcare,Female,Master's
+1999,Dec,NJ,5901,5625,276,4.68%,Technology,Male,High School
+2000,Jan,NJ,"5,000","4,700",300,6.00%,Finance,Female,High School
+2000,Feb,NJ,"5,100","4,800",300,5.88%,Retail,Male,College
+2000,Mar,NJ,"5,200","4,900",300,5.77%,Healthcare,Female,High School
+2000,Apr,NJ,"5,300","5,000",300,5.66%,Education,Male,College
+2000,May,NJ,"5,400","5,100",300,5.56%,Technology,Female,Graduate
+2000,Jun,NJ,"5,500","5,200",300,5.45%,Manufacturing,Male,High School
+2000,Jul,NJ,"5,600","5,300",300,5.36%,Healthcare,Female,College
+2000,Aug,NJ,"5,700","5,400",300,5.26%,Finance,Male,Graduate
+2000,Sep,NJ,"5,800","5,500",300,5.17%,Retail,Female,High School
+2000,Oct,NJ,"5,900","5,600",300,5.08%,Education,Male,College
+2000,Nov,NJ,"6,000","5,700",300,5.00%,Technology,Female,Graduate
+2000,Dec,NJ,"6,100","5,800",300,4.92%,Manufacturing,Male,High School
+2000,January,NJ,4061000,3853000,208000,5.12%,Retail Trade,Female,High School
+2000,February,NJ,4070000,3871000,199000,4.89%,Retail Trade,Male,High School
+2000,March,NJ,4080000,3889000,191000,4.68%,Retail Trade,Female,High School
+2000,April,NJ,4089000,3907000,182000,4.45%,Retail Trade,Male,High School
+2000,May,NJ,4098000,3925000,173000,4.22%,Retail Trade,Female,High School
+2000,June,NJ,4107000,3942000,165000,4.02%,Retail Trade,Male,High School
+2000,July,NJ,4115000,3958000,157000,3.82%,Retail Trade,Female,High School
+2000,August,NJ,4123000,3974000,149000,3.61%,Retail Trade,Male,High School
+2000,September,NJ,4130000,3990000,140000,3.39%,Retail Trade,Female,High School
+2000,October,NJ,4136000,4004000,132000,3.19%,Retail Trade,Male,High School
+2000,November,NJ,4141000,4018000,123000,2.97%,Retail Trade,Female,High School
+2000,December,NJ,4146000,4031000,115000,2.77%,Retail Trade,Male,High School
+2001,January,NJ,"40,32,536","38,02,536",230000,5.70%,Technology,Female,Bachelor's
+2001,February,NJ,"40,40,680","38,08,680",232000,5.74%,Healthcare,Male,High School
+2001,March,NJ,"40,56,902","38,20,902",236000,5.82%,Education,Female,Master's
+2001,April,NJ,"40,69,349","38,30,349",239000,5.87%,Finance,Male,Bachelor's
+2001,May,NJ,"40,87,511","38,49,511",238000,5.82%,Technology,Female,High School
+2001,June,NJ,"41,00,255","38,66,255",234000,5.71%,Healthcare,Male,Bachelor's
+2001,July,NJ,"41,11,827","38,77,827",234000,5.69%,Education,Female,High School
+2001,August,NJ,"41,28,329","38,92,329",236000,5.72%,Finance,Male,Master's
+2001,September,NJ,"41,45,215","39,08,215",237000,5.72%,Technology,Female,Bachelor's
+2001,October,NJ,"41,58,491","39,18,491",240000,5.77%,Healthcare,Male,High School
+2001,November,NJ,"41,72,381","39,29,381",243000,5.82%,Education,Female,Master's
+2001,December,NJ,"41,89,542","39,46,542",243000,5.80%,Finance,Male,Bachelor's
+2001,Jan,NJ,"40,19,398","37,38,191",281207,7.00%,Finance,Female,Some College
+2001,Feb,NJ,"40,17,271","37,35,572",281699,7.01%,Education,Male,Bachelor's
+2001,Mar,NJ,"40,19,396","37,40,556",278840,6.94%,Healthcare,Female,High School
+2001,Apr,NJ,"40,23,843","37,45,658",278185,6.91%,Technology,Male,Master's
+2001,May,NJ,"40,23,579","37,48,662",274917,6.83%,Retail,Female,Some College
+2001,Jun,NJ,"40,24,097","37,52,513",271584,6.75%,Manufacturing,Male,Bachelor's
+2001,Jul,NJ,"40,24,236","37,52,561",271675,6.75%,Healthcare,Female,High School
+2001,Aug,NJ,"40,23,100","37,51,125",271975,6.76%,Education,Male,Master's
+2001,Sep,NJ,"40,20,923","37,48,776",272147,6.77%,Finance,Female,Some College
+2001,Oct,NJ,"40,18,240","37,45,253",272987,6.79%,Technology,Male,Bachelor's
+2001,Nov,NJ,"40,17,021","37,44,076",272945,6.79%,Retail,Female,High School
+2001,Dec,NJ,"40,17,575","37,44,822",272753,6.79%,Manufacturing,Male,Some College
+2002,Jan,NJ,100000,94000,6000,6.00%,Finance,Female,High School
+2002,Feb,NJ,99000,92000,7000,7.07%,Retail,Male,Bachelor's
+2002,Mar,NJ,98000,91000,7000,7.14%,Healthcare,Female,Master's
+2002,Apr,NJ,97000,91000,6000,6.19%,Manufacturing,Male,High School
+2002,May,NJ,96000,90000,6000,6.25%,Technology,Female,Bachelor's
+2002,Jun,NJ,95000,89000,6000,6.32%,Finance,Male,Master's
+2002,Jul,NJ,94000,88000,6000,6.38%,Retail,Female,High School
+2002,Aug,NJ,93000,87000,6000,6.45%,Healthcare,Male,Bachelor's
+2002,Sep,NJ,92000,86000,6000,6.52%,Manufacturing,Female,Master's
+2002,Oct,NJ,91000,85000,6000,6.59%,Technology,Male,High School
+2002,Nov,NJ,90000,84000,6000,6.67%,Finance,Female,Bachelor's
+2002,Dec,NJ,89000,83000,6000,6.74%,Retail,Male,Master's
+2002,January,NJ,4882842,4600112,282730,5.79%,Manufacturing,Female,High School
+2002,February,NJ,4885986,4610273,275713,5.64%,Construction,Male,Some College
+2002,March,NJ,4888515,4613335,275180,5.63%,Retail,Female,Bachelor's
+2002,April,NJ,4891329,4620168,271161,5.54%,Information,Male,Master's
+2002,May,NJ,4894215,4627225,266990,5.46%,Education,Female,High School
+2002,June,NJ,4897422,4634769,262653,5.36%,Finance,Male,Some College
+2002,July,NJ,4900889,4642724,258165,5.27%,Healthcare,Female,Bachelor's
+2002,August,NJ,4904686,4650797,253889,5.18%,Manufacturing,Male,Master's
+2002,September,NJ,4908906,4660495,248411,5.06%,Construction,Female,High School
+2002,October,NJ,4913244,4670674,242570,4.94%,Retail,Male,Some College
+2002,November,NJ,4917817,4680886,236931,4.82%,Information,Female,Bachelor's
+2002,December,NJ,4922362,4691822,230540,4.68%,Education,Male,Master's
+2003,January,NJ,410638,384023,26615,6.48%,Manufacturing,Female,Graduate
+2003,February,NJ,413509,386013,27496,6.65%,Manufacturing,Male,Some college
+2003,March,NJ,418721,390099,28622,6.84%,Manufacturing,Female,Some college
+2003,April,NJ,421495,393278,28217,6.69%,Manufacturing,Male,Some college
+2003,May,NJ,423826,394256,29570,6.98%,Manufacturing,Female,Some college
+2003,June,NJ,426372,396621,29751,6.98%,Manufacturing,Male,Graduate
+2003,July,NJ,430037,399066,30971,7.20%,Manufacturing,Female,Some college
+2003,August,NJ,432883,401688,31195,7.21%,Manufacturing,Male,Some college
+2003,September,NJ,435329,404209,31120,7.15%,Manufacturing,Female,Some college
+2003,October,NJ,438192,406936,31256,7.13%,Manufacturing,Male,Graduate
+2003,November,NJ,442401,410034,32367,7.32%,Manufacturing,Female,Some college
+2003,December,NJ,446566,413619,32947,7.38%,Manufacturing,Male,Graduate
