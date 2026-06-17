@@ -8,7 +8,7 @@
 
 GPT-4o-mini was trained on general internet text. It knows SQL syntax well. But it has no knowledge of your specific:
 
-- Table names (`landings`, `taxi_trips`, `nfis_catch`)
+- Table names (`landings`, `taxi_trips`, `fish_catch`)
 - Column names (`tpep_pickup_datetime`, `gear_type`, `vessel_id`)
 - Query patterns that work correctly against your schema
 - Business rules encoded in your data
@@ -48,9 +48,9 @@ The index contains pre-written SQL query patterns that are known to work against
 
 ```sql
 -- Pattern: total by category and time period
-SELECT gear_type, YEAR(landing_date) AS year,
+SELECT gear, YEAR(l_date) AS year,
        SUM(catch_kg) AS total_catch
-FROM landings
+FROM landing_data
 WHERE YEAR(landing_date) = {year}
 GROUP BY gear_type, YEAR(landing_date)
 ORDER BY total_catch DESC
@@ -63,7 +63,7 @@ WHERE site_name LIKE '%{site}%'
 
 -- Pattern: average by group
 SELECT vessel_type, AVG(catch_kg) AS avg_catch
-FROM landings
+FROM landings_data
 GROUP BY vessel_type
 ORDER BY avg_catch DESC
 ```
