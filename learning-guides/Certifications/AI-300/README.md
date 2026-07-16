@@ -112,12 +112,6 @@ Then: 2–3 full practice-question passes across all files, focused on your weak
 
 ---
 
-## ✅ How to Use This Repo on GitHub
-
-1. Create a repo (or folder) called `Exam-AI-300`.
-2. Upload these 6 files as-is — they render cleanly with GitHub's native Markdown.
-3. Use GitHub's **Issues** tab as a personal "wrong answers" tracker — log any practice question you miss as an issue, tag it by domain, close it once you can explain the answer from memory.
-4. Star ⭐ your own repo. You'll thank yourself in week 5.
 
 ---
 
