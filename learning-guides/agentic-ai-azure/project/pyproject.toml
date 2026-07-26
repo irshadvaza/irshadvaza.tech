@@ -1,0 +1,16 @@
+[project]
+name = "agentic-ai-crash-course-azure"
+version = "0.1.0"
+description = "Agentic AI crash course — Groq (free) for testing, Azure AI (GPT) for production"
+requires-python = ">=3.11"
+dependencies = [
+    "agent-framework",
+    "azure-identity",
+    "python-dotenv",
+    "pydantic",
+    "requests",
+    "streamlit",
+]
+
+[tool.uv]
+package = false

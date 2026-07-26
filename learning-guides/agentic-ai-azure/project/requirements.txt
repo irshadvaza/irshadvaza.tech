@@ -1,0 +1,6 @@
+agent-framework
+azure-identity
+python-dotenv
+pydantic
+requests
+streamlit
