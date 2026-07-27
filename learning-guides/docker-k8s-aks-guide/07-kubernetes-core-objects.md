@@ -9,6 +9,9 @@
 ## 🧊 7.1 Pods — The Smallest Deployable Unit
 
 A **Pod** wraps one or more containers that share networking and storage.
+In other word : A **pod** is the smallest unit of compute that you can create and manage in K8s.
+The Pod contains one or more containers in it and they shared same network workspace, allowing them to communicate with each other using localhost.
+
 
 ```mermaid
 graph TB
