@@ -48,7 +48,7 @@ Add **guardrails** (rules the agent must never break) and **orchestration** (mul
 
 ## ☁️ Why build this on Azure?
 
-The original crash-course repo wires directly into the OpenAI API plus a third-party agent runtime. This course instead uses Microsoft's **first-party, enterprise-ready** stack:
+This course instead uses Microsoft's **first-party, enterprise-ready** stack:
 
 | Capability | Azure AI Foundry + Agent Framework gives you |
 |---|---|
