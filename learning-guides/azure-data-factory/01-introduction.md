@@ -35,7 +35,7 @@ That tool is **Azure Data Factory**.
 
 # 🏢 Real-World Example (Simple Scenario)
 
-Imagine you work in an environmental agency.
+Imagine you work in World goverment organization.
 
 ### Daily Requirement:
 
