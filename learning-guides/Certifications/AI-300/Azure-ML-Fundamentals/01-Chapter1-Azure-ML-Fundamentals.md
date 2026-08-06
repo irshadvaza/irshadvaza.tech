@@ -49,7 +49,7 @@ Think of it this way: if you've ever trained a model in a personal Jupyter noteb
 
 ## Section 2 — Azure ML = GenAI + Classical ML
 
-![Azure ML supports both Generative AI and Classical ML paradigms](../images/03-auto-provisioned-resources.png)
+![Azure ML supports both Generative AI and Classical ML paradigms](images/03-auto-provisioned-resources.png)
 *(See Section 3 for the actual portal screenshot of provisioned resources — this section is conceptual.)*
 
 ### 🔑 Plain-English Explanation
