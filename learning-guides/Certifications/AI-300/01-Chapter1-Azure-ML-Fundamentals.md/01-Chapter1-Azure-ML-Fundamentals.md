@@ -9,7 +9,7 @@
 
 ## 🧭 Chapter Overview
 
-This chapter introduces **Azure Machine Learning (Azure ML)** — the umbrella Azure service for building, training, deploying, and monitoring **both** classical ML models and generative AI applications. Every later chapter (compute, pipelines, deployment, monitoring) builds directly on the concepts introduced here, so treat this as the foundation, not a skimmable intro.
+This chapter introduces **Azure Machine Learning (Azure ML) ** — the umbrella Azure service for building, training, deploying, and monitoring **both** classical ML models and generative AI applications. Every later chapter (compute, pipelines, deployment, monitoring) builds directly on the concepts introduced here, so treat this as the foundation, not a skimmable intro.
 
 ### 📑 Sections in This Chapter
 
