@@ -88,7 +88,7 @@ When you create a single Azure ML **workspace**, Azure doesn't just create one r
 
 ### 🖼️ Screenshot — What Gets Auto-Provisioned
 
-![Azure Resource Group showing the workspace and its auto-provisioned dependencies](images/03-auto-provisioned-resources.png)
+![Azure Resource Group showing the workspace and its auto-provisioned dependencies](/learning-guides/Certifications/AI-300/Azure-ML-Fundamentals/images/03-auto-provisioned-resources.png)
 
 *This is a real Azure Resource Group view after creating one workspace named `AI-300-ML-Workspace`. Notice how **one workspace creation** resulted in **six additional resources**.*
 
@@ -122,13 +122,13 @@ You get to the Studio from the Azure Portal by opening your workspace resource a
 
 ### 🖼️ Screenshot — Getting to the Studio from the Azure Portal
 
-![Azure Portal workspace overview page with Access control and Launch studio highlighted](images/04-portal-workspace-overview.png)
+![Azure Portal workspace overview page with Access control and Launch studio highlighted](/learning-guides/Certifications/AI-300/Azure-ML-Fundamentals/images/04-portal-workspace-overview.png)
 
 *The Azure Portal view of a workspace resource (`mlw-dp100-labs`). Note two things highlighted here: **Access control (IAM)** (left) — where you manage who can do what in this workspace — and the **"Launch studio"** button (bottom) — your doorway into the actual working environment.*
 
 ### 🖼️ Screenshot — Inside the Studio (Home Page)
 
-![Azure ML Studio home page showing Generative AI with Prompt flow templates and model shortcuts](images/05-studio-home-page.png)
+![Azure ML Studio home page showing Generative AI with Prompt flow templates and model shortcuts](/learning-guides/Certifications/AI-300/Azure-ML-Fundamentals/images/05-studio-home-page.png)
 
 *Once inside, the Studio home page surfaces quick-start templates (like "Multi-Round Q&A on Your Data"), trending Generative AI models, and the full left-hand navigation menu — Notebooks, Automated ML, Designer, Prompt flow, Data, Jobs, Components, Pipelines, Environments, Models, and more.*
 
@@ -218,7 +218,7 @@ The **Designer** is Azure ML's **low-code, drag-and-drop pipeline builder**. Ins
 
 ### 🖼️ Screenshot — A Completed Designer Pipeline
 
-![Azure ML Designer showing a completed image classification pipeline with Prep Data, Train, and Score nodes](images/06-designer-pipeline.png)
+![Azure ML Designer showing a completed image classification pipeline with Prep Data, Train, and Score nodes](/learning-guides/Certifications/AI-300/Azure-ML-Fundamentals/images/06-designer-pipeline.png)
 
 *A real Designer pipeline (`image_classification_keras_minist_convnet`) with three connected nodes — **Prep Data → Train Image Classification Keras → Score Image Classification Keras** — each showing a green "Completed" status. The right-hand panel shows the **Outputs + logs** tab, including the actual test accuracy (`0.899...`) logged from the run.*
 
@@ -252,7 +252,7 @@ This section is where classical ML tooling gives way to **generative AI-specific
 
 ### 🖼️ Screenshot — Model Catalog & Prompt Flow in the Studio Nav
 
-![Azure ML Studio with Model catalog and Prompt flow highlighted in the left navigation](images/07-model-catalog-promptflow.png)
+![Azure ML Studio with Model catalog and Prompt flow highlighted in the left navigation](/learning-guides/Certifications/AI-300/Azure-ML-Fundamentals/images/07-model-catalog-promptflow.png)
 
 *Both **Model catalog** (under the main nav) and **Prompt flow** (under Authoring) are highlighted. Below them, the Studio home page surfaces ready-to-run GenAI templates like "Multi-Round Q&A on Your Data" and trending models such as `grok-4-1-fast-reasoning`, `MedImageParse3D`, and `Phi-4-Reasoning-Vision-15B`.*
 
