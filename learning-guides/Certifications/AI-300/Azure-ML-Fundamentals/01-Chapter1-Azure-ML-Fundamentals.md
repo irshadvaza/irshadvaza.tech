@@ -52,7 +52,7 @@ Think of it this way: if you've ever trained a model in a personal Jupyter noteb
 ![Azure ML supports both Generative AI and Classical ML paradigms](learning-guides/Certifications/AI-300/Azure-ML-Fundamentals/images/03-auto-provisioned-resources.png)
 *(See Section 3 for the actual portal screenshot of provisioned resources — this section is conceptual.)*
 
-### 🔑 Plain-English Explanation
+### 🔑 Plain-English Explanation.
 
 The single most important mental model for this chapter: **Azure ML is not just "the classical ML tool."** As of the current platform (increasingly branded as part of **Microsoft Foundry**), it's a **unified workspace** for two AI paradigms:
 
