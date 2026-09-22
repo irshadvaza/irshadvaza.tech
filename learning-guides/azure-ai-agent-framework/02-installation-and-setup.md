@@ -25,7 +25,7 @@ python --version
 ### Step 2 — Clone the example repository
 
 ```bash
-git clone https://github.com/irshadvaza/Microsoft-Agent-Framework.git
+git clone https://github.com/Sandesh-hase/Microsoft-Agent-Framework.git
 cd Microsoft-Agent-Framework
 ```
 
@@ -79,20 +79,28 @@ In the root of your project, create a file named `.env`:
 
 ```env
 AZURE_OPENAI_ENDPOINT="https://<your-resource-name>.openai.azure.com/"
-AZURE_OPENAI_CHAT_DEPLOYMENT_NAME="gpt-4o-mini"
+AZURE_OPENAI_API_KEY="<your-azure-openai-key>"
+AZURE_OPENAI_DEPLOYMENT="gpt-4o-mini"
 ```
 
 > ⚠️ **Never commit your `.env` file to GitHub!** Add it to `.gitignore` immediately. It's meant to stay private on your machine.
 
-### Step 7 — Authenticate with Azure CLI
+### Step 7 — Choose your authentication method
 
-The example notebooks use `AzureCliCredential`, which means the framework borrows your identity from the **Azure CLI** instead of you pasting an API key into code. This is the safer, more "enterprise" way to authenticate.
+The framework supports **two** ways to authenticate, and which one you'll actually use depends on your installed version of `agent-framework` and how your Azure resource is set up. Both are valid — pick the one that works for you.
+
+**Option A — API key (simplest, works everywhere):**
+Just fill in `AZURE_OPENAI_API_KEY` in your `.env` file as shown above — no extra CLI step needed. Grab the key from your Azure OpenAI resource → **Keys and Endpoint** in the Azure Portal. This is the method used in [Example 1](04-example-1-your-first-agent.md) and is the most reliable starting point if you just want things to run.
+
+**Option B — Azure CLI credential (no key in code, "enterprise" style):**
 
 ```bash
 az login
 ```
 
-That's it — a browser window opens, you sign in with your Azure account, and you're authenticated. No secret keys floating around in your code!
+This lets the framework borrow your signed-in Azure identity via `AzureCliCredential` instead of a pasted key. It's the safer pattern for production, but depending on your package version/class names, you may need `AzureOpenAIChatClient` instead of `OpenAIChatClient` for this to work — see the note in [Example 1](04-example-1-your-first-agent.md) if you hit errors.
+
+> 💡 **Why two methods?** `agent-framework` is a fast-moving, actively developed package (see [Page 1](01-history-and-why-it-exists.md) — it only reached GA in April 2026). Class names and method names have shifted between versions. Always double check `pip show agent-framework` for your installed version if a code sample doesn't match what you see.
 
 ## ✅ Sanity check
 
