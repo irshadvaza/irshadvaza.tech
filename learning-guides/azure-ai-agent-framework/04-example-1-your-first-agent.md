@@ -2,39 +2,55 @@
 
 📓 Based on: [`01-create_agent.ipynb`](https://github.com/irshadvaza/Microsoft-Agent-Framework/blob/main/01-create_agent.ipynb)
 
-In this example, we'll build a small AI **psychologist-style agent** that reads text and describes the emotions behind it. It's the simplest possible agent — perfect for your first-ever run.
+In this example, we'll build a small AI **empathetic assistant** that reads text and responds thoughtfully to the emotions behind it. It's the simplest possible agent — perfect for your first-ever run.
+
+> ✅ **Verified working version.** The code below is the confirmed, working version (API-key auth, `.py` script) — use this one if the notebook's `AzureCliCredential` version gives you errors. See the note at the end of this page for why the two versions differ.
 
 ```mermaid
 flowchart LR
-    A["Load .env secrets"] --> B["Create Azure OpenAI Chat Client"]
-    B --> C["Create Agent<br/>with instructions + name"]
+    A["Load .env secrets"] --> B["Create OpenAI Chat Client<br/>(pointed at Azure endpoint)"]
+    B --> C["Turn client into an Agent<br/>with instructions + name"]
     C --> D["Run agent.run(text)"]
     D --> E["Print result.text"]
 ```
 
-## Step 1 — Load your secrets
-
-```python
-from dotenv import load_dotenv
-load_dotenv()
-```
-
-**In plain English:** this line opens your `.env` file (from [Page 2](02-installation-and-setup.md)) and loads your Azure endpoint and deployment name into memory, so the rest of the script can use them quietly and safely.
-
-## Step 2 — Create the agent
+## Step 1 — Imports and loading your secrets
 
 ```python
 import asyncio
-from agent_framework.azure import AzureOpenAIChatClient
-from azure.identity import AzureCliCredential
+import os
 
-# Create a psychologist-style agent
+from dotenv import load_dotenv
+from agent_framework.openai import OpenAIChatClient
+
+load_dotenv()
+
+endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
+api_key = os.getenv("AZURE_OPENAI_API_KEY")
+model = os.getenv("AZURE_OPENAI_DEPLOYMENT")
+```
+
+**In plain English:** `load_dotenv()` opens your `.env` file (from [Page 2](02-installation-and-setup.md)) and loads it into your program's environment variables. The three `os.getenv(...)` lines then pull out your endpoint URL, secret key, and deployment name — keeping every secret out of your actual code.
+
+## Step 2 — Create the chat client
+
+```python
 client = OpenAIChatClient(
     model=model,
     azure_endpoint=endpoint,
     api_key=api_key,
 )
+```
 
+**Breaking this down:**
+
+- `OpenAIChatClient` — despite the name, this class can talk to **either** OpenAI directly **or** an Azure OpenAI resource — it just depends on which arguments you pass it. Passing `azure_endpoint` is what tells it "use my Azure resource."
+- `model=` — your deployment name (e.g. `gpt-4o-mini`), not the underlying model family name.
+- `api_key=` — authenticates directly with a secret key, the simplest auth method to get running.
+
+## Step 3 — Turn the client into an agent
+
+```python
 agent = client.as_agent(
     instructions=(
         "You are an empathetic AI assistant that analyzes emotions "
@@ -43,17 +59,13 @@ agent = client.as_agent(
     ),
     name="MoodAnalyzer",
 )
-
 ```
 
-**Breaking this down line by line:**
-
-- `AzureOpenAIChatClient(credential=AzureCliCredential())` — connects to your Azure OpenAI resource using your logged-in Azure CLI identity (from `az login`). No API key pasted anywhere.
-- `.create_agent(...)` — builds the agent in one line.
-- `instructions=` — this is the agent's **personality and job description**. It's the single most important line: change it, and the agent's entire behaviour changes.
+- `.as_agent(...)` — wraps the chat client into a ready-to-run **Agent** (the equivalent of `create_agent()` you may see in other versions/docs — see the compatibility note below).
+- `instructions=` — the agent's **personality and job description**. It's the single most important argument here: change it, and the agent's entire behaviour changes. Notice this version also includes a safety boundary — *"Do not diagnose mental health conditions"* — a good habit for anything emotion/health-adjacent.
 - `name="MoodAnalyzer"` — a friendly label for this agent (useful once you have several agents in a workflow).
 
-## Step 3 — Run the agent and get a response
+## Step 4 — Run the agent and get a response
 
 ```python
 async def main():
@@ -62,17 +74,7 @@ async def main():
         "even though I want to achieve a lot."
     )
 
-    
-```
-
-**Why `async`/`await`?** Talking to an AI model over the internet takes time (a network round-trip). `async` lets your program stay responsive instead of freezing while it waits — this is standard practice across the whole Agent Framework.
-
-`result.text` is simply the agent's full written reply, ready to print or display.
-
-## Step 4 — Streaming the response (like a "typing" effect)
-
-```python
-result = await agent.run(user_input)
+    result = await agent.run(user_input)
 
     print("AI Response:\n")
     print(result.text)
@@ -82,9 +84,41 @@ if __name__ == "__main__":
     asyncio.run(main())
 ```
 
+**Why `async`/`await`?** Talking to an AI model over the internet takes time (a network round-trip). `async` lets your program stay responsive instead of freezing while it waits — this is standard practice across the whole Agent Framework.
+
+`result.text` is simply the agent's full written reply, ready to print or display.
+
+`asyncio.run(main())` inside `if __name__ == "__main__":` is the standard, safe way to kick off an async function from a plain `.py` script (as opposed to a notebook, where you can just `await main()` directly because the notebook already has an event loop running).
+
+## 🩹 Why did the notebook version fail for me?
+
+If you tried the original notebook code (`AzureOpenAIChatClient` + `AzureCliCredential` + `.create_agent()`) and it errored out, you're not doing anything wrong — you likely just have a different installed version of `agent-framework` than the notebook was written against. This package is under **very active development** (see [Page 1](01-history-and-why-it-exists.md) — it only reached GA in April 2026), and class names / method names have shifted between pre-release versions. Two quick ways to sort it out:
+
+1. Check what's actually installed and what it exposes:
+   ```bash
+   pip show agent-framework
+   python -c "import agent_framework; print(dir(agent_framework))"
+   python -c "from agent_framework import openai; print(dir(openai))"
+   ```
+2. When in doubt, prefer **API-key auth with `OpenAIChatClient` + `.as_agent()`** (this page's version) — it's the simplest, most portable path and the one confirmed working. Once it's running, you can experiment with switching to `AzureCliCredential` for a more "keyless" production setup.
+
+## Step 5 — Streaming the response (like a "typing" effect)
+
+> 📝 The snippets below are written notebook-style (`await main()` at the top level). If you're in a `.py` script like Step 4, just drop this logic *inside* your `main()` function and keep the `asyncio.run(main())` wrapper at the bottom.
+
+```python
+async def main():
+    async for update in agent.run_stream("Tell me how you're feeling today, in 500 words"):
+        if update.text:
+            print(update.text, end="", flush=True)
+    print()
+
+await main()  # in a .py script: call this via asyncio.run(main()) instead
+```
+
 **What's different?** Instead of waiting for the *whole* answer, `run_stream()` gives you small pieces (`update.text`) as they're generated — exactly like watching ChatGPT type its answer live. Great for chat UIs where users don't want to stare at a blank screen.
 
-## Step 5 — Bonus: sending an image, not just text
+## Step 6 — Bonus: sending an image, not just text
 
 Agents aren't limited to plain text. You can send **multi-modal** content (text + image) in one message:
 
