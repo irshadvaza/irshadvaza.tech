@@ -1,7 +1,6 @@
 # 🤖 Azure AI Agent Framework — A Beginner-to-Pro Learning Guide
 
-> A friendly, step-by-step guide to **Microsoft Agent Framework (MAF)** — the official successor to Semantic Kernel + AutoGen — built around the hands-on notebooks in this repository:
-> 👉 [Sandesh-hase/Microsoft-Agent-Framework](https://github.com/Sandesh-hase/Microsoft-Agent-Framework/tree/main)
+> A friendly, step-by-step guide to **Microsoft Agent Framework (MAF)**
 
 This section is written so that **anyone — even a complete beginner** — can go from "what even is an AI agent?" to building, running, and understanding multi-tool, multi-turn, structured-output AI agents on Azure.
 
@@ -38,9 +37,6 @@ Every page explains code in plain English first, then shows the real code, then 
 - 20–30 minutes and a curious mind. That's it.
 
 ## 📁 About the source repository
-
-The code examples in this guide are based on the notebooks in [`Microsoft-Agent-Framework`](https://github.com/Sandesh-hase/Microsoft-Agent-Framework/tree/main):
-
 ```
 Microsoft-Agent-Framework/
 ├── 01-create_agent.ipynb                          # Your first agent
