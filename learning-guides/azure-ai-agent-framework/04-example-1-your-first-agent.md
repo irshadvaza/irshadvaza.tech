@@ -1,6 +1,6 @@
 # 4️⃣ Example 1 — Your First Agent (the "MoodAnalyzer")
 
-📓 Based on: [`01-create_agent.ipynb`](https://github.com/Sandesh-hase/Microsoft-Agent-Framework/blob/main/01-create_agent.ipynb)
+📓 Based on: [`01-create_agent.ipynb`](https://github.com/irshadvaza/Microsoft-Agent-Framework/blob/main/01-create_agent.ipynb)
 
 In this example, we'll build a small AI **psychologist-style agent** that reads text and describes the emotions behind it. It's the simplest possible agent — perfect for your first-ever run.
 
