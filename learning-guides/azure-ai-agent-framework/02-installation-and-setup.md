@@ -25,7 +25,7 @@ python --version
 ### Step 2 — Clone the example repository
 
 ```bash
-git clone https://github.com/Sandesh-hase/Microsoft-Agent-Framework.git
+git clone https://github.com/irshadvaza/Microsoft-Agent-Framework.git
 cd Microsoft-Agent-Framework
 ```
 
