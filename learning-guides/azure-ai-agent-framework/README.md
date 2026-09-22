@@ -20,7 +20,7 @@ Every page explains code in plain English first, then shows the real code, then 
 | 6 | [Example 3 — Multi-Turn Conversations & Memory](06-example-3-multi-turn-conversations.md) | Make your agent remember context using Threads |
 | 7 | [Example 4 — Structured Output](07-example-4-structured-output.md) | Turn messy text (like a resume PDF) into clean JSON |
 | 8 | [Workflows & Multi-Agent Orchestration](08-workflows-multi-agent-orchestration.md) | How multiple agents can work together like a team |
-| 9 | [YouTube Video Script (Voice-Over Ready)](09-youtube-script-voiceover.md) | A ready-to-record narration script for your video, matching every example above |
+
 
 ---
 
