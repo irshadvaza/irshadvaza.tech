@@ -29,10 +29,21 @@ from agent_framework.azure import AzureOpenAIChatClient
 from azure.identity import AzureCliCredential
 
 # Create a psychologist-style agent
-agent = AzureOpenAIChatClient(credential=AzureCliCredential()).create_agent(
-    instructions="You are an expert psychologist AI that detects emotions and mental states from text. Be empathetic and insightful.",
-    name="MoodAnalyzer"
+client = OpenAIChatClient(
+    model=model,
+    azure_endpoint=endpoint,
+    api_key=api_key,
 )
+
+agent = client.as_agent(
+    instructions=(
+        "You are an empathetic AI assistant that analyzes emotions "
+        "expressed in text. Provide supportive and insightful responses. "
+        "Do not diagnose mental health conditions."
+    ),
+    name="MoodAnalyzer",
+)
+
 ```
 
 **Breaking this down line by line:**
@@ -46,11 +57,12 @@ agent = AzureOpenAIChatClient(credential=AzureCliCredential()).create_agent(
 
 ```python
 async def main():
-    user_input = "I've been feeling so unmotivated lately, even though I want to achieve a lot."
-    result = await agent.run(user_input)
-    print("AI Psychologist Response:\n", result.text)
+    user_input = (
+        "I've been feeling so unmotivated lately, "
+        "even though I want to achieve a lot."
+    )
 
-await main()
+    
 ```
 
 **Why `async`/`await`?** Talking to an AI model over the internet takes time (a network round-trip). `async` lets your program stay responsive instead of freezing while it waits — this is standard practice across the whole Agent Framework.
@@ -60,13 +72,14 @@ await main()
 ## Step 4 — Streaming the response (like a "typing" effect)
 
 ```python
-async def main():
-    async for update in agent.run_stream("...", ):
-        if update.text:
-            print(update.text, end="", flush=True)
-    print()
+result = await agent.run(user_input)
 
-await main()
+    print("AI Response:\n")
+    print(result.text)
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
 ```
 
 **What's different?** Instead of waiting for the *whole* answer, `run_stream()` gives you small pieces (`update.text`) as they're generated — exactly like watching ChatGPT type its answer live. Great for chat UIs where users don't want to stare at a blank screen.
